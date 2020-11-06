@@ -52,6 +52,27 @@ The Internet Architecture Board (IAB) held a work to discuss Network Impacts of 
 
 ## Measurement-based Observation on Network Traffic Dynamics
 
+Significant increase in traffic growth rate in March/April
+
+Changes in the traffic patterns: Traffic in mobile network decreased and traffic from home network increased. Strong increase in video conferencing (incl remote schooling)
+
+Network load noticeably increased but most operators reacted quickly by adding new capacity (earlier?)
+
+Last mile congestion/higher latency on legacy network (PPPoE) 
+
+### Overall traffic growth
+
+### Changes in traffic patterns
+
+#### Example campus network
+
+#### Example mobile networks
+
+### A deeper look at interconnections
+
+### Last mile congestion
+
+
 ## Operational Practices and Changes
 
 ## Architectural Consideration and Conclusion for Future 
