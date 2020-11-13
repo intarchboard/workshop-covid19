@@ -1,5 +1,7 @@
 # Report from the IAB COVID-19 Network Impacts Workshop 2020
 
+* [Raw Notes](raw-notes.md)
+
 This is the working area for the individual Internet-Draft, "Report from the IAB COVID-19 Network Impacts Workshop 2020".
 
 * [Editor's Copy](https://intarchboard.github.io/covid19-workshop/#go.draft-iab-covid19-workshop.html)
