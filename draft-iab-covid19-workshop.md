@@ -63,7 +63,10 @@ arrangements. The changes relate to traffic volumes, location of
 traffic, as well as the types of traffic and applications used.
 
 A total of 15 position papers were received from 33 authors, listed in
-{{#positionpapers}}.  On the workshop conference calls were 30 participants, listed in {{#participants}}.
+{{#positionpapers}}.  In addition, several other types of
+contributions and pointers to existing work were provided. On the
+workshop conference calls were 45 participants, listed in
+{{#participants}}.
 
 # Topic and Scope
 
@@ -79,21 +82,39 @@ Last mile congestion/higher latency on legacy network (PPPoE)
 
 ### Overall traffic growth
 
+TBD... 
+
 ### Changes in traffic patterns
+
+TBD... 
 
 #### Example campus network
 
+TBD... 
+
 #### Example mobile networks
+
+TBD... 
 
 ### A deeper look at interconnections
 
+TBD... 
+
 ### Last mile congestion
 
+TBD... 
+
+### User Behaviour
+
+TBD...
 
 ## Operational Practices and Changes
 
+TBD... 
+
 ## Architectural Consideration and Conclusion for Future 
 
+TBD... 
 
 ## Conclusions
 
