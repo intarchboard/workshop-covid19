@@ -157,7 +157,7 @@ informative:
    title: "IAB COVID-19 Network Impacts"
    date: October 2020
    author:
-    -ins Kirsty P
+    -ins: Kirsty P
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
 
 --- abstract
@@ -311,7 +311,7 @@ The following is an alphabetical list of participants in the workshop.
 * 29. kc Claffy (CAIDA)
 * 30. Anant Shah (Verizon Media Platform)
 * 31. Colin Perkins (University of Glasgow/IRTF/IAB)
-* 32. Francesca Soro (Politecnico di Torino)
+* 32. Francesca Soro (Politecnico di Torino) 
 * 33. Cullen Jennings (Cisco/IAB)
 * 34. Enric Pujol (Benocs)
 * 35. Andrew Campling (419 Consulting)
