@@ -190,9 +190,9 @@ contributions and pointers to existing work were provided. On the
 workshop conference calls were 45 participants, listed in
 {{#participants}}.
 
-# Topic and Scope
+# Topic and Scope {#topicandscope}
 
-## Measurement-based Observation on Network Traffic Dynamics
+## Measurement-based Observation on Network Traffic Dynamics {#measurement}
 
 Significant increase in traffic growth rate in March/April
 
@@ -230,19 +230,19 @@ TBD...
 
 TBD...
 
-## Operational Practices and Changes
+## Operational Practices and Changes {#operational}
 
 TBD... 
 
-## Architectural Consideration and Conclusion for Future 
+## Architectural Consideration and Conclusion for Future {#architecture}
 
 TBD... 
 
-## Conclusions
+## Conclusions {#conclusions}
 
 TBD...
 
-# Position Papers ({#positionpapers})
+# Position Papers {#positionpapers}
 
 The following position papers were received, in alphabetical order:
 
