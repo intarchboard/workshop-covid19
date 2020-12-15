@@ -157,7 +157,7 @@ informative:
    title: "IAB COVID-19 Network Impacts"
    date: October 2020
    author:
-    -ins: Kirsty P
+    - ins: Kirsty P
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
 
 --- abstract
