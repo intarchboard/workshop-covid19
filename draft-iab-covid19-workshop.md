@@ -185,10 +185,10 @@ arrangements. The changes relate to traffic volumes, location of
 traffic, as well as the types of traffic and applications used.
 
 A total of 15 position papers were received from 33 authors, listed in
-{{#positionpapers}}.  In addition, several other types of
+{{positionpapers}}.  In addition, several other types of
 contributions and pointers to existing work were provided. On the
 workshop conference calls were 45 participants, listed in
-{{#participants}}.
+{{participants}}.
 
 # Topic and Scope {#topicandscope}
 
