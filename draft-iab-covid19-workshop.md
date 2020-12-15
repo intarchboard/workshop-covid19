@@ -123,7 +123,7 @@ informative:
     - ins: Gillmor, D.
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Gu2020:
-   title: "Covid 19 Impact on China ISP’s Network Traffic Pattern and Solution Discussion"
+   title: "Covid 19 Impact on China ISP's Network Traffic Pattern and Solution Discussion"
    date: October 2020
    author:
     - ins: Gu, Y.
@@ -266,7 +266,7 @@ The following position papers were received, in alphabetical order:
 
 * Gillmor, D.: Vaccines, Privacy, Software Updates, and Trust {{Gillmor2020}}
 
-* Gu, Y. and Li, Z. Covid 19 Impact on China ISP’s Network Traffic Pattern and Solution Discussion {{Gu2020}}
+* Gu, Y. and Li, Z. Covid 19 Impact on China ISP's Network Traffic Pattern and Solution Discussion {{Gu2020}}
 
 * Jennings, C. and Kozanian, P.: WebEx Scaling During Covid {{Jennings2020}}
 
