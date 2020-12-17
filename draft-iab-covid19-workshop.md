@@ -231,6 +231,8 @@ TBD...
 
 Network load noticeably increased but most operators reacted quickly by adding new capacity (earlier?)
 
+### CDN networks
+
 ### Last mile congestion
 
 Last mile congestion/higher latency on legacy network (PPPoE) 
