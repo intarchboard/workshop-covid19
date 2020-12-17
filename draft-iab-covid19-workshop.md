@@ -190,25 +190,34 @@ contributions and pointers to existing work were provided. On the
 workshop conference calls were 45 participants, listed in
 {{participants}}.
 
-# Topic and Scope {#topicandscope}
+The workshop was organized over one week hosting three sessions covering
+measuremnets and observations, operational issue, and final future consideration
+and conclusions. As these three session were scheduled Monday, Wednesday, and Friday
+a positive side effect was that the time in between could be used foor mailing
+list discusion and compliation of additional workshop material.
+
+
+# Topics and Scope {#topicandscope}
+
+[Add some text from call for papers here?]
 
 ## Measurement-based Observation on Network Traffic Dynamics {#measurement}
 
-Significant increase in traffic growth rate in March/April
-
-Changes in the traffic patterns: Traffic in mobile network decreased and traffic from home network increased. Strong increase in video conferencing (incl remote schooling)
-
-Network load noticeably increased but most operators reacted quickly by adding new capacity (earlier?)
-
-Last mile congestion/higher latency on legacy network (PPPoE) 
+The workshop started with a focus on measurements. A larger portion of the submitted
+papers presented and discussed measurement data and these submissions provided a good 
+basis get a better understanding of the situation, covering different angles and
+aspects of network traffic and kind of networks.
 
 ### Overall traffic growth
 
-TBD... 
+Based on the measuremenst data of one ISP, three IXPs, a metropolitan educational network,
+and a mobile operator it was observed at the beginning of the workshop that overall the 
+network was able to handle the situation well despite an significant increase in traffic
+growth rate in March/April.
 
 ### Changes in traffic patterns
 
-TBD... 
+Changes in the traffic patterns: Traffic in mobile network decreased and traffic from home network increased. Strong increase in video conferencing (incl remote schooling)
 
 #### Example campus network
 
@@ -220,11 +229,11 @@ TBD...
 
 ### A deeper look at interconnections
 
-TBD... 
+Network load noticeably increased but most operators reacted quickly by adding new capacity (earlier?)
 
 ### Last mile congestion
 
-TBD... 
+Last mile congestion/higher latency on legacy network (PPPoE) 
 
 ### User Behaviour
 
