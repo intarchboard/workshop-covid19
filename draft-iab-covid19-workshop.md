@@ -375,7 +375,56 @@ TBD...
 
 ## Conclusions {#conclusions}
 
-TBD...
+There is a wealth of data about the performance of the Internet during
+the criss. The main conclusion from the various measurements is that
+fairly large shifts occurred. And those shifts were not merely about
+changing one application for another, they actually impacted traffic
+flows and directions, and caused in many cases a significant traffic
+increase. Early reports also seem to indicate that the shifts have
+went relatively smoothly from the point of view overall consumer
+experience.
+
+An important but not so  visible factor that lead to this was that
+many people and organizations where highly motivated to ensure good
+experience. A lot of collaboration happened in the background,
+problems were corrected, many providers significantly increased their
+capacity, and so on.
+
+In general, the Internet also seems inherently well suited for
+adapting to a new situation, at least within some bounds.  The
+Internet is designed for any application and situation, rather than
+optimized for today's particular traffic. This makes it possible to
+use it for many applications, in many deployment situations, and make
+changes as needed. The generality is present in many parts of the
+overall system, from basic Internet technology to browsers, from name
+servers to content delivery networks and cloud platforms. When needs
+change, what is needed is often merely different services, perhaps
+some re-allocation of resources, but not fundamental technology or
+hardware changes.
+
+On the other hand, this is not to say that no improvements are needed:
+
+* Better understanding of the health of the Internet: Going forward,
+  the critical nature that Internet plays in our lives means that the
+  health of the Internet needs to receive significant
+  attention. Understanding how well networks work is not just a
+  technical matter, it is also of crucial importance to the people and
+  economy of the societies using it. Projects and research that
+  monitor Internet and services performance in a broad scale and
+  across different networks are therefore important.
+
+* The pandemic has shown how the effects of the digital divide can be
+  amplified during a crisis. More attention is needed to ensure that
+  broadband is available to all, and that Internet services equally
+  serve different groups.
+
+* We need to continue work on all the other improvements that are seen
+  necessary anyway, such as further improvements in security, ability
+  for networks and applications to collaborate better, etc.
+
+* Informal collaboration between different parties needs to continue
+  and be strengthened.
+
 
 # Position Papers {#positionpapers}
 
