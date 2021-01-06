@@ -242,7 +242,7 @@ and conclusions. As these three session were scheduled Monday, Wednesday, and Fr
 a positive side effect was that the time in between could be used foor mailing
 list discusion and compilation of additional workshop material.
 
-# Topics and Scope {#topicandscope}
+# Scope {#scope}
 
 The COVID-19 pandemic has had a tremendous impact on people’s lives
 and the societies and economies around the globe. But it also had big
@@ -290,6 +290,8 @@ to share their experiences. The scope included:
 * lessons learned for preparedness and operations
 * lessons learned for Internet technology and architecture
 
+# Discussion Topics {#discussion}
+
 ## Measurement-based Observation on Network Traffic Dynamics {#measurement}
 
 The workshop started with a focus on measurements. A larger portion of the submitted
@@ -328,56 +330,40 @@ Last mile congestion/higher latency on legacy network (PPPoE)
 
 ### User Behaviour
 
-The COVID-19 impact on networking was not merely about amount of
-traffic. The type of traffic also changed. For instance, massive
-increases were reported in the use of teleconferencing, e-learning,
-and other similar tools.
-
-Upstream traffic has increased due the use of video conferences,
-remote schooling, and similar applications. The NCTA and Comcast
-reported that while downstream traffic grew 20%, upstream traffic grew
-as much as 30% to 37% {{NCTA2020}} {{Comcast2020}}. Vodafone reported that
-upstream traffic grew 100% in some markets {{Vodafone2020}}.
+The type of traffic needed by the users also changed in 2020. Upstream
+traffic increased due the use of video conferences, remote schooling,
+and similar applications. The NCTA and Comcast reported that while
+downstream traffic grew 20%, upstream traffic grew as much as 30% to
+37% {{NCTA2020}} {{Comcast2020}}. Vodafone reported that upstream
+traffic grew 100% in some markets {{Vodafone2020}}.
 
 Ericsson's Consumer Lab surveyed users for their usage and experiences
 during the crisis). Some of the key findings in {{ConsumerlabReport2020}} were:
 
-* 9 in 10 users increased Internet activities. Time spent connected
-  increased, by 2.5 hours for fixed broadband and 1 hour for mobile
-  broadband. In addition, 1 in 5 started new activities such as
-  e-learning or video-conferencing. Three quarters of the older
-  generation felt that they were helped by video calling with family
-  and friends. Three in four parents felt that their children's
-  education was helped by ICT technology.
+* 9 in 10 users increased Internet activities, and time spent
+  connected increased. In addition, 1 in 5 started new online
+  activities, many in the older generation felt that they were helped
+  by video calling, parents felt that their children's education was
+  helped, and so on.
 
 * Network performance was in general found satisfactory. 6 in 10 were
   very satisfied with fixed broadband, and 3 in 4 felt that mobile
-  broadband was same or better as before the crisis.
+  broadband was same or better as before the crisis.  Consumers valued
+  resilience and quality of service as the most important task for
+  network operators.
 
 * Smartphone application usage changed, with fastest growth was in
   COVID-19, remote working, e-learning, wellness, education, remote
   health consulation, and social shared experience
-  applications. Biggest decreases were seen (unsurprisingly) in travel
+  applications. Biggest decreases were in travel
   and booking, ride hailing, location, and parking applications.
 
-* Among many different service provider actions, maintaining network
-  resilience and quality of service was deemed as the most important
-  activity (64% saw this as very important and 34% as somewhat
-  important).
-
-One interesting result of the changes is that some of the behaviours
-are likely permanent changes. According to {{ConsumerlabReport2020}} 6 in
-10 working people in US wants to switch to video-based conferences,
-even after the crisis has passed. And 4 in 10 students in US plan to
-continue taking online courses. The adoption of video calls and other
-new services by many consumers, such as the older generation, is also
-likely going to have a long-lasting effect.
-
-Similarly, anecdotal evidence and local surveys in various
-organizations point to a likely long-term increase in the number of
-people interested in remote work in their work arrangements
-{{WorkplaceAnalytics2020}} {{McKinsey2020}}.
-
+Some of the behaviours are likely permanent changes
+{{ConsumerlabReport2020}}. The adoption of video calls and other new
+services by many consumers, such as the older generation, is likely
+going to have a long-lasting effect.  Surveys in various organizations
+point to a likely long-term increase in the number of people
+interested in remote work {{WorkplaceAnalytics2020}} {{McKinsey2020}}.
 
 ## Operational Practices and Changes {#operational}
 
