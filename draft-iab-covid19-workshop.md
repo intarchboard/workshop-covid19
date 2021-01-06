@@ -159,6 +159,45 @@ informative:
    author:
     - ins: Kirsty P
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+  Comcast2020:
+   title: "COVID-19 Network Update"
+   date: May 2020
+   author:
+    - ins: Comcast
+   seriesinfo: https://corporate.comcast.com/covid-19/network/may-20-2020
+  NCTA2020:
+   title: "COVID-19: How Cable's Internet Networks Are Performing: Metrics, Trends & Observations"
+   date: 2020
+   author:
+    - ins: NCTA
+   seriesinfo: https://www.ncta.com/COVIDdashboard
+  Vodafone2020:
+   title: "An update on Vodafone's networks"
+   date: April 2020
+   author:
+    - ins: Vodafone
+   seriesinfo: https://www.vodafone.com/covid19/news/update-on-vodafone-networks
+  ConsumerlabReport2020:
+   title: "Keeping consumers connected in a COVID-19 context"
+   date: June 2020
+   author:
+    - ins: Ericsson Consumer & IndustryLab
+   seriesinfo: https://www.ericsson.com/en/reports-and-papers/consumerlab/reports/keeping-consumers-connected-during-the-covid-19-crisis
+  WorkplaceAnalytics2020:
+   title: "Work-At-Home After Covid-19—Our Forecast"
+   date: 2020
+   author:
+    - ins: Kate Lister
+   seriesinfo: https://globalworkplaceanalytics.com/work-at-home-after-covid-19-our-forecast
+  McKinsey2020:
+   title: "Reimagining the office and work life after COVID-19"
+   date: June 2020
+   author:
+    - ins: Brodie Boland
+    - ins: Aaron De Smet
+    - ins: Rob Palter
+    - ins: Aditya Sanghvi
+   seriesinfo: https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Organization/Our%20Insights/Reimagining%20the%20office%20and%20work%20life%20after%20COVID%2019/Reimagining-the-office-and-work-life-after-COVID-19-final.pdf
 
 --- abstract
 
@@ -189,7 +228,9 @@ interested parties to submit position papers for the workshop program
 committee.  A total of 15 position papers were received from
 altogether 33 authors. The papers are listed in {{positionpapers}}.
 In addition, several other types of contributions and pointers to
-existing work were provided.
+existing work were provided. A number of position papers referred to
+parallel work being published in measurement-related academic
+conferences.
 
 Invitations for the workshop were sent out based on the position
 papers and other expressions of interest. On the workshop conference calls were 45
@@ -287,7 +328,56 @@ Last mile congestion/higher latency on legacy network (PPPoE)
 
 ### User Behaviour
 
-TBD...
+The COVID-19 impact on networking was not merely about amount of
+traffic. The type of traffic also changed. For instance, massive
+increases were reported in the use of teleconferencing, e-learning,
+and other similar tools.
+
+Upstream traffic has increased due the use of video conferences,
+remote schooling, and similar applications. The NCTA and Comcast
+reported that while downstream traffic grew 20%, upstream traffic grew
+as much as 30% to 37% {{NCTA2020}} {{Comcast2020}}. Vodafone reported that
+upstream traffic grew 100% in some markets {{Vodafone2020}}.
+
+Ericsson's Consumer Lab surveyed users for their usage and experiences
+during the crisis). Some of the key findings in {{ConsumerlabReport2020}} were:
+
+* 9 in 10 users increased Internet activities. Time spent connected
+  increased, by 2.5 hours for fixed broadband and 1 hour for mobile
+  broadband. In addition, 1 in 5 started new activities such as
+  e-learning or video-conferencing. Three quarters of the older
+  generation felt that they were helped by video calling with family
+  and friends. Three in four parents felt that their children's
+  education was helped by ICT technology.
+
+* Network performance was in general found satisfactory. 6 in 10 were
+  very satisfied with fixed broadband, and 3 in 4 felt that mobile
+  broadband was same or better as before the crisis.
+
+* Smartphone application usage changed, with fastest growth was in
+  COVID-19, remote working, e-learning, wellness, education, remote
+  health consulation, and social shared experience
+  applications. Biggest decreases were seen (unsurprisingly) in travel
+  and booking, ride hailing, location, and parking applications.
+
+* Among many different service provider actions, maintaining network
+  resilience and quality of service was deemed as the most important
+  activity (64% saw this as very important and 34% as somewhat
+  important).
+
+One interesting result of the changes is that some of the behaviours
+are likely permanent changes. According to {{ConsumerlabReport2020}} 6 in
+10 working people in US wants to switch to video-based conferences,
+even after the crisis has passed. And 4 in 10 students in US plan to
+continue taking online courses. The adoption of video calls and other
+new services by many consumers, such as the older generation, is also
+likely going to have a long-lasting effect.
+
+Similarly, anecdotal evidence and local surveys in various
+organizations point to a likely long-term increase in the number of
+people interested in remote work in their work arrangements
+{{WorkplaceAnalytics2020}} {{McKinsey2020}}.
+
 
 ## Operational Practices and Changes {#operational}
 
@@ -387,11 +477,8 @@ The following is an alphabetical list of participants in the workshop.
 
 # Program Committee
 
-The workshop Program Committee members were Jari Arkko (IAB,
-Ericsson), Stephen Farrell (IAB, Trinity College Dublin), Cullen
-Jennings (IAB, Cisco), Colin Perkins (IRTF, University of Glasgow),
-Ben Campbell (IAB, independent consultant), and Mirja Kühlewind (IAB,
-Ericsson).
+The workshop Program Committee members were Jari Arkko, Stephen Farrell, Cullen
+Jennings, Colin Perkins, Ben Campbell, and Mirja Kühlewind.
 
 # Acknowledgments
 
