@@ -174,32 +174,80 @@ was held online given the on-going travel and contact restrictions at that time.
 
 # Introduction
 
-The Internet Architecture Board (IAB) held a work to discuss Network
+The Internet Architecture Board (IAB) held a workshop to discuss Network
 Impacts of the COVID-19 pandemic, on November 9-13, 2020. The meeting
 was held online given the on-going travel and contact restrictions at that time.
 
-COVID-19 has caused changes in Internet traffic. These
-changes appeared rather abruptly, in particular during the
-introduction of the initial quarantine and work-from-home
-arrangements. The changes relate to traffic volumes, location of
-traffic, as well as the types of traffic and applications used.
+COVID-19  has  caused  changes  in  Internet  traffic.  These  changes
+appeared rather abruptly, in particular during the introduction of the
+initial quarantine and work-from-home arrangements. The changes relate
+to  traffic volumes,  location of  traffic, as  well as  the types  of
+traffic and applications used.
 
-A total of 15 position papers were received from 33 authors, listed in
-{{positionpapers}}.  In addition, several other types of
-contributions and pointers to existing work were provided. On the
-workshop conference calls were 45 participants, listed in
-{{participants}}.
+Announcement for the workshop was sent out in July 2020, requesting
+interested parties to submit position papers for the workshop program
+committee.  A total of 15 position papers were received from
+altogether 33 authors. The papers are listed in {{positionpapers}}.
+In addition, several other types of contributions and pointers to
+existing work were provided.
 
-The workshop was organized over one week hosting three sessions covering
+Invitations for the workshop were sent out based on the position
+papers and other expressions of interest. On the workshop conference calls were 45
+participants, listed in {{participants}}.
+
+The workshop was held over one week hosting three sessions covering
 measuremnets and observations, operational issue, and final future consideration
 and conclusions. As these three session were scheduled Monday, Wednesday, and Friday
 a positive side effect was that the time in between could be used foor mailing
-list discusion and compliation of additional workshop material.
-
+list discusion and compilation of additional workshop material.
 
 # Topics and Scope {#topicandscope}
 
-[Add some text from call for papers here?]
+The COVID-19 pandemic has had a tremendous impact on people’s lives
+and the societies and economies around the globe. But it also had big
+impact on networking. With large numbers of people working from home
+or otherwise depending on the network for their daily lives, network
+traffic has surged. Internet service providers and operators have
+reported 20% traffic growth or more in a matter of weeks. Traffic in
+Internet Exchange Points (IXPs) is similarly on the rise. Most forms
+of network traffic have seen an increase, with conversational
+multimedia traffic growing in some cases more than 200%. And user time
+spent on conferencing services has risen by an order of magnitude on
+some conferencing platforms.
+
+In general, the Internet has coped relatively well with this traffic
+growth, albeit not without some issues. For instance, some outages,
+video quality reduction, and other issues were reported. Nevertheless,
+it is interesting to see how the technology, operators and service
+providers have been able to respond to large changes in traffic
+patterns.
+
+Understanding what actually happened with Internet traffic is of
+course interesting by its own right. How that impacted user
+experience, or the intended function of the services is equally
+interesting. Measurements and reports of traffic situation from 2020
+are therefore valuable. But it would also be interesting to understand
+what types of network management and capacity expansion actions were
+taken in general. Anecdotal evidence points to Internet and service
+providers tracking how their services are used, and in many cases
+adjusting services to accommodate the new traffic patterns, from
+dynamic allocation of compute resources to more complex changes.
+
+The impacts of this crisis are also a potential opportunity to
+understand the impact of traffic shifts and growth more generally, or
+to prepare for future situations — crisis or otherwise – that impact
+networking. Or even allow us to adjust the technology to be even
+better suited to respond to changes.
+
+The workshop was held to convene interested researchers, network
+operators, and network management experts, and Internet technologists
+to share their experiences. The scope included:
+
+* measurements about traffic changes, user experience, service performance, and other relevant aspects
+* discussion about the behind the scenes network management and expansion activities
+* experiences in the fields of general Internet connectivity, conferencing, media/entertainment, and Internet infrastructure
+* lessons learned for preparedness and operations
+* lessons learned for Internet technology and architecture
 
 ## Measurement-based Observation on Network Traffic Dynamics {#measurement}
 
@@ -337,9 +385,17 @@ The following is an alphabetical list of participants in the workshop.
 * Jiankang Yao (CNNIC)
 * Lixia Zhang (UCLA)
 
+# Program Committee
+
+The workshop Program Committee members were Jari Arkko (IAB,
+Ericsson), Stephen Farrell (IAB, Trinity College Dublin), Cullen
+Jennings (IAB, Cisco), Colin Perkins (IRTF, University of Glasgow),
+Ben Campbell (IAB, independent consultant), and Mirja Kühlewind (IAB,
+Ericsson).
+
 # Acknowledgments
 
 The authors would like to thank the workshop participants, the members
-of the IAB, the participants in the architecture discussion list
+of the IAB, the program committee, the participants in the architecture discussion list
 for interesting discussions, and Cindy Morgan for the practical
 arrangements.

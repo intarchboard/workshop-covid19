@@ -20,5 +20,5 @@ draft-iab-covid19-workshop.txt draft-iab-covid19-workshop.html: draft-iab-covid1
 	xml2rfc -q --cache=$(HOME)/.cache/xml2rfc --css=lib/v3.css draft-iab-covid19-workshop.xml -o draft-iab-covid19-workshop.html --html
 	xml2rfc -q --cache=$(HOME)/.cache/xml2rfc --css=lib/v3.css draft-iab-covid19-workshop.xml -o draft-iab-covid19-workshop.txt --text
 
-copy:
+copy:	draft-iab-covid19-workshop.txt draft-iab-covid19-workshop.html
 	scp draft-iab-covid19-workshop.txt draft-iab-covid19-workshop.html root@cloud3.arkko.eu:/var/www/www.arkko.com/html/ietf/iab
