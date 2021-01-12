@@ -198,6 +198,15 @@ informative:
     - ins: Rob Palter
     - ins: Aditya Sanghvi
    seriesinfo: https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Organization/Our%20Insights/Reimagining%20the%20office%20and%20work%20life%20after%20COVID%2019/Reimagining-the-office-and-work-life-after-COVID-19-final.pdf
+  Fontugne2020-1:
+   title: Persistent Last-mile Congestion: Not so Uncommon
+   date: October 2020
+   author:
+    - ins: Romain Fontugne
+    - ins: Anant Shah
+    - ins: Kenjiro Cho
+   seriesinfo: Proceedings of the ACM Internet Measurement Conference (IMC '20)
+   doi: https://doi.org/10.1145/3419394.3423648
 
 --- abstract
 
@@ -326,7 +335,9 @@ Network load noticeably increased but most operators reacted quickly by adding n
 
 ### Last mile congestion
 
-Last mile congestion/higher latency on legacy network (PPPoE) 
+Last-mile is the centerpiece of broadband connectivity, poor last-mile performance generally translates to poor quality of experience. In a recent IMC'20 research paper Fontugne et al. we investigated last-mile latency using traceroute data from RIPE Atlas probes located in 646 ASes and looked for recurrent performance degradation {{Fontugne2020-1}}. They found that in normal times Atlas probes in only 10% ASes experience persistent last-mile congestion but we recorded 55% more congested ASes during the COVID-19 outbreak. This deterioration caused by stay-at-home measures is particularly marked in large eyeball networks and certain parts of the world. They found Japan to be the most impacted country in their study looking specifically at NTT OCN, but noting similar observations for several Japanese networks, including IIJ (AS2497).
+
+From mid-2020 onwards, they however observe better performances than before the pandemic (e.g. green lines in Fig.2). In Japan, this is partly due to the deployments originally planned for accommodating the Tokyo Olympics, and more generally, it reflects the efforts of network operators to cope with these exceptional circumstances. The pandemic has demonstrated that its adaptive design and proficient community can keep the Internet operational during such unprecedented events. Also, from the numerous research and operational reports recently published, the pandemic is apparently shaping a more resilient Internet, as Nietzsche wrote, “What does not kill me makes me stronger”.
 
 ### User Behaviour
 
@@ -521,3 +532,6 @@ The authors would like to thank the workshop participants, the members
 of the IAB, the program committee, the participants in the architecture discussion list
 for interesting discussions, and Cindy Morgan for the practical
 arrangements.
+
+Further special thanks to those participants who also contributed to this report: Romain 
+Fontugne provided text based his blog post at https://eng-blog.iij.ad.jp/archives/7722.
