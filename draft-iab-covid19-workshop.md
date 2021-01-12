@@ -321,7 +321,7 @@ Changes in the traffic patterns: Traffic in mobile network decreased and traffic
 
 #### Example campus network
 
-TBD... 
+The traffic of University campuses has been impacted as well, due to the forced adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the stop of any in-presence activity. No performance impairment emerged, nor students in remote regions of Italy suffered significantly poor performance. Traffic due to remote working solutions such as collaboration platforms, VPNs and remote desktop boomed as well. 
 
 #### Example mobile networks
 
