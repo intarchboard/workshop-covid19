@@ -331,7 +331,14 @@ TBD...
 
 Network load noticeably increased but most operators reacted quickly by adding new capacity (earlier?)
 
-### CDN networks
+### Cloud platforms
+
+Cloud infrastructure plays a prominent role in supporting bandwidth demanding video conferencing and remote learning tools to practice social distancing in COVID-19 pandemic. Network congestion between cloud platforms and access networks could impact on the quality of experience of these cloud-based applications. CAIDA leveraged web-based speed test servers to perform download and upload throughput measurements from virtual machines in public cloud platforms to various access ISPs in the United States {{Mok2020}}.
+
+The key findings included:
+* Persistent congestion events were not widely observed between cloud platforms and these networks, particular for large-scale ISPs, but we could observe large diurnal download throughput variations in peak hours from some locations to the cloud.
+* There is evidence of persistent congestion in the egress direction to regional ISPs serving suburban areas in the U.S. Their users could suffer from poor video streaming or file download performance from the cloud.
+* The macroscopic analysis over 3 months (June-August, 2020) revealed downward trends in download throughput from ISPs and educational networks to certain cloud regions. We believed that increased use of the cloud in the pandemic could be one of the factors that contributed to the decreased performance.
 
 ### Last mile congestion
 
@@ -534,4 +541,5 @@ for interesting discussions, and Cindy Morgan for the practical
 arrangements.
 
 Further special thanks to those participants who also contributed to this report: Romain 
-Fontugne provided text based on his blog post at https://eng-blog.iij.ad.jp/archives/7722.
+Fontugne provided text based on his blog post at https://eng-blog.iij.ad.jp/archives/7722;
+Ricky Mok for text on cloud platform.
