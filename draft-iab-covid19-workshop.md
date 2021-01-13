@@ -542,4 +542,4 @@ arrangements.
 
 Further special thanks to those participants who also contributed to this report: Romain 
 Fontugne provided text based on his blog post at https://eng-blog.iij.ad.jp/archives/7722;
-Ricky Mok for text on cloud platform.
+Ricky Mok for text on cloud platform; Martino Trevisan for text on campus networks.
