@@ -2,7 +2,7 @@
 title: Report from the IAB COVID-19 Network Impacts Workshop 2020
 abbrev: IAB COVID-19 Network Impacts Workshop 2020
 docname: draft-iab-covid19-workshop-latest
-date: 
+date:
 category: bcp
 
 ipr: trust200902
@@ -17,13 +17,13 @@ author:
     name: Jari Arkko
     org: Ericsson
     email: jari.arkko@ericsson.com
-    
+
   -
     ins: S. Farrell
     name: Stephen Farrell
-    org: 
+    org:
     email: stephen.farrell@cs.tcd.ie
-    
+
   -
     ins: M. Kühlewind
     name: Mirja Kühlewind
@@ -199,7 +199,7 @@ informative:
     - ins: Aditya Sanghvi
    seriesinfo: https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Organization/Our%20Insights/Reimagining%20the%20office%20and%20work%20life%20after%20COVID%2019/Reimagining-the-office-and-work-life-after-COVID-19-final.pdf
   Fontugne2020-1:
-   title: Persistent Last-mile Congestion: Not so Uncommon
+   title: "Persistent Last-mile Congestion: Not so Uncommon"
    date: October 2020
    author:
     - ins: Romain Fontugne
@@ -304,14 +304,14 @@ to share their experiences. The scope included:
 ## Measurement-based Observation on Network Traffic Dynamics {#measurement}
 
 The workshop started with a focus on measurements. A larger portion of the submitted
-papers presented and discussed measurement data and these submissions provided a good 
+papers presented and discussed measurement data and these submissions provided a good
 basis get a better understanding of the situation, covering different angles and
 aspects of network traffic and kind of networks.
 
 ### Overall traffic growth
 
 Based on the measuremenst data of one ISP, three IXPs, a metropolitan educational network,
-and a mobile operator it was observed at the beginning of the workshop that overall the 
+and a mobile operator it was observed at the beginning of the workshop that overall the
 network was able to handle the situation well despite an significant increase in traffic
 growth rate in March/April.
 
@@ -321,11 +321,11 @@ Changes in the traffic patterns: Traffic in mobile network decreased and traffic
 
 #### Example campus network
 
-Changes in traffic have been observed at University campus networks as well, especially due to the forced adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the stop of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further ,outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop. 
+Changes in traffic have been observed at University campus networks as well, especially due to the forced adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the stop of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further ,outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop.
 
 #### Example mobile networks
 
-TBD... 
+TBD...
 
 ### A deeper look at interconnections
 
@@ -385,11 +385,11 @@ interested in remote work {{WorkplaceAnalytics2020}} {{McKinsey2020}}.
 
 ## Operational Practices and Changes {#operational}
 
-TBD... 
+TBD...
 
 ## Architectural Consideration and Conclusion for Future {#architecture}
 
-TBD... 
+TBD...
 
 ## Conclusions {#conclusions}
 
@@ -519,7 +519,7 @@ The following is an alphabetical list of participants in the workshop.
 * Colin Perkins (University of Glasgow/IRTF/IAB)
 * Enric Pujol (Benocs)
 * Anant Shah (Verizon Media Platform)
-* Francesca Soro (Politecnico di Torino) 
+* Francesca Soro (Politecnico di Torino)
 * Brian Trammell (Google)
 * Gergios Tselentis (European Commission)
 * Martino Trevisan
@@ -540,6 +540,6 @@ of the IAB, the program committee, the participants in the architecture discussi
 for interesting discussions, and Cindy Morgan for the practical
 arrangements.
 
-Further special thanks to those participants who also contributed to this report: Romain 
+Further special thanks to those participants who also contributed to this report: Romain
 Fontugne provided text based on his blog post at https://eng-blog.iij.ad.jp/archives/7722;
 Ricky Mok for text on cloud platform; Martino Trevisan for text on campus networks.
