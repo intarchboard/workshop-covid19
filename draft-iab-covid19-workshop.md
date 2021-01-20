@@ -227,7 +227,7 @@ Impacts of the COVID-19 pandemic, on November 9-13, 2020. The meeting
 was held online given the on-going travel and contact restrictions at that time.
 
 COVID-19 has caused changes in Internet traffic. These changes
-appeared rather abruptly and were significant changes, in particular during the introduction of the
+appeared rather abruptly and were significant, in particular during the introduction of the
 initial quarantine and work-from-home arrangements. The changes relate
 to traffic volumes, location of traffic, as well as the types of
 traffic and applications used.
