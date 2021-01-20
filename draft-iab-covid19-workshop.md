@@ -491,6 +491,7 @@ The following is an alphabetical list of participants in the workshop.
 * Chris Dietzel (DE-CIX)
 * Idilio Drago (University of Turin)
 * Stephen Farrell (Trinity College Dublin/IAB)
+* Nick Feamster (University of Chicago)
 * Anja Feldmann (Max Planck Institute for Informatics)
 * Romain Fontugne (IIJ Research Lab)
 * Oliver Gasser (Max Planck Institute for Informatics)
