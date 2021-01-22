@@ -309,7 +309,7 @@ The scope included:
 * lessons learned for preparedness and operations
 * lessons learned for Internet technology and architecture
 
-# Discussion Topics {#discussion}
+# Discussion Topics {#discussion-topics}
 
 ## Measurement-based Observation on Network Traffic Dynamics {#measurement}
 
