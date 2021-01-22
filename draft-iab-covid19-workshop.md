@@ -49,7 +49,7 @@ informative:
    title: "Observations on Network User Behaviour During COVID-19"
    date: October 2020
    author:
-    - ins: Arkko, Jari
+    - ins: J. Arkko
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Bronzino2020:
    title: "IAB COVID-19 Workshop: Interconnection Changes in the United States"
@@ -215,16 +215,22 @@ particularly during the introduction of the initial quarantine and
 work-from-home arrangements.
 
 The Internet Architecture Board (IAB) held a work to discuss Network
-Impacts of the pandemic, on November 9-13, 2020. The meeting
-was held online given the on-going travel and contact restrictions at that time.
+Impacts of the pandemic, on November 9-13, 2020. The workshop was held
+to convene interested researchers, network operators, and network
+management experts, and Internet technologists to share their
+experiences. The meeting was held online given the on-going travel and
+contact restrictions at that time.
 
 --- middle
 
 # Introduction
 
-The Internet Architecture Board (IAB) held a workshop to discuss Network
-Impacts of the COVID-19 pandemic, on November 9-13, 2020. The meeting
-was held online given the on-going travel and contact restrictions at that time.
+The Internet Architecture Board (IAB) held a workshop to discuss
+Network Impacts of the COVID-19 pandemic, on November 9-13, 2020. The
+workshop was held to convene interested researchers, network
+operators, and network management experts, and Internet technologists
+to share their experiences. The meeting was held online given the
+on-going travel and contact restrictions at that time.
 
 COVID-19  has  caused  changes  in  Internet  traffic.  These  changes
 appeared rather abruptly, in particular during the introduction of the
@@ -289,9 +295,7 @@ to prepare for future situations — crisis or otherwise – that impact
 networking. Or even allow us to adjust the technology to be even
 better suited to respond to changes.
 
-The workshop was held to convene interested researchers, network
-operators, and network management experts, and Internet technologists
-to share their experiences. The scope included:
+The scope included:
 
 * measurements about traffic changes, user experience, service performance, and other relevant aspects
 * discussion about the behind the scenes network management and expansion activities
@@ -408,8 +412,8 @@ experience. A lot of collaboration happened in the background,
 problems were corrected, many providers significantly increased their
 capacity, and so on.
 
-In general, the Internet also seems inherently well suited for
-adapting to a new situation, at least within some bounds.  The
+In general, the Internet also seems well suited for
+adapting to new situations, at least within some bounds.  The
 Internet is designed for any application and situation, rather than
 optimized for today's particular traffic. This makes it possible to
 use it for many applications, in many deployment situations, and make
