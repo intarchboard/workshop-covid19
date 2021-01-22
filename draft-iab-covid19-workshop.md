@@ -490,7 +490,7 @@ The following position papers were received, in alphabetical order:
 
 * Afxanasyev, A., Wang, L., Yeh, E., Zhang, B., and Zhang, L.: Identifying the Disease from the Symptoms: Lessons for Networking in the COVID-19 Era {{Afxanasyev2020}}
 
-* Arkko, Jari: Observations on Network User Behaviour During COVID-19 {{Arkko2020}
+* Arkko, Jari: Observations on Network User Behaviour During COVID-19 {{Arkko2020}}
 
 * Bronzino, F., Culley, E., Feamster, N. Liu. S., Livingood. J., and Schmitt, P.: IAB COVID-19 Workshop: Interconnection Changes in the United States {{Bronzino2020}}
 
