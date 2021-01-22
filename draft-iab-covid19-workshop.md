@@ -39,11 +39,11 @@ informative:
    title: "Identifying the Disease from the Symptoms: Lessons for Networking in the COVID-19 Era"
    date: October 2020
    author:
-    - ins: Afxanasyev, A.
-    - ins: Wang, L.
-    - ins: Yeh, E.
-    - ins: Zhang, B.
-    - ins: Zhang, L.
+    - ins:  A. Afxanasyev
+    - ins: L. Wang
+    - ins: E. Yeh
+    - ins: B. Zhang
+    - ins: L. Zhang
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Arkko2020:
    title: "Observations on Network User Behaviour During COVID-19"
@@ -55,103 +55,103 @@ informative:
    title: "IAB COVID-19 Workshop: Interconnection Changes in the United States"
    date: October 2020
    author:
-    - ins: Bronzino, F.
-    - ins: Culley, E.
-    - ins: Feamster, N.
-    - ins: Liu. S.
-    - ins: Livingood. J.
-    - ins: Schmitt, P.
+    - ins: F. Bronzino
+    - ins: E. Culley
+    - ins: N. Feamster
+    - ins: S. Liu
+    - ins: J. Livingood
+    - ins: P. Schmitt
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Campling2020:
    title: "Will the Internet Still Be Resilient During the Next Black Swan Event?"
    date: October 2020
    author:
-    - ins: Campling, Andrew
-    - ins: Lazanski, Dominique
+    - ins: A. Campling
+    - ins: D. Lazanski
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Cho2020:
    title: "On the COVID-19 Impact to broadband traffic in Japan"
    date: October 2020
    author:
-    - ins: Cho, Kenjiro
+    - ins: K. Cho
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Clark2020:
    title: "Measurement of congestion on ISP interconnection links"
    date: October 2020
    author:
-    - ins: Clark, D.
+    - ins: D. Clark
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Favale2020:
    title: "Campus traffic and e-Learning during COVID-19 pandemic"
    date: October 2020
    author:
-    - ins: Favale, T.
-    - ins: Soro, F.
-    - ins: Trevisan, M.
-    - ins: Drago, I.
-    - ins: Mellia, M
+    - ins: T. Favale
+    - ins: F. Soro
+    - ins: M. Trevisan
+    - ins: I. Drago
+    - ins: M. Mellia
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Feldmann2020:
    title: "A view of Internet Traffic Shifts at ISP and IXPs during the COVID-19 Pandemic"
    date: October 2020
    author:
-    - ins: Feldmann, A.
-    - ins: Gasser, O.
-    - ins: Lichtblau, F.
-    - ins: Pujol, E.
-    - ins: Poese, I.
-    - ins: Dietzel, C.
-    - ins: Wagner, D.
-    - ins: Wichtlhuber, M.
-    - ins: Tapiador, J.
-    - ins: Vallina-Rodriguez, N.
-    - ins: Hohlfeld, O.
-    - ins: Smaragdakis, G.
+    - ins: A. Feldmann
+    - ins: O. Gasser
+    - ins: F. Lichtblau
+    - ins: E. Pujol
+    - ins: I. Poese
+    - ins: C. Dietzel
+    - ins: D. Wagner
+    - ins: M. Wichtlhuber
+    - ins: J. Tapiador
+    - ins: N Vallina-Rodriguez
+    - ins: O. Hohlfeld
+    - ins: G. Smaragdakis
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Fontugne2020:
    title: "The Impact of COVID-19 on Last-mile Latency"
    date: October 2020
    author:
-    - ins: Fontugne, R.
-    - ins: Shah, A.
-    - ins: Cho, K.
+    - ins: R. Fontugne
+    - ins: A. Shah
+    - ins: K. Cho
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Gillmor2020:
    title: "Vaccines, Privacy, Software Updates, and Trust"
    date: October 2020
    author:
-    - ins: Gillmor, D.
+    - ins: D. Gillmor
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Gu2020:
    title: "Covid 19 Impact on China ISP's Network Traffic Pattern and Solution Discussion"
    date: October 2020
    author:
-    - ins: Gu, Y.
-    - ins: Li, Z.
+    - ins: Y. Gu
+    - ins: Z. Li
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Jennings2020:
    title: "WebEx Scaling During Covidb"
    date: October 2020
    author:
-    - ins: Jennings, C.
-    - ins: Kozanian, P.
+    - ins: C. Jennings
+    - ins: P. Kozanian
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Lutu2020:
    title: "A Characterization of the COVID-19 Pandemic Impact on a Mobile Network Operator Traffic"
    date: October 2020
    author:
-    - ins: Lutu, A.
-    - ins: Perino, D.
-    - ins: Bagnulo, M.
-    - ins: Frias-Martinez, E.
-    - ins: Khangosstar, J.
+    - ins: A. Lutu
+    - ins: D. Perino
+    - ins: M. Bagnulo
+    - ins: E. Frias-Martinez
+    - ins: J. Khangosstar
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Mok2020:
    title: "Measuring the impact of COVID-19 on cloud network performance"
    date: October 2020
    author:
-    - ins: Mok, Ricky
-    - ins: claffy, kc
+    - ins: R. Mok
+    - ins: kc claffy
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Kirsty2020:
    title: "IAB COVID-19 Network Impacts"
@@ -187,24 +187,24 @@ informative:
    title: "Work-At-Home After Covid-19—Our Forecast"
    date: 2020
    author:
-    - ins: Kate Lister
+    - ins: K. Lister
    seriesinfo: https://globalworkplaceanalytics.com/work-at-home-after-covid-19-our-forecast
   McKinsey2020:
    title: "Reimagining the office and work life after COVID-19"
    date: June 2020
    author:
-    - ins: Brodie Boland
-    - ins: Aaron De Smet
-    - ins: Rob Palter
-    - ins: Aditya Sanghvi
+    - ins: B. Boland
+    - ins: A. De Smet
+    - ins: R. Palter
+    - ins: A. Sanghvi
    seriesinfo: https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Organization/Our%20Insights/Reimagining%20the%20office%20and%20work%20life%20after%20COVID%2019/Reimagining-the-office-and-work-life-after-COVID-19-final.pdf
   Fontugne2020-1:
    title: "Persistent Last-mile Congestion: Not so Uncommon"
    date: October 2020
    author:
-    - ins: Romain Fontugne
-    - ins: Anant Shah
-    - ins: Kenjiro Cho
+    - ins: R. Fontugne
+    - ins: A. Shah
+    - ins: K. Cho
    seriesinfo: Proceedings of the ACM Internet Measurement Conference (IMC '20)
    doi: https://doi.org/10.1145/3419394.3423648
 
