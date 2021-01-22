@@ -333,6 +333,8 @@ Changes in traffic have been observed at University campus networks as well, esp
 
 Mobile network data usage appeared to decline following the imposition of localized lockdown measures, as these reduced typical levels of mobility and roaming. 
 
+[more text TBD]
+
 ### A deeper look at interconnections
 
 Traffic at points of network interconnection noticeably increased but most operators reacted quickly by rapidly adding additional capacity. The 
@@ -350,12 +352,9 @@ The key findings included:
 
 ### Last mile congestion
 
-Last-mile access networks are the centerpiece of broadband connectivity. In a recent IMC'20 research paper Fontugne et al. investigated last-mile latency using traceroute data from RIPE Atlas probes located in 646 ASes and looked for recurrent performance degradation {{Fontugne2020-1}}. They found that in normal times Atlas probes in only 10% ASes experience persistent last-mile congestion (as defined by ....) but they recorded 55% more congested ASes during the initial COVID-19 outbreak. This deterioration caused by stay-at-home measures is particularly marked in large eyeball networks and certain parts of the world and was not a universal degradation; performance in some regions was good while it suffered in others. In particular, they found Japan to be the most impacted country in their study looking specifically at NTT OCN, but noting similar observations for several Japanese networks, including IIJ (AS2497). Why some countries performed better than others may be due to both technical and non-technical reasons and may merit further study.
+Last-mile is the centerpiece of broadband connectivity, where poor last-mile performance generally translates to poor quality of experience. In a recent IMC'20 research paper Fontugne et al. investigated last-mile latency using traceroute data from RIPE Atlas probes located in 646 ASes and looked for recurrent performance degradation {{Fontugne2020-1}}. They found that in normal times Atlas probes in only 10% ASes experience persistent last-mile congestion but they recorded 55% more congested ASes during the COVID-19 outbreak. This deterioration caused by stay-at-home measures is particularly marked in large eyeball networks and certain parts of the world. They found Japan to be the most impacted country in their study looking specifically at NTT OCN, but noting similar observations for several Japanese networks, including IIJ (AS2497).
 
-But these degradations, in limited regions where they occured, appeared short-lived as network operators rapidly responded to COVID-19 by adding new capacity. From mid-2020 onwards, they however observe better performance than before the pandemic. In Japan, this is partly due to the deployments originally planned for accommodating the Tokyo Olympics, and more generally, it reflects the efforts of network operators to cope with these exceptional circumstances. The pandemic has demonstrated that its adaptive design and proficient community can keep the Internet operational during such unprecedented events. Also, from the numerous research and operational reports recently published, the pandemic is apparently shaping a more resilient Internet, as Nietzsche wrote, “What does not kill me makes me stronger”.
-
-Finally, many of the most heavily used applications during COVID-19 use Internet protocols that are by design adaptive to changes in network conditions. So even those limited areas of congestion, either in the last mile or elsewhere on the end-to-end path, these applications adapted to 
-changing conditions such that users could continue to functionally use those applications and may not have even noticed some of the underlying network issues. 
+From mid-2020 onwards, they however observe better performance than before the pandemic. In Japan, this is partly due to the deployments originally planned for accommodating the Tokyo Olympics, and more generally, it reflects the efforts of network operators to cope with these exceptional circumstances. The pandemic has demonstrated that its adaptive design and proficient community can keep the Internet operational during such unprecedented events. Also, from the numerous research and operational reports recently published, the pandemic is apparently shaping a more resilient Internet, as Nietzsche wrote, “What does not kill me makes me stronger”.
 
 ### Home network performance
 
@@ -398,11 +397,11 @@ interested in remote work {{WorkplaceAnalytics2020}} {{McKinsey2020}}.
 
 ## Operational Practices and Changes {#operational}
 
-Networks added significant capacity in record time in response to the onset of the pandemic. This demonstrated the operationl value of maintaining sufficient excess capacity to handle not just failures but sudden and unexpected events as this. 
+TBD...
 
 ## Architectural Consideration and Conclusion for Future {#architecture}
 
-In the face of the sudden and dramatic changes in Internet usage, companies across the Internet ecosystem scrambled to react quickly to add network, server, application and other capacity. This worked well in large part because of the loosely coupled and decentralized design of the Internet; each of these actors could work completely independently without the delay that would otherwise be inherent in centralized operating and decision-making models. In essence, at each layer of the protocol stack various actors were rapidly innovating and adding capacity - another demonstration of why the layered, loosely coupled, decentralized Internet has been so successful. It was also clear how very important for the incredible variety of end user connectivity and device performance that key applications were designed to be constantly adaptive to changing network conditions. 
+TBD...
 
 ## Conclusions {#conclusions}
 
