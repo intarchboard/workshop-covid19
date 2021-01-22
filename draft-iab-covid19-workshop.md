@@ -136,7 +136,7 @@ informative:
     - ins: Z. Li
    seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
   Jennings2020:
-   title: "WebEx Scaling During Covidb"
+   title: "WebEx Scaling During Covid"
    date: October 2020
    author:
     - ins: C. Jennings
@@ -238,15 +238,15 @@ operators, and network management experts, and Internet technologists
 to share their experiences. The meeting was held online given the
 on-going travel and contact restrictions at that time.
 
-COVID-19  has  caused  changes  in  Internet  traffic.  These  changes
-appeared rather abruptly, in particular during the introduction of the
+COVID-19 has caused changes in Internet traffic. These changes
+appeared rather abruptly and were significant, in particular during the introduction of the
 initial quarantine and work-from-home arrangements. The changes relate
-to  traffic volumes,  location of  traffic, as  well as  the types  of
+to traffic volumes, location of traffic, as well as the types of
 traffic and applications used.
 
 Announcement for the workshop was sent out in July 2020, requesting
 interested parties to submit position papers for the workshop program
-committee.  A total of 15 position papers were received from
+committee. A total of 15 position papers were received from
 altogether 33 authors. The papers are listed in {{positionpapers}}.
 In addition, several other types of contributions and pointers to
 existing work were provided. A number of position papers referred to
@@ -258,10 +258,10 @@ papers and other expressions of interest. On the workshop conference calls were 
 participants, listed in {{participants}}.
 
 The workshop was held over one week hosting three sessions covering
-measuremnets and observations, operational issue, and final future consideration
-and conclusions. As these three session were scheduled Monday, Wednesday, and Friday
-a positive side effect was that the time in between could be used foor mailing
-list discusion and compilation of additional workshop material.
+measurements and observations, operational issue, and final future consideration
+and conclusions. As these three sessions were scheduled Monday, Wednesday, and Friday
+a positive side effect was that the time in between could be used for mailing
+list discussion and compilation of additional workshop material.
 
 # Scope {#scope}
 
@@ -320,30 +320,40 @@ aspects of network traffic and kind of networks.
 
 ### Overall traffic growth
 
-Based on the measuremenst data of one ISP, three IXPs, a metropolitan educational network,
+Based on the measurement data of one ISP, three IXPs, a metropolitan educational network,
 and a mobile operator it was observed at the beginning of the workshop that overall the
-network was able to handle the situation well despite an significant increase in traffic
-growth rate in March/April.
+network was able to handle the situation well despite a significant and sudden increase in traffic
+growth rate in March/April. In many regions the traffic growth expected in a typical year took 
+place in the matter of a few weeks. In access networks, the growth rate of upstream traffic also 
+exceeded the growth in downstream traffic, reflecting increased adoption and use of video 
+conferencing and other remote work and school applications. 
 
 ### Changes in traffic patterns
 
-Changes in the traffic patterns: Traffic in mobile network decreased and traffic from home network increased. Strong increase in video conferencing (incl remote schooling)
+At a high level, the traffic in mobile network decreased as a result of reduced population mobility while traffic from home network 
+increased. As a result of the shift for working and learning at home, there was a strong increase in video conferencing and remote 
+learning application traffic. The typical diurnal usage patters in network also changed, with peak times occuring earlier in the day 
+and peak times lasting longer over the day - once again reflecting the start of the work or school day from home. 
 
 #### Example campus network
 
-Changes in traffic have been observed at University campus networks as well, especially due to the forced adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the stop of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further ,outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop.
+Changes in traffic have been observed at University campus networks as well, especially due to the necessary adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the stop of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticeable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further, outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop.
 
 #### Example mobile networks
 
-TBD...
+Mobile network data usage appeared to decline following the imposition of localized lockdown measures, as these reduced typical levels of mobility and roaming. 
+
+[more text TBD]
 
 ### A deeper look at interconnections
 
-Network load noticeably increased but most operators reacted quickly by adding new capacity (earlier?)
+Traffic at points of network interconnection noticeably increased but most operators reacted quickly by rapidly adding additional capacity. The 
+amount of increases varied, with some networks that hosted popular applications such as video conferencing experiencing traffic growth of 
+several hundred to several thousand percent. 
 
 ### Cloud platforms
 
-Cloud infrastructure plays a prominent role in supporting bandwidth demanding video conferencing and remote learning tools to practice social distancing in COVID-19 pandemic. Network congestion between cloud platforms and access networks could impact on the quality of experience of these cloud-based applications. CAIDA leveraged web-based speed test servers to perform download and upload throughput measurements from virtual machines in public cloud platforms to various access ISPs in the United States {{Mok2020}}.
+Cloud infrastructure played a key role in supporting bandwidth-intensive video conferencing and remote learning tools to practice social distancing in COVID-19 pandemic. Network congestion between cloud platforms and access networks could impact on the quality of experience of these cloud-based applications. CAIDA leveraged web-based speed test servers to perform download and upload throughput measurements from virtual machines in public cloud platforms to various access ISPs in the United States {{Mok2020}}.
 
 The key findings included:
 * Persistent congestion events were not widely observed between cloud platforms and these networks, particular for large-scale ISPs, but we could observe large diurnal download throughput variations in peak hours from some locations to the cloud.
@@ -352,11 +362,13 @@ The key findings included:
 
 ### Last mile congestion
 
-Last-mile is the centerpiece of broadband connectivity, poor last-mile performance generally translates to poor quality of experience. In a recent IMC'20 research paper Fontugne et al. investigated last-mile latency using traceroute data from RIPE Atlas probes located in 646 ASes and looked for recurrent performance degradation {{Fontugne2020-1}}. They found that in normal times Atlas probes in only 10% ASes experience persistent last-mile congestion but they recorded 55% more congested ASes during the COVID-19 outbreak. This deterioration caused by stay-at-home measures is particularly marked in large eyeball networks and certain parts of the world. They found Japan to be the most impacted country in their study looking specifically at NTT OCN, but noting similar observations for several Japanese networks, including IIJ (AS2497).
+Last-mile is the centerpiece of broadband connectivity, where poor last-mile performance generally translates to poor quality of experience. In a recent IMC'20 research paper Fontugne et al. investigated last-mile latency using traceroute data from RIPE Atlas probes located in 646 ASes and looked for recurrent performance degradation {{Fontugne2020-1}}. They found that in normal times Atlas probes in only 10% ASes experience persistent last-mile congestion but they recorded 55% more congested ASes during the COVID-19 outbreak. This deterioration caused by stay-at-home measures is particularly marked in large eyeball networks and certain parts of the world. They found Japan to be the most impacted country in their study looking specifically at NTT OCN, but noting similar observations for several Japanese networks, including IIJ (AS2497).
 
-From mid-2020 onwards, they however observe better performances than before the pandemic. In Japan, this is partly due to the deployments originally planned for accommodating the Tokyo Olympics, and more generally, it reflects the efforts of network operators to cope with these exceptional circumstances. The pandemic has demonstrated that its adaptive design and proficient community can keep the Internet operational during such unprecedented events. Also, from the numerous research and operational reports recently published, the pandemic is apparently shaping a more resilient Internet, as Nietzsche wrote, “What does not kill me makes me stronger”.
+From mid-2020 onwards, they however observe better performance than before the pandemic. In Japan, this is partly due to the deployments originally planned for accommodating the Tokyo Olympics, and more generally, it reflects the efforts of network operators to cope with these exceptional circumstances. The pandemic has demonstrated that its adaptive design and proficient community can keep the Internet operational during such unprecedented events. Also, from the numerous research and operational reports recently published, the pandemic is apparently shaping a more resilient Internet, as Nietzsche wrote, “What does not kill me makes me stronger”.
 
-### User Behaviour
+### Home network performance
+
+### User behaviour
 
 The type of traffic needed by the users also changed in 2020. Upstream
 traffic increased due the use of video conferences, remote schooling,
@@ -382,7 +394,7 @@ during the crisis). Some of the key findings in {{ConsumerlabReport2020}} were:
 
 * Smartphone application usage changed, with fastest growth was in
   COVID-19, remote working, e-learning, wellness, education, remote
-  health consulation, and social shared experience
+  health consultation, and social shared experience
   applications. Biggest decreases were in travel
   and booking, ride hailing, location, and parking applications.
 
@@ -434,7 +446,7 @@ TBD...
 ## Conclusions {#conclusions}
 
 There is a wealth of data about the performance of the Internet during
-the criss. The main conclusion from the various measurements is that
+the crises. The main conclusion from the various measurements is that
 fairly large shifts occurred. And those shifts were not merely about
 changing one application for another, they actually impacted traffic
 flows and directions, and caused in many cases a significant traffic
@@ -442,7 +454,7 @@ increase. Early reports also seem to indicate that the shifts have
 went relatively smoothly from the point of view overall consumer
 experience.
 
-An important but not so  visible factor that lead to this was that
+An important but not so visible factor that led to this was that
 many people and organizations where highly motivated to ensure good
 experience. A lot of collaboration happened in the background,
 problems were corrected, many providers significantly increased their
