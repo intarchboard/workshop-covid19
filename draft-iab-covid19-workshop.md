@@ -21,7 +21,7 @@ author:
   -
     ins: S. Farrell
     name: Stephen Farrell
-    org:
+    org: Trinity College Dublin
     email: stephen.farrell@cs.tcd.ie
 
   -
