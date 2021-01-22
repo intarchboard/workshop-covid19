@@ -397,7 +397,37 @@ interested in remote work {{WorkplaceAnalytics2020}} {{McKinsey2020}}.
 
 TBD...
 
+### Digital Divide
+
+From Jana etc.
+
+### Conferencing systems
+
+From Cullen  etc.
+
+### Observability
+
+TBD
+
 ## Architectural Consideration and Conclusion for Future {#architecture}
+
+TBD...
+
+### DSCP point and counterpoint
+
+TBD...
+
+### Security
+
+From Kirsty et al.
+
+### Discussion
+
+Incentive and control (Jana)...
+
+TBD...
+
+### Feedback on meeting format
 
 TBD...
 
