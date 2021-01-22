@@ -425,6 +425,8 @@ TBD
 
 TBD...
 
+In the face of the sudden and dramatic changes in Internet usage, companies across the Internet ecosystem scrambled to react quickly to add network, server, application and other capacity. This worked well in large part because of the loosely coupled and decentralized design of the Internet; each of these actors could work completely independently without the delay that would otherwise be inherent in centralized operating and decision-making models. In essence, at each layer of the protocol stack various actors were rapidly innovating and adding capacity - another demonstration of why the layered, loosely coupled, decentralized Internet has been so successful. It was also clear how very important for the incredible variety of end user connectivity and device performance that key applications were designed to be constantly adaptive to changing network conditions. 
+
 ### DSCP point and counterpoint
 
 TBD...
