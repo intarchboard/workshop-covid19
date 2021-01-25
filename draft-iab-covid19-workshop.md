@@ -318,17 +318,48 @@ papers presented and discussed measurement data and these submissions provided a
 basis get a better understanding of the situation, covering different angles and
 aspects of network traffic and kind of networks.
 
-### Overall traffic growth
+### Overall traffic growth and 
 
+The global pandemic has significantly accelerated the growth of data traffic worldwide.
 Based on the measurement data of one ISP, three IXPs, a metropolitan educational network,
-and a mobile operator it was observed at the beginning of the workshop that overall the
+and a mobile operator it was observed at the beginning of the workshop {{Feldmann2020}} that overall the
 network was able to handle the situation well despite a significant and sudden increase in traffic
-growth rate in March/April. In many regions the traffic growth expected in a typical year took 
-place in the matter of a few weeks. In access networks, the growth rate of upstream traffic also 
-exceeded the growth in downstream traffic, reflecting increased adoption and use of video 
-conferencing and other remote work and school applications. 
+growth rate in March/April. That is, after the lockdown is implemented in March a traffic increase
+of 15-20% at the ISP as well as the three IXPs was observed. That represents the traffic growth
+expected in a typical year which now took place in the matter of a few weeks only---a substantial
+increase. At DE-CIX Frankfurt, the world's largest Internet Exchange in terms of data throughput,
+the year 2020 has seen the largest increase in peak traffic within a single year since the IXP was
+founded in 1995. Additionally, mobile traffic is slightly receding. In access networks, the growth rate
+of upstream traffic also exceeded the growth in downstream traffic, reflecting increased adoption
+and use of video conferencing and other remote work and school applications.
 
-### Changes in traffic patterns
+Most traffic increases happen during non-traditional peak hours: Before Corona, the main time
+of use was in the evening hours during the week, whereas since March it has been spread equally
+across the day. That is, the increase in usage is mainly occurring outside the previous peak usage
+times (e.g. during the day while working from home). This means that, for the first time, network
+utilization on weekdays resembles that on weekends. The effects of the increased traffic volume can
+easily be absorbed: either by using existing reserve capacity, or by quickly switching additional bandwidth.
+This is one reason why the Internet was able to cope well with the pandemic during the first lockdown period.
+
+Some of the lockdowns were lifted or relaxed around May 2020. As people were allowed to perform some
+of their daily habits outside of their home again, we see a decrease of the traffic at the IXPs and the ISP;
+instead mobile traffic is now growing again.
+
+We see a strong increase in the traffic associated to web conferencing, video, and gaming traffic in March
+as a result of the increasing user deman for solutions like Zoom or Microsoft Teams.
+Also, as people spend more hours at home, they tend to watch videos or play games, thus increasing entertainment traffic demands.
+Interestingly, we also see a decrease in educational traffic in these vantage points.
+
+#### Changes in application use
+
+The composition of data traffic has changed since the beginning of the pandemic: the use of
+videoconferencing services and virtual private networks (VPNs) for access to company resources
+from the home environment has risen sharply. In ISP and IXP network it was overserved {{Feldmann2020}}
+that traffic resulting from video conferences increased largely. Online entertainment demands account
+for hypergiant traffic surge. Yet, the need for remote working increases the relativetraffic share of many 
+"essential" applications like VPN and conferencing tools by more than 200%. At the same time, the
+trafficshare for other traffic classes decreases substantially, e.g., traffic related to education,
+social media, and—for some periods—CDNs
 
 At a high level, the traffic in mobile network decreased as a result of reduced population mobility while traffic from home network 
 increased. As a result of the shift for working and learning at home, there was a strong increase in video conferencing and remote 
