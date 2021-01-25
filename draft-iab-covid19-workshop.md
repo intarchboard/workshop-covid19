@@ -355,11 +355,14 @@ Interestingly, we also see a decrease in educational traffic in these vantage po
 The composition of data traffic has changed since the beginning of the pandemic: the use of
 videoconferencing services and virtual private networks (VPNs) for access to company resources
 from the home environment has risen sharply. In ISP and IXP network it was overserved {{Feldmann2020}}
-that traffic resulting from video conferences increased largely. Online entertainment demands account
-for hypergiant traffic surge. Yet, the need for remote working increases the relativetraffic share of many 
-"essential" applications like VPN and conferencing tools by more than 200%. At the same time, the
-trafficshare for other traffic classes decreases substantially, e.g., traffic related to education,
-social media, and—for some periods—CDNs
+that traffic associated to web conferencing, video, and gaming increased largely in March.
+For example, the relative traffic share of many "essential" applications like VPN and conferencing tools
+increased by more than 200%. At the same time, the traffic share for other traffic classes decreases
+substantially, e.g., traffic related to education, social media, and---for some periods---CDNs.
+In April and June, web conferencing traffic is still high compared to the pre-pandemic scenario,
+while a slight decrease in CDN and social media traffic is observed. During these months many people
+are still working from home, but restrictions have been lifted or relaxed, which likely leads to an increase
+in in-person social activities and a decrease in online ones.
 
 At a high level, the traffic in mobile network decreased as a result of reduced population mobility while traffic from home network 
 increased. As a result of the shift for working and learning at home, there was a strong increase in video conferencing and remote 
@@ -385,9 +388,7 @@ Mobile network data usage appeared to decline following the imposition of locali
 
 ### A deeper look at interconnections
 
-Traffic at points of network interconnection noticeably increased but most operators reacted quickly by rapidly adding additional capacity. The 
-amount of increases varied, with some networks that hosted popular applications such as video conferencing experiencing traffic growth of 
-several hundred to several thousand percent. 
+Traffic at points of network interconnection noticeably increased but most operators reacted quickly by rapidly adding additional capacity {{Feldmann2020}}. The amount of increases varied, with some networks that hosted popular applications such as video conferencing experiencing traffic growth of several hundred to several thousand percent. At the IXP-level, it was observe that port utilization increases. This phenomenon is mostly explained by a higher traffic demand fromresidential users.
 
 ### Cloud platforms
 
