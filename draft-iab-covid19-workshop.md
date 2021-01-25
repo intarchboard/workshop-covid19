@@ -335,9 +335,16 @@ increased. As a result of the shift for working and learning at home, there was 
 learning application traffic. The typical diurnal usage patters in network also changed, with peak times occuring earlier in the day 
 and peak times lasting longer over the day - once again reflecting the start of the work or school day from home. 
 
-#### Example campus network
+#### Example campus networks
 
 Changes in traffic have been observed at University campus networks as well, especially due to the necessary adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the stop of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticeable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further, outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop.
+
+Similar changes were observed by measuring REDIMadrid {{Feldmann2020}}, a European educational and research network, which connects 16 independent universities and research centers in the metropolitan region of Madrid. A drop of up to 55% in traffic volume on working days during the pandemic was observed. Similar to findings for ISP/IXP networks, it was observed that working days and weekend days are becoming more similar in terms of total traffic. The hourly traffic patterns reveal a traffic increase between 9 pm and 7 am. This could be due to users working more frequently at unusual times, but also potentially caused by overseas students (mainly from Latin America and East Asia as suggested by the AS numbers from which these connections come from) who access university network resources from their home countries.
+
+Given the fact that the users of the academic network (e.g., students and research staff) had to leave the campus as a response to lockdown measures, also the traffic in/out (i.e., ingress/egress) ratio changed drastically. Prior to the lockdown, the incoming traffic was much larger then the outgoing traffic. This changed to a more balanced setting. This change of traffic asymmetry can be explained by the nature of remote work.
+On the one end, users connect to the network services mainly to access resources, hence the increase in outgoing traffic. On the other end, all external (\ie Internet-based) resources requested during work are no longer accessed from the educational network but from the use
+
+To conclude, changes in Internet traffic due to the COVID-19 pandemic are affecting different networks in various ways. Yet all networks observe some form of change, be it in a reduction in traffic, an increase in traffic, a change in working days and weekend days patterns, or a change in traffic classes. Traffic volume, directionality ratios, and its source and destination are radically different from before COVID-19. This behavior is antagonistic, yet complementary, to the one observed in residential ISPs.
 
 #### Example mobile networks
 
@@ -595,4 +602,4 @@ arrangements.
 
 Further special thanks to those participants who also contributed to this report: Romain
 Fontugne provided text based on his blog post at https://eng-blog.iij.ad.jp/archives/7722;
-Ricky Mok for text on cloud platform; Martino Trevisan for text on campus networks.
+Ricky Mok for text on cloud platform; Martino Trevisan for text on campus networks; Oliver Hohlfeld for the text on traffic growth, changes in traffic shifts, campus networks, and interconnections.
