@@ -318,7 +318,7 @@ papers presented and discussed measurement data and these submissions provided a
 basis get a better understanding of the situation, covering different angles and
 aspects of network traffic and kind of networks.
 
-### Overall traffic growth and 
+### Overall traffic growth 
 
 The global pandemic has significantly accelerated the growth of data traffic worldwide.
 Based on the measurement data of one ISP, three IXPs, a metropolitan educational network,
