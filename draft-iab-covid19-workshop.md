@@ -351,6 +351,8 @@ Traffic at points of network interconnection noticeably increased but most opera
 amount of increases varied, with some networks that hosted popular applications such as video conferencing experiencing traffic growth of 
 several hundred to several thousand percent. 
 
+Measurements of interconnection links at major US ISPs by CAIDA and MIT found some evidence of diurnal congestion around the March 2020 timeframe, but most of this congestion disappeared in a few weeks, which suggests that operators indeed did take steps to add capacity or otherwise mitigate the congestion.
+
 ### Cloud platforms
 
 Cloud infrastructure played a key role in supporting bandwidth-intensive video conferencing and remote learning tools to practice social distancing in COVID-19 pandemic. Network congestion between cloud platforms and access networks could impact on the quality of experience of these cloud-based applications. CAIDA leveraged web-based speed test servers to perform download and upload throughput measurements from virtual machines in public cloud platforms to various access ISPs in the United States {{Mok2020}}.
@@ -595,4 +597,5 @@ arrangements.
 
 Further special thanks to those participants who also contributed to this report: Romain
 Fontugne provided text based on his blog post at https://eng-blog.iij.ad.jp/archives/7722;
-Ricky Mok for text on cloud platform; Martino Trevisan for text on campus networks.
+Ricky Mok for text on cloud platform; Martino Trevisan for text on campus networks; David
+Clark on congestion measurements at interconnects.
