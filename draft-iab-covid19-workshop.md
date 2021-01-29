@@ -470,15 +470,47 @@ the impact on certain applications, and there is an observability gap.
 
 ## Architectural Consideration and Conclusion for Future {#architecture}
 
-TBD...
+The final session of the workshop considered the architectural
+issues arising and other conclusions that could be reached.
 
 ### DSCP point and counterpoint
 
-TBD...
+Largely following on from earlier discussions related to
+observability and relating to traffic priorities, 
+we started a from DSCP marking,
+basically wondering if a minimal priority marking scheme
+would have helped during the pandemic, e.g. by allowing
+marking of less-than-best-effort traffic.
+
+That discussion quickly deolved into the usual QoS and
+observability discussion, as always also touching on
+the effects of increased encryption. (The group once
+more succeeded in not making headway in resolving the
+different perspective and interests involved in that,
+but did demonstrate that we're making progress on
+the discussion being less heated;-) 
+
 
 ### Security
 
-From Kirsty et al.
+The group discussed a submission {{Kirsty2020}} dealing with
+changes in attack patterns subsequent to the move towards
+working from home. At a high level there wasn't much of an
+uptick in the number of attacks seen, but that different lures
+were used in phishing attacks, demonstrating that bad
+actors had also adjusted to the pandemic to an extent.
+The group noted, that, in constrast to measuring traffic
+changes, it was harder to measure how the pandemic changes 
+security and
+perhaps there is scope for research on that topic.
+
+Overall, it may be that the pandemic caused fewer security
+changes than one would have guessed had one been asked,
+pre-pandemic, what would happen if many people started to
+work from home a lot. However, that is not to say that
+the security situation was good before the pandemic nor
+that it is good during the pandemic - it seems rather
+the opposite. 
 
 ### Discussion
 
