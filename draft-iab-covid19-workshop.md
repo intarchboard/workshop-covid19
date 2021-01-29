@@ -543,12 +543,12 @@ not be able to attend a session.
 ## Conclusions {#conclusions}
 
 There is a wealth of data about the performance of the Internet during
-the crises. The main conclusion from the various measurements is that
+the crisis. The main conclusion from the various measurements is that
 fairly large shifts occurred. And those shifts were not merely about
 changing one application for another, they actually impacted traffic
 flows and directions, and caused in many cases a significant traffic
 increase. Early reports also seem to indicate that the shifts have
-went relatively smoothly from the point of view overall consumer
+gone relatively gone from the point of view overall consumer
 experience.
 
 An important but not so visible factor that led to this was that
@@ -586,7 +586,7 @@ On the other hand, this is not to say that no improvements are needed:
   serve different groups.
 
 * We need to continue work on all the other improvements that are seen
-  necessary anyway, such as further improvements in security, ability
+  as necessary anyway, such as further improvements in security, ability
   for networks and applications to collaborate better, etc.
 
 * Informal collaboration between different parties needs to continue
