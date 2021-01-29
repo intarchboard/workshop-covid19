@@ -407,21 +407,66 @@ going to have a long-lasting effect.  Surveys in various organizations
 point to a likely long-term increase in the number of people
 interested in remote work {{WorkplaceAnalytics2020}} {{McKinsey2020}}.
 
-## Operational Practices and Changes {#operational}
+## Operational Practises and Changes {#operational}
 
-TBD...
+The second day of the workshop focussed on operational issues. 
 
 ### Digital Divide
 
-From Jana etc.
+Measurements from Fastly confirmed that Internet traffic volume, in
+multiple countries, rose rapidly at the same time as COVID cases increased
+and lock down policies came into effect. Download speeds also decreased,
+but in a much less dramatic fashion than overall bandwidth usage increased.
+School closures led to dramatic increase in traffic volume in many regions,
+and other public policy announcements triggered large traffic shifts. This
+suggests that governments might usefully coordinate with operators to allow
+time for pre-emptive operational changes, in some cases.
 
-### Conferencing systems
+Measurements from the US showed that download rates correlate with income
+levels. However, download rates in the lowest income zip codes increased
+as the pandemic progressed, closing the divide with higher income areas.
+One possible reason for this in the data is decisions by some ISPs, such
+as Comcast and Cox, that increased speeds for users on certain plans and in
+certain areas. This suggests that network capacity was available, and that
+the correlation between income and download rates was not necessarily due
+to differences in the deployed infrastructure in different regions,
+although it was noted that certainly access link technologies provide more
+flexibility than others in this regard.
 
-From Cullen  etc.
+
+### Applications
+
+The web conferencing systems (e.g., Microsoft Teams, Zoom, Webex) saw
+incredible growth, with overnight traffic increases of 15-20% in response
+to public policy changes, such as lock downs. This required significant
+and rapid changes in infrastructure provisioning.
+
+Major video providers (YouTube, etc.) reduced bandwidth by 25% in some
+regions. It was suggested that this had a huge impact on quality of
+videoconferencing systems until networks could scale to handle full
+bit-rate, but other operators of some other services saw limited impact.
+
+Updates to popular games has a significant impact on network load. Some
+discussions reported between ISPs, CDNs, and gaming industry on possibly
+coordinating various high-bandwidth update events, similar to what was
+done for entertainment/video download speeds. Difficult interplay between
+bulk download and interactive real-time applications, potentially due to
+buffer-bloat and queuing delays. 
+
 
 ### Observability
 
-TBD
+Clear that there is a contrast in experience. Many operators reported few
+problems, in terms of metrics such as measured download bandwidth, while
+video conferencing applications experienced usability significant problems
+running on those networks (defined as more than 1s/min of major artefacts). 
+The interaction between application providers and network providers worked
+very smoothly to resolve these issues, supported by strong personal
+contacts and relationships. But it seems clear that the metrics used by
+many operators to understand their network performance don't fully capture
+the impact on certain applications, and there is an observability gap.
+
+
 
 ## Architectural Consideration and Conclusion for Future {#architecture}
 
