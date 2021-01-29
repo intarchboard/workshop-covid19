@@ -371,6 +371,8 @@ From mid-2020 onwards, they however observe better performance than before the p
 
 ### Home network performance
 
+TBD...
+
 ### User behaviour
 
 The type of traffic needed by the users also changed in 2020. Upstream
@@ -391,11 +393,11 @@ during the crisis). Some of the key findings in {{ConsumerlabReport2020}} were:
 
 * Network performance was in general found satisfactory. 6 in 10 were
   very satisfied with fixed broadband, and 3 in 4 felt that mobile
-  broadband was same or better as before the crisis.  Consumers valued
+  broadband was the same or better compared to before the crisis.  Consumers valued
   resilience and quality of service as the most important task for
   network operators.
 
-* Smartphone application usage changed, with fastest growth was in
+* Smartphone application usage changed, with fastest growth in
   COVID-19, remote working, e-learning, wellness, education, remote
   health consultation, and social shared experience
   applications. Biggest decreases were in travel
@@ -418,7 +420,7 @@ Measurements from Fastly confirmed that Internet traffic volume, in
 multiple countries, rose rapidly at the same time as COVID cases increased
 and lock down policies came into effect. Download speeds also decreased,
 but in a much less dramatic fashion than overall bandwidth usage increased.
-School closures led to dramatic increase in traffic volume in many regions,
+School closures led to a dramatic increase in traffic volume in many regions,
 and other public policy announcements triggered large traffic shifts. This
 suggests that governments might usefully coordinate with operators to allow
 time for pre-emptive operational changes, in some cases.
@@ -448,18 +450,19 @@ videoconferencing systems until networks could scale to handle full
 bit-rate, but other operators of some other services saw limited impact.
 
 Updates to popular games has a significant impact on network load. Some
-discussions reported between ISPs, CDNs, and gaming industry on possibly
+discussions were reported between ISPs, CDNs, and the gaming industry on possibly
 coordinating various high-bandwidth update events, similar to what was
-done for entertainment/video download speeds. Difficult interplay between
+done for entertainment/video download speeds. There was an apparently 
+difficult interplay between
 bulk download and interactive real-time applications, potentially due to
 buffer-bloat and queuing delays. 
 
 
 ### Observability
 
-Clear that there is a contrast in experience. Many operators reported few
+It is clear that there is a contrast in experience. Many operators reported few
 problems, in terms of metrics such as measured download bandwidth, while
-video conferencing applications experienced usability significant problems
+video conferencing applications experienced significant usability problems
 running on those networks (defined as more than 1s/min of major artefacts). 
 The interaction between application providers and network providers worked
 very smoothly to resolve these issues, supported by strong personal
@@ -469,16 +472,18 @@ the impact on certain applications, and there is an observability gap.
 
 
 
-## Architectural Consideration and Conclusion for Future {#architecture}
+## Architectural Considerations and Conclusions for the Future {#architecture}
 
 The final session of the workshop considered the architectural
 issues arising and other conclusions that could be reached.
+In general many of these topics had been covered earlier so
+the report-out from this session is more brief.
 
 ### DSCP point and counterpoint
 
 Largely following on from earlier discussions related to
 observability and relating to traffic priorities, 
-we started a from DSCP marking,
+we had a discussion starting from DSCP marking,
 basically wondering if a minimal priority marking scheme
 would have helped during the pandemic, e.g. by allowing
 marking of less-than-best-effort traffic.
@@ -487,7 +492,7 @@ That discussion quickly deolved into the usual QoS and
 observability discussion, as always also touching on
 the effects of increased encryption. (The group once
 more succeeded in not making headway in resolving the
-different perspective and interests involved in that,
+different perspectives and interests involved in that,
 but did demonstrate that we're making progress on
 the discussion being less heated;-) 
 
@@ -497,11 +502,12 @@ the discussion being less heated;-)
 The group discussed a submission {{Kirsty2020}} dealing with
 changes in attack patterns subsequent to the move towards
 working from home. At a high level there wasn't much of an
-uptick in the number of attacks seen, but that different lures
+uptick in the number of attacks seen, but it was notable 
+that different lures
 were used in phishing attacks, demonstrating that bad
 actors had also adjusted to the pandemic to an extent.
 The group noted, that, in constrast to measuring traffic
-changes, it was harder to measure how the pandemic changes 
+changes, it was harder to measure how the pandemic affected 
 security and
 perhaps there is scope for research on that topic.
 
@@ -522,6 +528,9 @@ Feedback on this event format was largely positive, however. It was
 particularly useful that as the three sessions were scheduled Monday,
 Wednesday, and Friday, the time in between could be used for mailing
 list discussion and compilation of additional workshop material.
+The positive feedback was likely at least partly due to the fact
+that many of the workshop participants knew one another from
+previous face-to-face events (primaily IETF meetings).
 
 The process for sending invitations to the workshop should be improved
 for next time, however, as a few invitations were initially lost, and
