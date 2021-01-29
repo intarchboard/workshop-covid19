@@ -318,26 +318,67 @@ papers presented and discussed measurement data and these submissions provided a
 basis get a better understanding of the situation, covering different angles and
 aspects of network traffic and kind of networks.
 
-### Overall traffic growth
+### Overall traffic growth 
 
+The global pandemic has significantly accelerated the growth of data traffic worldwide.
 Based on the measurement data of one ISP, three IXPs, a metropolitan educational network,
-and a mobile operator it was observed at the beginning of the workshop that overall the
+and a mobile operator it was observed at the beginning of the workshop {{Feldmann2020}} that overall the
 network was able to handle the situation well despite a significant and sudden increase in traffic
-growth rate in March/April. In many regions the traffic growth expected in a typical year took 
-place in the matter of a few weeks. In access networks, the growth rate of upstream traffic also 
-exceeded the growth in downstream traffic, reflecting increased adoption and use of video 
-conferencing and other remote work and school applications. 
+growth rate in March/April. That is, after the lockdown is implemented in March a traffic increase
+of 15-20% at the ISP as well as the three IXPs was observed. That represents the traffic growth
+expected in a typical year which now took place in the matter of a few weeks only---a substantial
+increase. At DE-CIX Frankfurt, the world's largest Internet Exchange in terms of data throughput,
+the year 2020 has seen the largest increase in peak traffic within a single year since the IXP was
+founded in 1995. Additionally, mobile traffic is slightly receding. In access networks, the growth rate
+of upstream traffic also exceeded the growth in downstream traffic, reflecting increased adoption
+and use of video conferencing and other remote work and school applications.
 
-### Changes in traffic patterns
+Most traffic increases happen during non-traditional peak hours: Before Corona, the main time
+of use was in the evening hours during the week, whereas since March it has been spread equally
+across the day. That is, the increase in usage is mainly occurring outside the previous peak usage
+times (e.g. during the day while working from home). This means that, for the first time, network
+utilization on weekdays resembles that on weekends. The effects of the increased traffic volume can
+easily be absorbed: either by using existing reserve capacity, or by quickly switching additional bandwidth.
+This is one reason why the Internet was able to cope well with the pandemic during the first lockdown period.
+
+Some of the lockdowns were lifted or relaxed around May 2020. As people were allowed to perform some
+of their daily habits outside of their home again, we see a decrease of the traffic at the IXPs and the ISP;
+instead mobile traffic is now growing again.
+
+We see a strong increase in the traffic associated to web conferencing, video, and gaming traffic in March
+as a result of the increasing user deman for solutions like Zoom or Microsoft Teams.
+Also, as people spend more hours at home, they tend to watch videos or play games, thus increasing entertainment traffic demands.
+Interestingly, we also see a decrease in educational traffic in these vantage points.
+
+#### Changes in application use
+
+The composition of data traffic has changed since the beginning of the pandemic: the use of
+videoconferencing services and virtual private networks (VPNs) for access to company resources
+from the home environment has risen sharply. In ISP and IXP network it was overserved {{Feldmann2020}}
+that traffic associated to web conferencing, video, and gaming increased largely in March.
+For example, the relative traffic share of many "essential" applications like VPN and conferencing tools
+increased by more than 200%. At the same time, the traffic share for other traffic classes decreases
+substantially, e.g., traffic related to education, social media, and---for some periods---CDNs.
+In April and June, web conferencing traffic is still high compared to the pre-pandemic scenario,
+while a slight decrease in CDN and social media traffic is observed. During these months many people
+are still working from home, but restrictions have been lifted or relaxed, which likely leads to an increase
+in in-person social activities and a decrease in online ones.
 
 At a high level, the traffic in mobile networks decreased as a result of reduced population mobility while traffic from home networks 
 increased. As a result of the shift for working and learning at home, there was a strong increase in video conferencing and remote 
 learning application traffic. The typical diurnal usage patterns in network traffic also changed, with peak times occuring earlier in the day 
 and peak times lasting longer over the day - reflecting the start of the work or school day from home. 
 
-#### Example campus network
+#### Example campus networks
 
 Changes in traffic have been observed at University campus networks as well, especially due to the necessary adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the cessation of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticeable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further, outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop.
+
+Similar changes were observed by measuring REDIMadrid {{Feldmann2020}}, a European educational and research network, which connects 16 independent universities and research centers in the metropolitan region of Madrid. A drop of up to 55% in traffic volume on working days during the pandemic was observed. Similar to findings for ISP/IXP networks, it was observed that working days and weekend days are becoming more similar in terms of total traffic. The hourly traffic patterns reveal a traffic increase between 9 pm and 7 am. This could be due to users working more frequently at unusual times, but also potentially caused by overseas students (mainly from Latin America and East Asia as suggested by the AS numbers from which these connections come from) who access university network resources from their home countries.
+
+Given the fact that the users of the academic network (e.g., students and research staff) had to leave the campus as a response to lockdown measures, also the traffic in/out (i.e., ingress/egress) ratio changed drastically. Prior to the lockdown, the incoming traffic was much larger then the outgoing traffic. This changed to a more balanced setting. This change of traffic asymmetry can be explained by the nature of remote work.
+On the one end, users connect to the network services mainly to access resources, hence the increase in outgoing traffic. On the other end, all external (\ie Internet-based) resources requested during work are no longer accessed from the educational network but from the use
+
+To conclude, changes in Internet traffic due to the COVID-19 pandemic are affecting different networks in various ways. Yet all networks observe some form of change, be it in a reduction in traffic, an increase in traffic, a change in working days and weekend days patterns, or a change in traffic classes. Traffic volume, directionality ratios, and its source and destination are radically different from before COVID-19. This behavior is antagonistic, yet complementary, to the one observed in residential ISPs.
 
 #### Example mobile networks
 
@@ -347,9 +388,7 @@ Mobile network data usage appeared to decline following the imposition of locali
 
 ### A deeper look at interconnections
 
-Traffic at points of network interconnection noticeably increased but most operators reacted quickly by rapidly adding additional capacity. The 
-amount of increases varied, with some networks that hosted popular applications such as video conferencing experiencing traffic growth of 
-several hundred to several thousand percent. 
+Traffic at points of network interconnection noticeably increased but most operators reacted quickly by rapidly adding additional capacity {{Feldmann2020}}. The amount of increases varied, with some networks that hosted popular applications such as video conferencing experiencing traffic growth of several hundred to several thousand percent. At the IXP-level, it was observe that port utilization increases. This phenomenon is mostly explained by a higher traffic demand fromresidential users.
 
 Measurements of interconnection links at major US ISPs by CAIDA and MIT found some evidence of diurnal congestion around the March 2020 timeframe, but most of this congestion disappeared in a few weeks, which suggests that operators indeed did take steps to add capacity or otherwise mitigate the congestion.
 
@@ -693,4 +732,6 @@ arrangements.
 Further special thanks to those participants who also contributed to this report: Romain
 Fontugne provided text based on his blog post at https://eng-blog.iij.ad.jp/archives/7722;
 Ricky Mok for text on cloud platform; Martino Trevisan for text on campus networks; David
-Clark on congestion measurements at interconnects.
+Clark on congestion measurements at interconnects; Oliver Hohlfeld for the text on traffic
+growth, changes in traffic shifts, campus networks, and interconnections.
+
