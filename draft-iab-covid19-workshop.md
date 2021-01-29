@@ -220,7 +220,7 @@ The COVID-19 pandemic caused changes in Internet traffic,
 particularly during the introduction of the initial quarantine and
 work-from-home arrangements.
 
-The Internet Architecture Board (IAB) held a work to discuss Network
+The Internet Architecture Board (IAB) held a workshop to discuss Network
 Impacts of the pandemic, on November 9-13, 2020. The workshop was held
 to convene interested researchers, network operators, and network
 management experts, and Internet technologists to share their
