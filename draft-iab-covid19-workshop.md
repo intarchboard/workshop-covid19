@@ -281,13 +281,13 @@ In general, the Internet has coped relatively well with this traffic
 growth, albeit not without some issues. For instance, some outages,
 video quality reduction, and other issues were reported. Nevertheless,
 it is interesting to see how the technology, operators and service
-providers have been able to respond to large changes in traffic
+providers have been able to respond to large and sudden changes in traffic
 patterns.
 
 Understanding what actually happened with Internet traffic is of
 course interesting by its own right. How that impacted user
 experience, or the intended function of the services is equally
-interesting. Measurements and reports of traffic situation from 2020
+interesting. Measurements and reports of the traffic situation from 2020
 are therefore valuable. But it would also be interesting to understand
 what types of network management and capacity expansion actions were
 taken in general. Anecdotal evidence points to Internet and service
@@ -313,7 +313,7 @@ The scope included:
 
 ## Measurement-based Observation on Network Traffic Dynamics {#measurement}
 
-The workshop started with a focus on measurements. A larger portion of the submitted
+The workshop started with a focus on measurements. A large portion of the submitted
 papers presented and discussed measurement data and these submissions provided a good
 basis get a better understanding of the situation, covering different angles and
 aspects of network traffic and kind of networks.
@@ -330,14 +330,14 @@ conferencing and other remote work and school applications.
 
 ### Changes in traffic patterns
 
-At a high level, the traffic in mobile network decreased as a result of reduced population mobility while traffic from home network 
+At a high level, the traffic in mobile networks decreased as a result of reduced population mobility while traffic from home networks 
 increased. As a result of the shift for working and learning at home, there was a strong increase in video conferencing and remote 
-learning application traffic. The typical diurnal usage patters in network also changed, with peak times occuring earlier in the day 
-and peak times lasting longer over the day - once again reflecting the start of the work or school day from home. 
+learning application traffic. The typical diurnal usage patterns in network traffic also changed, with peak times occuring earlier in the day 
+and peak times lasting longer over the day - reflecting the start of the work or school day from home. 
 
 #### Example campus network
 
-Changes in traffic have been observed at University campus networks as well, especially due to the necessary adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the stop of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticeable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further, outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop.
+Changes in traffic have been observed at University campus networks as well, especially due to the necessary adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the cessation of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticeable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further, outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop.
 
 #### Example mobile networks
 
@@ -358,6 +358,7 @@ Measurements of interconnection links at major US ISPs by CAIDA and MIT found so
 Cloud infrastructure played a key role in supporting bandwidth-intensive video conferencing and remote learning tools to practice social distancing in COVID-19 pandemic. Network congestion between cloud platforms and access networks could impact on the quality of experience of these cloud-based applications. CAIDA leveraged web-based speed test servers to perform download and upload throughput measurements from virtual machines in public cloud platforms to various access ISPs in the United States {{Mok2020}}.
 
 The key findings included:
+
 * Persistent congestion events were not widely observed between cloud platforms and these networks, particular for large-scale ISPs, but we could observe large diurnal download throughput variations in peak hours from some locations to the cloud.
 * There is evidence of persistent congestion in the egress direction to regional ISPs serving suburban areas in the U.S. Their users could suffer from poor video streaming or file download performance from the cloud.
 * The macroscopic analysis over 3 months (June-August, 2020) revealed downward trends in download throughput from ISPs and educational networks to certain cloud regions. We believed that increased use of the cloud in the pandemic could be one of the factors that contributed to the decreased performance.
