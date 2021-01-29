@@ -512,12 +512,6 @@ the security situation was good before the pandemic nor
 that it is good during the pandemic - it seems rather
 the opposite. 
 
-### Discussion
-
-Incentive and control (Jana)...
-
-TBD...
-
 ### Feedback on meeting format
 
 While there are frequently virtual participants in IAB workshops, the
