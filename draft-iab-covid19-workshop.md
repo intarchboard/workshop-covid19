@@ -520,7 +520,21 @@ TBD...
 
 ### Feedback on meeting format
 
-TBD...
+While there are frequently virtual participants in IAB workshops, the
+IAB had no experience running workshops entirely virtually.
+
+Feedback on this event format was largely positive, however. It was
+particularly useful that as the three sessions were scheduled Monday,
+Wednesday, and Friday, the time in between could be used for mailing
+list discussion and compilation of additional workshop material.
+
+The process for sending invitations to the workshop should be improved
+for next time, however, as a few invitations were initially lost, and
+in a virtual meeting it may be more reasonable to invite not just one
+person but co-authors of a paper, for instance. At least for this
+workshop, we did not appear to suffer from too many participants, and
+in many cases there may be some days when a particular participant may
+not be able to attend a session.
 
 ## Conclusions {#conclusions}
 
