@@ -318,6 +318,11 @@ papers presented and discussed measurement data and these submissions provided a
 basis get a better understanding of the situation, covering different angles and
 aspects of network traffic and kind of networks.
 
+At a high level, the traffic in mobile networks decreased as a result of reduced population mobility while traffic from home networks 
+increased. As a result of the shift for working and learning at home, there was a strong increase in video conferencing and remote 
+learning application traffic. The typical diurnal usage patterns in network traffic also changed, with peak times occuring earlier in the day 
+and peak times lasting longer over the day - reflecting the start of the work or school day from home. 
+
 ### Overall traffic growth 
 
 The global pandemic has significantly accelerated the growth of data traffic worldwide.
@@ -345,12 +350,12 @@ Some of the lockdowns were lifted or relaxed around May 2020. As people were all
 of their daily habits outside of their home again, we see a decrease of the traffic at the IXPs and the ISP;
 instead mobile traffic is now growing again.
 
+### Changes in application use
+
 We see a strong increase in the traffic associated to web conferencing, video, and gaming traffic in March
 as a result of the increasing user deman for solutions like Zoom or Microsoft Teams.
 Also, as people spend more hours at home, they tend to watch videos or play games, thus increasing entertainment traffic demands.
 Interestingly, we also see a decrease in educational traffic in these vantage points.
-
-#### Changes in application use
 
 The composition of data traffic has changed since the beginning of the pandemic: the use of
 videoconferencing services and virtual private networks (VPNs) for access to company resources
@@ -364,11 +369,6 @@ while a slight decrease in CDN and social media traffic is observed. During thes
 are still working from home, but restrictions have been lifted or relaxed, which likely leads to an increase
 in in-person social activities and a decrease in online ones.
 
-At a high level, the traffic in mobile networks decreased as a result of reduced population mobility while traffic from home networks 
-increased. As a result of the shift for working and learning at home, there was a strong increase in video conferencing and remote 
-learning application traffic. The typical diurnal usage patterns in network traffic also changed, with peak times occuring earlier in the day 
-and peak times lasting longer over the day - reflecting the start of the work or school day from home. 
-
 #### Example campus networks
 
 Changes in traffic have been observed at University campus networks as well, especially due to the necessary adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the cessation of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticeable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further, outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop.
@@ -378,13 +378,15 @@ Similar changes were observed by measuring REDIMadrid {{Feldmann2020}}, a Europe
 Given the fact that the users of the academic network (e.g., students and research staff) had to leave the campus as a response to lockdown measures, also the traffic in/out (i.e., ingress/egress) ratio changed drastically. Prior to the lockdown, the incoming traffic was much larger then the outgoing traffic. This changed to a more balanced setting. This change of traffic asymmetry can be explained by the nature of remote work.
 On the one end, users connect to the network services mainly to access resources, hence the increase in outgoing traffic. On the other end, all external (\ie Internet-based) resources requested during work are no longer accessed from the educational network but from the use
 
-To conclude, changes in Internet traffic due to the COVID-19 pandemic are affecting different networks in various ways. Yet all networks observe some form of change, be it in a reduction in traffic, an increase in traffic, a change in working days and weekend days patterns, or a change in traffic classes. Traffic volume, directionality ratios, and its source and destination are radically different from before COVID-19. This behavior is antagonistic, yet complementary, to the one observed in residential ISPs.
-
 #### Example mobile networks
 
 Mobile network data usage appeared to decline following the imposition of localized lockdown measures, as these reduced typical levels of mobility and roaming. 
 
 [more text TBD]
+
+#### Summary
+
+To conclude, changes in Internet traffic due to the COVID-19 pandemic are affecting different networks in various ways. Yet all networks observe some form of change, be it in a reduction in traffic, an increase in traffic, a change in working days and weekend days patterns, or a change in traffic classes. Traffic volume, directionality ratios, and its source and destination are radically different from before COVID-19. This behavior is antagonistic, yet complementary, to the one observed in residential ISPs.
 
 ### A deeper look at interconnections
 
@@ -407,10 +409,6 @@ The key findings included:
 Last-mile is the centerpiece of broadband connectivity, where poor last-mile performance generally translates to poor quality of experience. In a recent IMC'20 research paper Fontugne et al. investigated last-mile latency using traceroute data from RIPE Atlas probes located in 646 ASes and looked for recurrent performance degradation {{Fontugne2020-1}}. They found that in normal times Atlas probes in only 10% ASes experience persistent last-mile congestion but they recorded 55% more congested ASes during the COVID-19 outbreak. This deterioration caused by stay-at-home measures is particularly marked in large eyeball networks and certain parts of the world. They found Japan to be the most impacted country in their study looking specifically at NTT OCN, but noting similar observations for several Japanese networks, including IIJ (AS2497).
 
 From mid-2020 onwards, they however observe better performance than before the pandemic. In Japan, this is partly due to the deployments originally planned for accommodating the Tokyo Olympics, and more generally, it reflects the efforts of network operators to cope with these exceptional circumstances. The pandemic has demonstrated that its adaptive design and proficient community can keep the Internet operational during such unprecedented events. Also, from the numerous research and operational reports recently published, the pandemic is apparently shaping a more resilient Internet, as Nietzsche wrote, “What does not kill me makes me stronger”.
-
-### Home network performance
-
-TBD...
 
 ### User behaviour
 
