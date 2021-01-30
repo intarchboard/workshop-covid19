@@ -556,27 +556,6 @@ the security situation was good before the pandemic nor
 that it is good during the pandemic - it seems rather
 the opposite. 
 
-## Feedback on meeting format
-
-While there are frequently virtual participants in IAB workshops, the
-IAB had no experience running workshops entirely virtually.
-
-Feedback on this event format was largely positive, however. It was
-particularly useful that as the three sessions were scheduled Monday,
-Wednesday, and Friday, the time in between could be used for mailing
-list discussion and compilation of additional workshop material.
-The positive feedback was likely at least partly due to the fact
-that many of the workshop participants knew one another from
-previous face-to-face events (primaily IETF meetings).
-
-The process for sending invitations to the workshop should be improved
-for next time, however, as a few invitations were initially lost, and
-in a virtual meeting it may be more reasonable to invite not just one
-person but co-authors of a paper, for instance. At least for this
-workshop, we did not appear to suffer from too many participants, and
-in many cases there may be some days when a particular participant may
-not be able to attend a session.
-
 ## Conclusions {#conclusions}
 
 There is a wealth of data about the performance of the Internet during
@@ -629,6 +608,26 @@ On the other hand, this is not to say that no improvements are needed:
 * Informal collaboration between different parties needs to continue
   and be strengthened.
 
+## Feedback on meeting format
+
+While there are frequently virtual participants in IAB workshops, the
+IAB had no experience running workshops entirely virtually.
+
+Feedback on this event format was largely positive, however. It was
+particularly useful that as the three sessions were scheduled Monday,
+Wednesday, and Friday, the time in between could be used for mailing
+list discussion and compilation of additional workshop material.
+The positive feedback was likely at least partly due to the fact
+that many of the workshop participants knew one another from
+previous face-to-face events (primaily IETF meetings).
+
+The process for sending invitations to the workshop should be improved
+for next time, however, as a few invitations were initially lost, and
+in a virtual meeting it may be more reasonable to invite not just one
+person but co-authors of a paper, for instance. At least for this
+workshop, we did not appear to suffer from too many participants, and
+in many cases there may be some days when a particular participant may
+not be able to attend a session.
 
 # Position Papers {#positionpapers}
 
