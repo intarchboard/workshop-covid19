@@ -496,25 +496,99 @@ videoconferencing systems until networks could scale to handle full
 bit-rate, but other operators of some other services saw limited impact.
 
 Updates to popular games has a significant impact on network load. Some
-discussions were reported between ISPs, CDNs, and the gaming industry on possibly
-coordinating various high-bandwidth update events, similar to what was
-done for entertainment/video download speeds. There was an apparently 
-difficult interplay between
-bulk download and interactive real-time applications, potentially due to
-buffer-bloat and queuing delays. 
+discussions were reported between ISPs, CDNs, and the gaming industry on
+possibly coordinating various high-bandwidth update events, similar to what
+was done for entertainment/video download speeds. There was an apparently
+difficult interplay between bulk download and interactive real-time
+applications, potentially due to buffer-bloat and queuing delays. 
+
+It was noted that operators have experience of rapid growth of Internet
+traffic. New applications with exponential growth are not that unusual in
+the network, and the traffic spike due to the lock down was not that
+unprecedented for many. Many operators have tools and mechanisms to deal
+with this. Ensuring that knowledge if shared is a challenge.
 
 
 ### Observability
 
-It is clear that there is a contrast in experience. Many operators reported few
-problems, in terms of metrics such as measured download bandwidth, while
+It is clear that there is a contrast in experience. Many operators reported
+few problems, in terms of metrics such as measured download bandwidth, while
 video conferencing applications experienced significant usability problems
-running on those networks (defined as more than 1s/min of major artefacts). 
-The interaction between application providers and network providers worked
-very smoothly to resolve these issues, supported by strong personal
-contacts and relationships. But it seems clear that the metrics used by
-many operators to understand their network performance don't fully capture
-the impact on certain applications, and there is an observability gap.
+running on those networks. The interaction between application providers and
+network providers worked very smoothly to resolve these issues, supported
+by strong personal contacts and relationships. But it seems clear that the
+metrics used by many operators to understand their network performance
+don't fully capture the impact on certain applications, and there is an
+observability gap. Do we need more tools to figure out the various impacts
+on user experience?
+
+These types of applications use surprising amounts of FEC. Applications
+hide lots of loss to ensure a good user experience. This makes it harder to
+observe problems. The network can be behaving poorly, but experience can be
+good enough. Resiliency measures can improve the user experience but hide
+severe problems. There may be a missing feedback loop between application
+developers and operators.
+
+It's clear that it's difficult for application providers and operators to 
+isolate problems. Is a problem due to the local WiFi, the access network,
+cloud network, etc. Metrics from access points would help, but in general
+lack of observability into the network as a whole is a real concern when
+it comes to debugging performance issues. 
+
+Further, it's clear that it can be difficult to route problem reports to
+the person who can fix them, across multiple networks in the Internet.
+COVID enhanced cooperation, making it easier to debug problems; lines of
+communication are important.
+
+
+
+
+### Security
+
+It was noted that there is a shift to home working generally, and in the
+way people use the network, with IT departments rolling out new equipment
+quickly and using technologies like VPNs for the first time.
+
+There are reports of a strong rise in phishing, fraud, and scams related to
+COVID. It's unclear if there was an increase in fraud overall but there was
+certainly a shift in activity. New types of attacks, for example on vaccine
+research labs, health services, and home working were reported.
+
+It's unclear how to effectively detect and counter these attacks at scale.
+Approaches such as crowd-sourced flagging of suspicious emails help, and
+others noted that observing DNS to detect malicious use is popular. The use
+of DNS over HTTPS offers privacy benefits but is also observed to bypasses
+some protective measures.
+
+It was also noted that when everyone moves to performing their job online,
+lack of understanding of security becomes a bigger issue. Who is ultimately
+responsible for security? Do we expect every user of the Internet to take
+password training? Or is there a fundamental problem here with a technical
+solution. Technologies such as Zoom are not new: many people have used then
+for years; nobody attacked it until it was the front line. What's the next
+vulnerable service?
+
+
+### Discussion
+
+There is a concern that we’re missing observability for the network as a
+whole. Each application provider and operator has its our own little lens.
+No-one has the big-picture view of the network. 
+
+How much of a safety margin do we need? Some of the resiliency comes from
+us not running the network too close to its limit. This allows traffic to
+shift, and gives headroom for the network to cope. The best effort nature
+of the network may help here. Techniques to run the network closer to its
+limits improve performance in the usual case, but highly optimised networks 
+may be less robust. 
+
+Finally, it was observed that we get what we measure. There may be an
+argument for operators to shift their measurement focus perhaps away from
+pure capacity, to rather measure QoE or resilience. The Internet is
+critical infrastructure, and people are realising that now. We should use
+this as a wake-up-call to improve resilience, both in protocol design and
+operational practise, not necessarily to optimise for absolute performance
+or quality of experience.
 
 
 
