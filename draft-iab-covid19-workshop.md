@@ -456,9 +456,11 @@ going to have a long-lasting effect.  Surveys in various organizations
 point to a likely long-term increase in the number of people
 interested in remote work {{WorkplaceAnalytics2020}} {{McKinsey2020}}.
 
-## Operational Practises and Changes {#operational}
+## Operational Practises and Architectural Considerations {#operational}
 
-The second day of the workshop focussed on operational issues. 
+The second and third day of the workshop were held based on more open
+discussions focussed on operational issues and the architectural
+issues arising or other conclusions that could be reached.
 
 ### Digital Divide
 
@@ -503,6 +505,18 @@ difficult interplay between
 bulk download and interactive real-time applications, potentially due to
 buffer-bloat and queuing delays. 
 
+Following these observations traffic prioritisation was discussed, starting from DSCP marking,
+basically wondering if a minimal priority marking scheme
+would have helped during the pandemic, e.g. by allowing
+marking of less-than-best-effort traffic.
+That discussion quickly deolved into a more general QoS and
+observability discussion, and as such also touching on
+the effects of increased encryption. The group 
+was not, unsuprisingly, able to finally resolve the
+different perspectives and interests involved in that,
+but the discussion demonstrated that progress is made 
+(and being less heated).
+
 
 ### Observability
 
@@ -517,35 +531,9 @@ many operators to understand their network performance don't fully capture
 the impact on certain applications, and there is an observability gap.
 
 
-
-## Architectural Considerations and Conclusions for the Future {#architecture}
-
-The final session of the workshop considered the architectural
-issues arising and other conclusions that could be reached.
-In general many of these topics had been covered earlier so
-the report-out from this session is more brief.
-
-### DSCP point and counterpoint
-
-Largely following on from earlier discussions related to
-observability and relating to traffic priorities, 
-we had a discussion starting from DSCP marking,
-basically wondering if a minimal priority marking scheme
-would have helped during the pandemic, e.g. by allowing
-marking of less-than-best-effort traffic.
-
-That discussion quickly deolved into the usual QoS and
-observability discussion, as always also touching on
-the effects of increased encryption. (The group once
-more succeeded in not making headway in resolving the
-different perspectives and interests involved in that,
-but did demonstrate that we're making progress on
-the discussion being less heated;-) 
-
-
 ### Security
 
-The group discussed a submission {{Kirsty2020}} dealing with
+The group finally also discussed the submission {{Kirsty2020}} dealing with
 changes in attack patterns subsequent to the move towards
 working from home. At a high level there wasn't much of an
 uptick in the number of attacks seen, but it was notable 
