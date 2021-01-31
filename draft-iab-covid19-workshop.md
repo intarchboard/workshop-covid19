@@ -383,7 +383,17 @@ On the one end, users connect to the network services mainly to access resources
 
 Mobile network data usage appeared to decline following the imposition of localized lockdown measures, as these reduced typical levels of mobility and roaming. 
 
-[more text TBD]
+{{Lutu2020}} measured the cellular network of O2 UK to evaluate how the changes in people’s mobility impacted traffic patterns.
+By analyzing cellular network signalling information regarding users’ device mobility activity, they observed a decrease of 50% in mobility (according to different mobility metrics) in the UK during the lockdown period. 
+As they founnd no correlation between this reduction in mobility and the number of confirmed COVID-19 cases, only the enforced government order was effective in significantly reducing mobility and this reduction was more significant in densely populated urban areas than in rural areas.
+For London, specifically, it could be observed from the mobile network data that approximately 10% of the residents temporarily relocated during the lockdown.
+
+These mobility changes have immediate implications in traffic patterns of the cellular network. The
+downlink data traffic volume aggregated for all bearers (including conversational voice) decreased for all UK by up to 25% during the lockdown period. This correlates with the reduction in mobility that was observed country-wide, which results in people likely relying more on the broadband residential Internet access to run download intensive applications such as video streaming. The observed decrease in the radio cell load, with a reduction of approximately 15% across the UK after the stay-at-home order, further corroborates the drop in cellular connectivity usage.
+ 
+The total uplink data traffic volume, on the other hand, experienced little changes (between -7% and +1,5%) during lockdown. This is mainly due to the increase of 4G voice traffic (i.e., VoLTE) across the UK that peaked at 150% after lockdown compared to the national medial value before the pandemic, thus compensating the decrease in data traffic in the uplink.
+ 
+Finally, it was also observd that mobility changes have different impact on network usage in geodemographic area clusters. In densely populated urban areas, a significantly higher decrease of mobile network usage (i.e., downlink and uplink traffic volumes, radio load and active users) was observed than in rural areas. By looking into the case of London, this is likely due to geodemographics of the central districts, which include many seasonal residents (e.g., tourists), business and commercial areas.
 
 #### Summary
 
