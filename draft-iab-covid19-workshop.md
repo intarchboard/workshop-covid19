@@ -353,17 +353,15 @@ instead mobile traffic is now growing again.
 
 ### Changes in application use
 
-We see a strong increase in the traffic associated to web conferencing, video, and gaming traffic in March 2020
-as a result of the increasing user deman for solutions like Zoom or Microsoft Teams.
-Also, as people spend more hours at home, they tend to watch videos or play games, thus increasing entertainment traffic demands.
-Interestingly, we also see a decrease in educational traffic in these vantage points.
-
 The composition of data traffic has changed since the beginning of the pandemic: the use of
 videoconferencing services and virtual private networks (VPNs) for access to company resources
 from the home environment has risen sharply. In ISP and IXP network it was overserved {{Feldmann2020}}
-that traffic associated to web conferencing, video, and gaming increased largely in March 2020.
+that traffic associated to web conferencing, video, and gaming increased largely in March 2020
+as a result of the increasing user deman for solutions like Zoom or Microsoft Teams could be observed.
 For example, the relative traffic share of many "essential" applications like VPN and conferencing tools
-increased by more than 200%. At the same time, the traffic share for other traffic classes decreases
+increased by more than 200%. 
+Also, as people spend more hours at home, they tend to watch videos or play games, thus increasing entertainment traffic demands.
+At the same time, the traffic share for other traffic classes decreases
 substantially, e.g., traffic related to education, social media, and---for some periods---CDNs.
 In April and June, web conferencing traffic is still high compared to the pre-pandemic scenario,
 while a slight decrease in CDN and social media traffic is observed. During these months many people
