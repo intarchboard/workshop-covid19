@@ -665,7 +665,7 @@ On the other hand, this is not to say that no improvements are needed:
 * Informal collaboration between different parties needs to continue
   and be strengthened.
 
-## Feedback on meeting format
+# Feedback on meeting format
 
 While there are frequently virtual participants in IAB workshops, the
 IAB had no experience running workshops entirely virtually.
