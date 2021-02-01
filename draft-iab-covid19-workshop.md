@@ -309,9 +309,9 @@ The scope of this workshop included:
 * lessons learned for preparedness and operations
 * lessons learned for Internet technology and architecture
 
-# Discussion Topics {#discussion-topics}
+# Workshop Topics and Discussion {#discussion-topics}
 
-## Measurement-based Observation on Network Traffic Dynamics {#measurement}
+## Measurement-based Observations on Network Traffic Dynamics {#measurement}
 
 The workshop started with a focus on measurements. A large portion of the submitted
 papers presented and discussed measurement data and these submissions provided a good
@@ -333,7 +333,7 @@ was measured which can probably explained with the increase use of clould servic
 indication that the scalng of shared resources in the Internet in working resonably well to even
 handle larger changes in traffic as experience during the first nearly global lockdown of the COVID-19 pandemic. 
 
-### Overall traffic growth 
+### Overall Traffic Growth 
 
 The global pandemic has significantly accelerated the growth of data traffic worldwide.
 Based on the measurement data of one ISP, three IXPs, a metropolitan educational network,
@@ -361,7 +361,7 @@ of their daily habits outside of their home again, as expected, there was a decr
 observed; instead mobile traffic is now growing again.
 
 
-### Changes in application use
+### Changes in Application Use
 
 The composition of data traffic has changed since the beginning of the pandemic: the use of
 videoconferencing services and virtual private networks (VPNs) for access to company resources
@@ -378,7 +378,7 @@ while a slight decrease in CDN and social media traffic is observed. During thes
 are still working from home, but restrictions have been lifted or relaxed, which likely leads to an increase
 in in-person social activities and a decrease in online ones.
 
-#### Example campus networks
+#### Example Campus Networks
 
 Changes in traffic have been observed at University campus networks as well, especially due to the necessary adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the cessation of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticeable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further, outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop.
 
@@ -387,7 +387,7 @@ Similar changes were observed by measuring REDIMadrid {{Feldmann2020}}, a Europe
 Given the fact that the users of the academic network (e.g., students and research staff) had to leave the campus as a response to lockdown measures, also the traffic in/out (i.e., ingress/egress) ratio changed drastically. Prior to the lockdown, the incoming traffic was much larger then the outgoing traffic. This changed to a more balanced setting. This change of traffic asymmetry can be explained by the nature of remote work.
 On the one end, users connect to the network services mainly to access resources, hence the increase in outgoing traffic. On the other end, all external (i.e., Internet-based) resources requested during work are no longer accessed from the educational network but from the use
 
-### Mobile networks and Mobility
+### Mobile Networks and Mobility
 
 Mobile network data usage appeared to decline following the imposition of localized lockdown measures, as these reduced typical levels of mobility and roaming. 
 
@@ -403,13 +403,13 @@ The total uplink data traffic volume, on the other hand, experienced little chan
  
 Finally, it was also observd that mobility changes have different impact on network usage in geodemographic area clusters. In densely populated urban areas, a significantly higher decrease of mobile network usage (i.e., downlink and uplink traffic volumes, radio load and active users) was observed than in rural areas. By looking into the case of London, this is likely due to geodemographics of the central districts, which include many seasonal residents (e.g., tourists), business and commercial areas.
 
-### A deeper look at interconnections
+### A Deeper Look at Interconnections
 
 Traffic at points of network interconnection noticeably increased but most operators reacted quickly by rapidly adding additional capacity {{Feldmann2020}}. The amount of increases varied, with some networks that hosted popular applications such as video conferencing experiencing traffic growth of several hundred to several thousand percent. At the IXP-level, it was observe that port utilization increases. This phenomenon is mostly explained by a higher traffic demand from residential users.
 
 Measurements of interconnection links at major US ISPs by CAIDA and MIT found some evidence of diurnal congestion around the March 2020 timeframe {{Clark2020}}, but most of this congestion disappeared in a few weeks, which suggests that operators indeed did take steps to add capacity or otherwise mitigate the congestion.
 
-### Cloud platforms
+### Cloud Platforms
 
 Cloud infrastructure played a key role in supporting bandwidth-intensive video conferencing and remote learning tools to practice social distancing in COVID-19 pandemic. Network congestion between cloud platforms and access networks could impact on the quality of experience of these cloud-based applications. CAIDA leveraged web-based speed test servers to perform download and upload throughput measurements from virtual machines in public cloud platforms to various access ISPs in the United States {{Mok2020}}.
 
@@ -419,13 +419,13 @@ The key findings included:
 * There is evidence of persistent congestion in the egress direction to regional ISPs serving suburban areas in the U.S. Their users could suffer from poor video streaming or file download performance from the cloud.
 * The macroscopic analysis over 3 months (June-August, 2020) revealed downward trends in download throughput from ISPs and educational networks to certain cloud regions. We believed that increased use of the cloud in the pandemic could be one of the factors that contributed to the decreased performance.
 
-### Last mile congestion
+### Last Mile Congestion
 
 Last-mile is the centerpiece of broadband connectivity, where poor last-mile performance generally translates to poor quality of experience. In a recent IMC'20 research paper Fontugne et al. investigated last-mile latency using traceroute data from RIPE Atlas probes located in 646 ASes and looked for recurrent performance degradation {{Fontugne2020-1}}. They found that in normal times Atlas probes in only 10% ASes experience persistent last-mile congestion but they recorded 55% more congested ASes during the COVID-19 outbreak. This deterioration caused by stay-at-home measures is particularly marked in large eyeball networks and certain parts of the world. They found Japan to be the most impacted country in their study looking specifically at NTT OCN, but noting similar observations for several Japanese networks, including IIJ (AS2497).
 
 From mid-2020 onwards, they however observe better performance than before the pandemic. In Japan, this is partly due to the deployments originally planned for accommodating the Tokyo Olympics, and more generally, it reflects the efforts of network operators to cope with these exceptional circumstances. The pandemic has demonstrated that its adaptive design and proficient community can keep the Internet operational during such unprecedented events. Also, from the numerous research and operational reports recently published, the pandemic is apparently shaping a more resilient Internet, as Nietzsche wrote, “What does not kill me makes me stronger”.
 
-### User behaviour
+### User Behaviour
 
 The type of traffic needed by the users also changed in 2020. Upstream
 traffic increased due the use of video conferences, remote schooling,
@@ -665,7 +665,7 @@ On the other hand, this is not to say that no improvements are needed:
 * Informal collaboration between different parties needs to continue
   and be strengthened.
 
-# Feedback on meeting format
+# Feedback on Meeting Format
 
 While there are frequently virtual participants in IAB workshops, the
 IAB had no experience running workshops entirely virtually.
@@ -787,5 +787,6 @@ Further special thanks to those participants who also contributed to this report
 Fontugne provided text based on his blog post at https://eng-blog.iij.ad.jp/archives/7722;
 Ricky Mok for text on cloud platform; Martino Trevisan for text on campus networks; David
 Clark on congestion measurements at interconnects; Oliver Hohlfeld for the text on traffic
-growth, changes in traffic shifts, campus networks, and interconnections.
+growth, changes in traffic shifts, campus networks, and interconnections; Andra Lutu on
+mobile networks; And thanks to Jason Livingood for his review and additions.
 
