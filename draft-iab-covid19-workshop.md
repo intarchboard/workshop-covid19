@@ -357,8 +357,8 @@ easily be absorbed: either by using existing reserve capacity, or by quickly swi
 This is one reason why the Internet was able to cope well with the pandemic during the first lockdown period.
 
 Some of the lockdowns were lifted or relaxed around May 2020. As people were allowed to perform some
-of their daily habits outside of their home again, we see a decrease of the traffic at the IXPs and the ISP;
-instead mobile traffic is now growing again.
+of their daily habits outside of their home again, as expected, there was a decrease of the traffic at the IXPs and the ISP
+observed; instead mobile traffic is now growing again.
 
 
 ### Changes in application use
@@ -407,7 +407,7 @@ Finally, it was also observd that mobility changes have different impact on netw
 
 Traffic at points of network interconnection noticeably increased but most operators reacted quickly by rapidly adding additional capacity {{Feldmann2020}}. The amount of increases varied, with some networks that hosted popular applications such as video conferencing experiencing traffic growth of several hundred to several thousand percent. At the IXP-level, it was observe that port utilization increases. This phenomenon is mostly explained by a higher traffic demand from residential users.
 
-Measurements of interconnection links at major US ISPs by CAIDA and MIT found some evidence of diurnal congestion around the March 2020 timeframe, but most of this congestion disappeared in a few weeks, which suggests that operators indeed did take steps to add capacity or otherwise mitigate the congestion.
+Measurements of interconnection links at major US ISPs by CAIDA and MIT found some evidence of diurnal congestion around the March 2020 timeframe {{Clark2020}}, but most of this congestion disappeared in a few weeks, which suggests that operators indeed did take steps to add capacity or otherwise mitigate the congestion.
 
 ### Cloud platforms
 
