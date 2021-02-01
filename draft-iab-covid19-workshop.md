@@ -560,9 +560,6 @@ the person who can fix them, across multiple networks in the Internet.
 COVID enhanced cooperation, making it easier to debug problems; lines of
 communication are important.
 
-
-
-
 ### Security
 
 It was noted that there is a shift to home working generally, and in the
@@ -570,7 +567,7 @@ way people use the network, with IT departments rolling out new equipment
 quickly and using technologies like VPNs for the first time.
 
 There are reports of a strong rise in phishing, fraud, and scams related to
-COVID. It's unclear if there was an increase in fraud overall but there was
+COVID {{Kirsty2020}}. It's unclear if there was an increase in fraud overall but there was
 certainly a shift in activity. New types of attacks, for example on vaccine
 research labs, health services, and home working were reported.
 
@@ -587,6 +584,11 @@ password training? Or is there a fundamental problem here with a technical
 solution. Technologies such as Zoom are not new: many people have used then
 for years; nobody attacked it until it was the front line. What's the next
 vulnerable service?
+
+Overall, it may be that the pandemic caused fewer security
+changes, with many people suddendly work from home, than one would have guessed pre-pandemic.
+However, existing security problems and challenges may have become even
+more obvious and acute with an increased use of Internet-based services.
 
 
 ### Discussion
@@ -610,28 +612,6 @@ this as a wake-up-call to improve resilience, both in protocol design and
 operational practise, not necessarily to optimise for absolute performance
 or quality of experience.
 
-
-### Security
-
-The group finally also discussed the submission {{Kirsty2020}} dealing with
-changes in attack patterns subsequent to the move towards
-working from home. At a high level there wasn't much of an
-uptick in the number of attacks seen, but it was notable 
-that different lures
-were used in phishing attacks, demonstrating that bad
-actors had also adjusted to the pandemic to an extent.
-The group noted, that, in constrast to measuring traffic
-changes, it was harder to measure how the pandemic affected 
-security and
-perhaps there is scope for research on that topic.
-
-Overall, it may be that the pandemic caused fewer security
-changes than one would have guessed had one been asked,
-pre-pandemic, what would happen if many people started to
-work from home a lot. However, that is not to say that
-the security situation was good before the pandemic nor
-that it is good during the pandemic - it seems rather
-the opposite. 
 
 ## Conclusions {#conclusions}
 
