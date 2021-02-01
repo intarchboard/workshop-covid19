@@ -318,10 +318,20 @@ papers presented and discussed measurement data and these submissions provided a
 basis get a better understanding of the situation, covering different angles and
 aspects of network traffic and kind of networks.
 
-At a high level, the traffic in mobile networks decreased as a result of reduced population mobility while traffic from home networks 
-increased. As a result of the shift for working and learning at home, there was a strong increase in video conferencing and remote 
-learning application traffic. The typical diurnal usage patterns in network traffic also changed, with peak times occuring earlier in the day 
+Changes in Internet traffic due to the COVID-19 pandemic are affecting different networks in various ways. Yet all networks observe some form of change, be it in a reduction in traffic, an increase in traffic, a change in working days and weekend days patterns, or a change in traffic classes. Traffic volume, directionality ratios, and its source and destination are radically different from before COVID-19. 
+
+At a high level, while traffic from home networks increased signficiantly, the traffic in mobile networks 
+decreased as a result of reduced population mobility. Further, there was a strong increase in video conferencing and remote 
+learning application traffic due to the shift for working and learning at home.
+With that swift, the typical diurnal usage patterns in network traffic also changed, with peak times occuring earlier in the day 
 and peak times lasting longer over the day - reflecting the start of the work or school day from home. 
+This behavior is antagonistic, yet complementary, to the one observed in residential ISPs.
+
+While diurnal congestion at interconnect point sas well in certain last mile network was reported, mainly in March,
+but no persitent congestion was observed. Further a downward trends in download throughput to certain cloud regions
+was measured which can probably explained with the increase use of clould services, giving another 
+indication that the scalng of shared resources in the Internet in working resonably well to even
+handle larger changes in traffic as experience during the first nearly global lockdown of the COVID-19 pandemic. 
 
 ### Overall traffic growth 
 
@@ -377,7 +387,7 @@ Similar changes were observed by measuring REDIMadrid {{Feldmann2020}}, a Europe
 Given the fact that the users of the academic network (e.g., students and research staff) had to leave the campus as a response to lockdown measures, also the traffic in/out (i.e., ingress/egress) ratio changed drastically. Prior to the lockdown, the incoming traffic was much larger then the outgoing traffic. This changed to a more balanced setting. This change of traffic asymmetry can be explained by the nature of remote work.
 On the one end, users connect to the network services mainly to access resources, hence the increase in outgoing traffic. On the other end, all external (i.e., Internet-based) resources requested during work are no longer accessed from the educational network but from the use
 
-#### Example mobile networks
+### Mobile networks and Mobility
 
 Mobile network data usage appeared to decline following the imposition of localized lockdown measures, as these reduced typical levels of mobility and roaming. 
 
@@ -392,10 +402,6 @@ downlink data traffic volume aggregated for all bearers (including conversationa
 The total uplink data traffic volume, on the other hand, experienced little changes (between -7% and +1,5%) during lockdown. This is mainly due to the increase of 4G voice traffic (i.e., VoLTE) across the UK that peaked at 150% after lockdown compared to the national medial value before the pandemic, thus compensating the decrease in data traffic in the uplink.
  
 Finally, it was also observd that mobility changes have different impact on network usage in geodemographic area clusters. In densely populated urban areas, a significantly higher decrease of mobile network usage (i.e., downlink and uplink traffic volumes, radio load and active users) was observed than in rural areas. By looking into the case of London, this is likely due to geodemographics of the central districts, which include many seasonal residents (e.g., tourists), business and commercial areas.
-
-#### Summary
-
-Changes in Internet traffic due to the COVID-19 pandemic are affecting different networks in various ways. Yet all networks observe some form of change, be it in a reduction in traffic, an increase in traffic, a change in working days and weekend days patterns, or a change in traffic classes. Traffic volume, directionality ratios, and its source and destination are radically different from before COVID-19. This behavior is antagonistic, yet complementary, to the one observed in residential ISPs.
 
 ### A deeper look at interconnections
 
