@@ -321,17 +321,18 @@ aspects of network traffic and kind of networks.
 Changes in Internet traffic due to the COVID-19 pandemic are affecting different networks in various ways. Yet all networks observe some form of change, be it in a reduction in traffic, an increase in traffic, a change in working days and weekend days patterns, or a change in traffic classes. Traffic volume, directionality ratios, and its source and destination are radically different from before COVID-19. 
 
 At a high level, while traffic from home networks increased signficiantly, the traffic in mobile networks 
-decreased as a result of reduced population mobility. Further, there was a strong increase in video conferencing and remote 
+decreased as a result of reduced population mobility. 
+The observed behavior in mobile networks is antagonistic, yet complementary, to the one observed in residential ISPs.
+In residential networks there was a strong increase in video conferencing and remote 
 learning application traffic due to the shift for working and learning at home.
 With that swift, the typical diurnal usage patterns in network traffic also changed, with peak times occuring earlier in the day 
 and peak times lasting longer over the day - reflecting the start of the work or school day from home. 
-This behavior is antagonistic, yet complementary, to the one observed in residential ISPs.
 
 While diurnal congestion at interconnect point sas well in certain last mile network was reported, mainly in March,
 but no persitent congestion was observed. Further a downward trends in download throughput to certain cloud regions
 was measured which can probably explained with the increase use of clould services, giving another 
 indication that the scalng of shared resources in the Internet in working resonably well to even
-handle larger changes in traffic as experience during the first nearly global lockdown of the COVID-19 pandemic. 
+handle larger changes in traffic than experienced during the first nearly global lockdown of the COVID-19 pandemic. 
 
 ### Overall Traffic Growth 
 
