@@ -3,7 +3,7 @@ title: Report from the IAB COVID-19 Network Impacts Workshop 2020
 abbrev: IAB COVID-19 Network Impacts Workshop 2020
 docname: draft-iab-covid19-workshop-latest
 date:
-category: bcp
+category: inf
 
 ipr: trust200902
 keyword: Internet-Draft
