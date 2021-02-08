@@ -484,7 +484,8 @@ Measurements from the US showed that download rates correlate with income
 levels. However, download rates in the lowest income zip codes increased
 as the pandemic progressed, closing the divide with higher income areas.
 One possible reason for this in the data is decisions by some ISPs, such
-as Comcast and Cox, that increased speeds for users on certain plans and in
+as Comcast and Cox, that increased speeds for users on lower-cost certain
+plans and in
 certain areas. This suggests that network capacity was available, and that
 the correlation between income and download rates was not necessarily due
 to differences in the deployed infrastructure in different regions,
