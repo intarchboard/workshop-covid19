@@ -397,9 +397,9 @@ traffic to grow by 2.5 times, driven by more than 600 daily online classes. Inco
 traffic, instead, decreased by a factor of 10 due to the cessation of any in-person 
 activity. Based on their measurements, this change in traffic and network usage did 
 however not lead to noticeable performance impairments, nor have significantly poor 
-performance been observed for students in remote regions of Italy. Further, outgoing 
-traffic increased as well due to remote working solutions such as collaboration platforms,
-VPNs and remote desktop.
+performance been observed for students in remote regions of Italy. Outgoing traffic
+also increased due to other remote working solutions, such as collaboration platforms,
+VPNs, and remote desktops.
 
 Similar changes were observed by measuring REDIMadrid {{Feldmann2020}}, a European 
 educational and research network, which connects 16 independent universities and research 
@@ -497,7 +497,7 @@ probes located in 646 ASes and looked for recurrent performance degradation {{Fo
 They found that in normal times Atlas probes in only 10% ASes experience persistent 
 last-mile congestion, but they recorded 55% more congested ASes during the COVID-19 
 outbreak. This deterioration caused by stay-at-home measures is particularly marked in 
-large-eyeball networks and certain parts of the world. They found Japan to be the most 
+networks with a very large number of users and certain parts of the world. They found Japan to be the most 
 impacted country in their study looking specifically at NTT OCN, but noting similar 
 observations for several Japanese networks, including IIJ (AS2497).
 
@@ -535,7 +535,7 @@ during the crisis). Some of the key findings in {{ConsumerlabReport2020}} were:
   network operators.
 
 * Smartphone application usage changed, with fastest growth in
-  COVID-19, remote working, e-learning, wellness, education, remote
+  apps related to COVID-19 tracking and information, remote working, e-learning, wellness, education, remote
   health consultation, and social shared experience
   applications. Biggest decreases were in travel
   and booking, ride hailing, location, and parking applications.
