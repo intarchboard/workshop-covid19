@@ -216,13 +216,14 @@ informative:
 
 --- abstract
 
-The COVID-19 pandemic caused changes in Internet traffic,
+The COVID-19 pandemic caused changes in Internet user behavior,
 particularly during the introduction of the initial quarantine and
-work-from-home arrangements.
+work-from-home arrangements. These behavior changes drove changes
+in Internet traffic.
 
-The Internet Architecture Board (IAB) held a workshop to discuss Network
-Impacts of the pandemic, on November 9-13, 2020. The workshop was held
-to convene interested researchers, network operators, and network
+The Internet Architecture Board (IAB) held a workshop to discuss network
+impacts of the pandemic on November 9-13, 2020. The workshop was held
+to convene interested researchers, network operators, network
 management experts, and Internet technologists to share their
 experiences. The meeting was held online given the on-going travel and
 contact restrictions at that time.
@@ -232,14 +233,15 @@ contact restrictions at that time.
 # Introduction
 
 The Internet Architecture Board (IAB) held a workshop to discuss
-Network Impacts of the COVID-19 pandemic, on November 9-13, 2020. The
+network impacts of the COVID-19 pandemic, on November 9-13, 2020. The
 workshop was held to convene interested researchers, network
-operators, and network management experts, and Internet technologists
+operators, network management experts, and Internet technologists
 to share their experiences. The meeting was held online given the
 on-going travel and contact restrictions at that time.
 
-COVID-19 has caused changes in Internet traffic. These changes
-appeared rather abruptly and were significant, in particular during the introduction of the
+COVID-19 has caused changes in user behavior, which in turn drove 
+change to Internet traffic. These changes appeared rather abruptly 
+and were significant, in particular during the introduction of the
 initial quarantine and work-from-home arrangements. The changes relate
 to traffic volumes, location of traffic, as well as the types of
 traffic and applications used.
@@ -258,7 +260,7 @@ papers and other expressions of interest. On the workshop conference calls were 
 participants, listed in {{participants}}.
 
 The workshop was held over one week hosting three sessions covering
-i) measurements and observations, ii) operational issue, and iii) final future consideration
+i) measurements and observations, ii) operational issue, and iii) future consideration
 and conclusions. As these three sessions were scheduled Monday, Wednesday, and Friday
 a positive side effect was that the time in between could be used for mailing
 list discussion and compilation of additional workshop material.
@@ -286,7 +288,7 @@ patterns.
 
 Understanding what actually happened with Internet traffic is of
 course interesting by its own right. How that impacted user
-experience, or the intended function of the services is equally
+experience or the intended function of the services is equally
 interesting. Measurements and reports of the traffic situation from 2020
 are therefore valuable. But it would also be interesting to understand
 what types of network management and capacity expansion actions were
@@ -297,7 +299,7 @@ dynamic allocation of compute resources to more complex changes.
 
 The impacts of this crisis are also a potential opportunity to
 understand the impact of traffic shifts and growth more generally, or
-to prepare for future situations — crisis or otherwise – that impact
+to prepare for future situations — crises or otherwise – that impact
 networking. Or even allow us to adjust the technology to be even
 better suited to respond to changes.
 
@@ -318,48 +320,54 @@ papers presented and discussed measurement data and these submissions provided a
 basis get a better understanding of the situation, covering different angles and
 aspects of network traffic and kind of networks.
 
-Changes in Internet traffic due to the COVID-19 pandemic are affecting different networks in various ways. Yet all networks observe some form of change, be it in a reduction in traffic, an increase in traffic, a change in working days and weekend days patterns, or a change in traffic classes. Traffic volume, directionality ratios, and its source and destination are radically different from before COVID-19. 
+Changes in Internet traffic due to the COVID-19 pandemic affected different networks 
+in various ways. Yet all networks observed some form of change, be it a reduction 
+in traffic, an increase in traffic, a change in working days and weekend days patterns, 
+or a change in traffic classes. Traffic volume, directionality ratios, and its source 
+and destination are radically different than from before COVID-19. 
 
 At a high level, while traffic from home networks increased significantly, the traffic in mobile networks 
 decreased as a result of reduced population mobility. 
 The observed behavior in mobile networks is antagonistic, yet complementary, to the one observed in residential ISPs.
 In residential networks there was a strong increase in video conferencing and remote 
 learning application traffic due to the shift for working and learning at home.
-With that swift, the typical diurnal usage patterns in network traffic also changed, with peak times occurring earlier in the day 
-and peak times lasting longer over the day - reflecting the start of the work or school day from home. 
+With that shift, the typical diurnal usage patterns in network traffic also changed, with peak times occuring earlier in the day 
+and lasting longer over the day - reflecting the start of the work or school day from home. 
+This behavior is antagonistic, yet complementary, to the one observed in residential ISPs.
 
 While diurnal congestion at interconnect point as well in certain last mile network was reported, mainly in March,
-but no persistent congestion was observed. Further a downward trends in download throughput to certain cloud regions
-was measured which can probably explained with the increase use of cloud services, giving another 
-indication that the scaling of shared resources in the Internet in working reasonably well to even
-handle larger changes in traffic than experienced during the first nearly global lockdown of the COVID-19 pandemic. 
+no persitent congestion was observed. Further, a downward trends in download throughput to certain cloud regions
+was measured, which can probably explained with the increase use of cloud services. This gives another 
+indication that the scalng of shared resources in the Internet is working reasonably well enough
+to handle even larger changes in traffic as experience during the first nearly global lockdown of the COVID-19 pandemic. 
+
 
 ### Overall Traffic Growth 
 
 The global pandemic has significantly accelerated the growth of data traffic worldwide.
 Based on the measurement data of one ISP, three IXPs, a metropolitan educational network,
-and a mobile operator it was observed at the beginning of the workshop {{Feldmann2020}} that overall the
-network was able to handle the situation well despite a significant and sudden increase in traffic
-growth rate in March/April. That is, after the lockdown is implemented in March a traffic increase
+and a mobile operator, it was observed at the beginning of the workshop {{Feldmann2020}} that overall the
+network was able to handle the situation well, despite a significant and sudden increase in traffic
+growth rate in March and April. That is, after the lockdown was implemented in March, a traffic increase
 of 15-20% at the ISP as well as the three IXPs was observed. That represents the traffic growth
 expected in a typical year which now took place in the matter of a few weeks only---a substantial
 increase. At DE-CIX Frankfurt, the world's largest Internet Exchange in terms of data throughput,
 the year 2020 has seen the largest increase in peak traffic within a single year since the IXP was
-founded in 1995. Additionally, mobile traffic is slightly receding. In access networks, the growth rate
+founded in 1995. Additionally, mobile traffic has slightly receded. In access networks, the growth rate
 of upstream traffic also exceeded the growth in downstream traffic, reflecting increased adoption
 and use of video conferencing and other remote work and school applications.
 
-Most traffic increases happen during non-traditional peak hours: Before the first COVID-19 lockdowns, the main time
+Most traffic increases happened during non-traditional peak hours: Before the first COVID-19 lockdowns, the main time
 of use was in the evening hours during the week, whereas since March it has been spread equally
-across the day. That is, the increase in usage is mainly occurring outside the previous peak usage
+across the day. That is, the increase in usage has mainly occurred outside the previous peak usage
 times (e.g. during the day while working from home). This means that, for the first time, network
-utilization on weekdays resembles that on weekends. The effects of the increased traffic volume can
+utilization on weekdays resembled that on weekends. The effects of the increased traffic volume could
 easily be absorbed: either by using existing reserve capacity, or by quickly switching additional bandwidth.
 This is one reason why the Internet was able to cope well with the pandemic during the first lockdown period.
 
 Some of the lockdowns were lifted or relaxed around May 2020. As people were allowed to perform some
-of their daily habits outside of their home again, as expected, there was a decrease of the traffic at the IXPs and the ISP
-observed; instead mobile traffic is now growing again.
+of their daily habits outside of their home again, as expected, there was a decrease of the traffic
+observed at the IXPs and the ISP; instead mobile traffic began to grow again.
 
 
 ### Changes in Application Use
@@ -367,64 +375,140 @@ observed; instead mobile traffic is now growing again.
 The composition of data traffic has changed since the beginning of the pandemic: the use of
 videoconferencing services and virtual private networks (VPNs) for access to company resources
 from the home environment has risen sharply. In ISP and IXP network it was observed {{Feldmann2020}}
-that traffic associated to web conferencing, video, and gaming increased largely in March 2020
-as a result of the increasing user demand for solutions like Zoom or Microsoft Teams could be observed.
+that traffic associated with web conferencing, video, and gaming increased largely in March 2020
+as a result of the increasing user demand for solutions like Zoom or Microsoft Teams.
 For example, the relative traffic share of many "essential" applications like VPN and conferencing tools
-increased by more than 200%. 
-Also, as people spend more hours at home, they tend to watch videos or play games, thus increasing entertainment traffic demands.
-At the same time, the traffic share for other traffic classes decreases
+increased by more than 200%.
+ 
+Also, as people spent more hours at home, they tended to watch videos or play games, thus increasing entertainment traffic demands.
+At the same time, the traffic share for other traffic classes decreased
 substantially, e.g., traffic related to education, social media, and---for some periods---CDNs.
-In April and June, web conferencing traffic is still high compared to the pre-pandemic scenario,
-while a slight decrease in CDN and social media traffic is observed. During these months many people
-are still working from home, but restrictions have been lifted or relaxed, which likely leads to an increase
+In April and June, web conferencing traffic was still high compared to the pre-pandemic scenario,
+while a slight decrease in CDN and social media traffic was observed. During these months many people
+were still working from home, but restrictions had been lifted or relaxed, which likely led to an increase
 in in-person social activities and a decrease in online ones.
 
 #### Example Campus Networks
 
-Changes in traffic have been observed at University campus networks as well, especially due to the necessary adoption of remote teaching. The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming traffic, instead, decreased by a factor of 10 due to the cessation of any in-presence activity. Based on their measurements, this change in traffic and network usage did however not lead to noticeable performance impairments, nor significantly poor performance have been observed for students in remote regions of Italy. Further, outgoing traffic increased as well due to remote working solutions such as collaboration platforms, VPNs and remote desktop.
+Changes in traffic have been observed at University campus networks as well, especially
+due to the necessary adoption of remote teaching. The Politecnico di Torino University 
+(Italy) deployed its in-house solution for remote teaching, which caused the outgoing 
+traffic to grow by 2.5 times, driven by more than 600 daily online classes. Incoming 
+traffic, instead, decreased by a factor of 10 due to the cessation of any in-person 
+activity. Based on their measurements, this change in traffic and network usage did 
+however not lead to noticeable performance impairments, nor have significantly poor 
+performance been observed for students in remote regions of Italy. Further, outgoing 
+traffic increased as well due to remote working solutions such as collaboration platforms,
+VPNs and remote desktop.
 
-Similar changes were observed by measuring REDIMadrid {{Feldmann2020}}, a European educational and research network, which connects 16 independent universities and research centers in the metropolitan region of Madrid. A drop of up to 55% in traffic volume on working days during the pandemic was observed. Similar to findings for ISP/IXP networks, it was observed that working days and weekend days are becoming more similar in terms of total traffic. The hourly traffic patterns reveal a traffic increase between 9 pm and 7 am. This could be due to users working more frequently at unusual times, but also potentially caused by overseas students (mainly from Latin America and East Asia as suggested by the AS numbers from which these connections come from) who access university network resources from their home countries.
+Similar changes were observed by measuring REDIMadrid {{Feldmann2020}}, a European 
+educational and research network, which connects 16 independent universities and research 
+centers in the metropolitan region of Madrid. A drop of up to 55% in traffic volume on 
+working days during the pandemic was observed. Similar to findings for ISP/IXP networks, 
+it was observed that working days and weekend days are becoming more similar in terms of 
+total traffic. The hourly traffic patterns reveal a traffic increase between 9 pm and 7 am.
+This could be due to users working more frequently at unusual times, but also potentially 
+caused by overseas students (mainly from Latin America and East Asia as suggested by the 
+AS numbers from which these connections came from) who accessed university network resources 
+from their home countries.
 
-Given the fact that the users of the academic network (e.g., students and research staff) had to leave the campus as a response to lockdown measures, also the traffic in/out (i.e., ingress/egress) ratio changed drastically. Prior to the lockdown, the incoming traffic was much larger then the outgoing traffic. This changed to a more balanced setting. This change of traffic asymmetry can be explained by the nature of remote work.
-On the one end, users connect to the network services mainly to access resources, hence the increase in outgoing traffic. On the other end, all external (i.e., Internet-based) resources requested during work are no longer accessed from the educational network but from the use
+Given the fact that the users of the academic network (e.g., students and research staff) 
+had to leave the campus as a response to lockdown measures, also the traffic in and out 
+(i.e., ingress and egress) ratio changed drastically. Prior to the lockdown, the incoming 
+traffic was much larger then the outgoing traffic. This changed to a more balanced ratio. 
+This change of traffic asymmetry can be explained by the nature of remote work. On the one
+end, users connected to the network services mainly to access resources, hence the increase
+in outgoing traffic. On the other end, all external (i.e., Internet-based) resources 
+requested during work were no longer accessed from the educational network but from the
+users' homes.
 
 ### Mobile Networks and Mobility
 
-Mobile network data usage appeared to decline following the imposition of localized lockdown measures, as these reduced typical levels of mobility and roaming. 
+Mobile network data usage appeared to decline following the imposition of localized 
+lockdown measures, as these reduced typical levels of mobility and roaming. 
 
-{{Lutu2020}} measured the cellular network of O2 UK to evaluate how the changes in people’s mobility impacted traffic patterns.
-By analyzing cellular network signalling information regarding users’ device mobility activity, they observed a decrease of 50% in mobility (according to different mobility metrics) in the UK during the lockdown period. 
-As they found no correlation between this reduction in mobility and the number of confirmed COVID-19 cases, only the enforced government order was effective in significantly reducing mobility and this reduction was more significant in densely populated urban areas than in rural areas.
-For London, specifically, it could be observed from the mobile network data that approximately 10% of the residents temporarily relocated during the lockdown.
+{{Lutu2020}} measured the cellular network of O2 UK to evaluate how the changes in 
+people’s mobility impacted traffic patterns. By analyzing cellular network signalling 
+information regarding users’ device mobility activity, they observed a decrease of 50% in 
+mobility (according to different mobility metrics) in the UK during the lockdown period. 
+As they found no correlation between this reduction in mobility and the number of 
+confirmed COVID-19 cases, only the enforced government order was effective in significantly 
+reducing mobility and this reduction was more significant in densely populated urban areas 
+than in rural areas. For London, specifically, it could be observed from the mobile network 
+data that approximately 10% of the residents temporarily relocated during the lockdown.
 
-These mobility changes have immediate implications in traffic patterns of the cellular network. The
-downlink data traffic volume aggregated for all bearers (including conversational voice) decreased for all UK by up to 25% during the lockdown period. This correlates with the reduction in mobility that was observed country-wide, which results in people likely relying more on the broadband residential Internet access to run download intensive applications such as video streaming. The observed decrease in the radio cell load, with a reduction of approximately 15% across the UK after the stay-at-home order, further corroborates the drop in cellular connectivity usage.
+These mobility changes had immediate implications in traffic patterns of the cellular 
+network. The downlink data traffic volume aggregated for all bearers (including 
+conversational voice) decreased for all UK by up to 25% during the lockdown period. This 
+correlates with the reduction in mobility that was observed country-wide, which likely resulted 
+in people relying more on the broadband residential Internet access to run download 
+intensive applications such as video streaming. The observed decrease in the radio cell 
+load, with a reduction of approximately 15% across the UK after the stay-at-home order, 
+further corroborates the drop in cellular connectivity usage.
  
-The total uplink data traffic volume, on the other hand, experienced little changes (between -7% and +1,5%) during lockdown. This is mainly due to the increase of 4G voice traffic (i.e., VoLTE) across the UK that peaked at 150% after lockdown compared to the national medial value before the pandemic, thus compensating the decrease in data traffic in the uplink.
+The total uplink data traffic volume, on the other hand, experienced little changes 
+(between -7% and +1,5%) during lockdown. This was mainly due to the increase of 4G voice 
+traffic (i.e., VoLTE) across the UK that peaked at 150% after lockdown compared to the 
+national medial value before the pandemic, thus compensating for the decrease in data traffic 
+in the uplink.
  
-Finally, it was also observed that mobility changes have different impact on network usage in geodemographic area clusters. In densely populated urban areas, a significantly higher decrease of mobile network usage (i.e., downlink and uplink traffic volumes, radio load and active users) was observed than in rural areas. By looking into the case of London, this is likely due to geodemographics of the central districts, which include many seasonal residents (e.g., tourists), business and commercial areas.
+Finally, it was also observed that mobility changes have different impact on network usage 
+in geodemographic area clusters. In densely populated urban areas, a significantly higher 
+decrease of mobile network usage (i.e., downlink and uplink traffic volumes, radio load and 
+active users) was observed than in rural areas. In the case of London, this 
+was likely due to geodemographics of the central districts, which include many seasonal 
+residents (e.g., tourists), business and commercial areas.
 
 ### A Deeper Look at Interconnections
 
-Traffic at points of network interconnection noticeably increased but most operators reacted quickly by rapidly adding additional capacity {{Feldmann2020}}. The amount of increases varied, with some networks that hosted popular applications such as video conferencing experiencing traffic growth of several hundred to several thousand percent. At the IXP-level, it was observe that port utilization increases. This phenomenon is mostly explained by a higher traffic demand from residential users.
+Traffic at points of network interconnection noticeably increased, but most operators 
+reacted quickly by rapidly adding additional capacity {{Feldmann2020}}. The amount of 
+increases varied, with some networks that hosted popular applications such as video 
+conferencing experiencing traffic growth of several hundred to several thousand percent. 
+At the IXP-level, it was observed that port utilization increased. This phenomenon is 
+mostly explained by a higher traffic demand from residential users.
 
-Measurements of interconnection links at major US ISPs by CAIDA and MIT found some evidence of diurnal congestion around the March 2020 timeframe {{Clark2020}}, but most of this congestion disappeared in a few weeks, which suggests that operators indeed did take steps to add capacity or otherwise mitigate the congestion.
+Measurements of interconnection links at major US ISPs by CAIDA and MIT found some evidence 
+of diurnal congestion around the March 2020 timeframe {{Clark2020}}, but most of this 
+congestion disappeared in a few weeks, which suggests that operators indeed took steps 
+to add capacity or otherwise mitigate the congestion.
 
 ### Cloud Platforms
 
-Cloud infrastructure played a key role in supporting bandwidth-intensive video conferencing and remote learning tools to practice social distancing in COVID-19 pandemic. Network congestion between cloud platforms and access networks could impact on the quality of experience of these cloud-based applications. CAIDA leveraged web-based speed test servers to perform download and upload throughput measurements from virtual machines in public cloud platforms to various access ISPs in the United States {{Mok2020}}.
+Cloud infrastructure played a key role in supporting bandwidth-intensive video conferencing 
+and remote learning tools to practice social distancing in the COVID-19 pandemic. Network 
+congestion between cloud platforms and access networks could impact the quality of 
+experience of these cloud-based applications. CAIDA leveraged web-based speed test servers 
+to perform download and upload throughput measurements from virtual machines in public 
+cloud platforms to various access ISPs in the United States {{Mok2020}}.
 
 The key findings included:
 
 * Persistent congestion events were not widely observed between cloud platforms and these networks, particular for large-scale ISPs, but we could observe large diurnal download throughput variations in peak hours from some locations to the cloud.
-* There is evidence of persistent congestion in the egress direction to regional ISPs serving suburban areas in the U.S. Their users could suffer from poor video streaming or file download performance from the cloud.
-* The macroscopic analysis over 3 months (June-August, 2020) revealed downward trends in download throughput from ISPs and educational networks to certain cloud regions. We believed that increased use of the cloud in the pandemic could be one of the factors that contributed to the decreased performance.
+* There was evidence of persistent congestion in the egress direction to regional ISPs serving suburban areas in the U.S. Their users could have suffered from poor video streaming or file download performance from the cloud.
+* The macroscopic analysis over 3 months (June-August, 2020) revealed downward trends in download throughput from ISPs and educational networks to certain cloud regions. We believe that increased use of the cloud in the pandemic could be one of the factors that contributed to the decreased performance.
 
-### Last Mile Congestion
+### Last-Mile Congestion
 
-Last-mile is the centerpiece of broadband connectivity, where poor last-mile performance generally translates to poor quality of experience. In a recent IMC'20 research paper Fontugne et al. investigated last-mile latency using traceroute data from RIPE Atlas probes located in 646 ASes and looked for recurrent performance degradation {{Fontugne2020-1}}. They found that in normal times Atlas probes in only 10% ASes experience persistent last-mile congestion but they recorded 55% more congested ASes during the COVID-19 outbreak. This deterioration caused by stay-at-home measures is particularly marked in large eyeball networks and certain parts of the world. They found Japan to be the most impacted country in their study looking specifically at NTT OCN, but noting similar observations for several Japanese networks, including IIJ (AS2497).
+The last mile is the centerpiece of broadband connectivity, where poor last-mile performance 
+generally translates to poor quality of experience. In a recent IMC'20 research paper 
+Fontugne et al. investigated last-mile latency using traceroute data from RIPE Atlas 
+probes located in 646 ASes and looked for recurrent performance degradation {{Fontugne2020-1}}. 
+They found that in normal times Atlas probes in only 10% ASes experience persistent 
+last-mile congestion, but they recorded 55% more congested ASes during the COVID-19 
+outbreak. This deterioration caused by stay-at-home measures is particularly marked in 
+large-eyeball networks and certain parts of the world. They found Japan to be the most 
+impacted country in their study looking specifically at NTT OCN, but noting similar 
+observations for several Japanese networks, including IIJ (AS2497).
 
-From mid-2020 onwards, they however observe better performance than before the pandemic. In Japan, this is partly due to the deployments originally planned for accommodating the Tokyo Olympics, and more generally, it reflects the efforts of network operators to cope with these exceptional circumstances. The pandemic has demonstrated that its adaptive design and proficient community can keep the Internet operational during such unprecedented events. Also, from the numerous research and operational reports recently published, the pandemic is apparently shaping a more resilient Internet, as Nietzsche wrote, “What does not kill me makes me stronger”.
+From mid-2020 onwards, they however observed better performance than before the pandemic. 
+In Japan, this was partly due to the deployments originally planned for accommodating the 
+Tokyo Olympics, and more generally, it reflects the efforts of network operators to cope 
+with these exceptional circumstances. The pandemic has demonstrated that its adaptive design 
+and proficient community can keep the Internet operational during such unprecedented events. 
+Also, from the numerous research and operational reports recently published, the pandemic 
+is apparently shaping a more resilient Internet, as Nietzsche wrote, “What does not kill me 
+makes me stronger”.
 
 ### User Behaviour
 
@@ -444,7 +528,7 @@ during the crisis). Some of the key findings in {{ConsumerlabReport2020}} were:
   by video calling, parents felt that their children's education was
   helped, and so on.
 
-* Network performance was in general found satisfactory. 6 in 10 were
+* Network performance was, in general, found satisfactory. 6 in 10 were
   very satisfied with fixed broadband, and 3 in 4 felt that mobile
   broadband was the same or better compared to before the crisis.  Consumers valued
   resilience and quality of service as the most important task for
@@ -473,7 +557,7 @@ issues arising or other conclusions that could be reached.
 
 Measurements from Fastly confirmed that Internet traffic volume, in
 multiple countries, rose rapidly at the same time as COVID cases increased
-and lock down policies came into effect. Download speeds also decreased,
+and lock-down policies came into effect. Download speeds also decreased,
 but in a much less dramatic fashion than overall bandwidth usage increased.
 School closures led to a dramatic increase in traffic volume in many regions,
 and other public policy announcements triggered large traffic shifts. This
@@ -510,7 +594,7 @@ discussions were reported between ISPs, CDNs, and the gaming industry on
 possibly coordinating various high-bandwidth update events, similar to what
 was done for entertainment/video download speeds. There was an apparently
 difficult interplay between bulk download and interactive real-time
-applications, potentially due to buffer-bloat and queuing delays. 
+applications, potentially due to buffer bloat and queuing delays. 
 
 It was noted that operators have experience of rapid growth of Internet
 traffic. New applications with exponential growth are not that unusual in
@@ -525,7 +609,7 @@ marking of less-than-best-effort traffic.
 That discussion quickly devolved into a more general QoS and
 observability discussion, and as such also touching on
 the effects of increased encryption. The group 
-was not, unsurprisingly, able to finally resolve the
+was not, unsurprisingly, able to resolve the
 different perspectives and interests involved in that,
 but the discussion demonstrated that progress is made 
 (and being less heated).
@@ -544,8 +628,8 @@ don't fully capture the impact on certain applications, and there is an
 observability gap. Do we need more tools to figure out the various impacts
 on user experience?
 
-These types of applications use surprising amounts of FEC. Applications
-hide lots of loss to ensure a good user experience. This makes it harder to
+These types of applications use surprising amounts of Forward Error Correction (FEC). 
+Applications hide lots of loss to ensure a good user experience. This makes it harder to
 observe problems. The network can be behaving poorly, but experience can be
 good enough. Resiliency measures can improve the user experience but hide
 severe problems. There may be a missing feedback loop between application
@@ -553,13 +637,13 @@ developers and operators.
 
 It's clear that it's difficult for application providers and operators to 
 isolate problems. Is a problem due to the local WiFi, the access network,
-cloud network, etc. Metrics from access points would help, but in general
+cloud network, etc.?  Metrics from access points would help, but in general
 lack of observability into the network as a whole is a real concern when
 it comes to debugging performance issues. 
 
 Further, it's clear that it can be difficult to route problem reports to
 the person who can fix them, across multiple networks in the Internet.
-COVID enhanced cooperation, making it easier to debug problems; lines of
+COVID-enhanced cooperation made it easier to debug problems; lines of
 communication are important.
 
 ### Security
@@ -588,8 +672,8 @@ for years; nobody attacked it until it was the front line. What's the next
 vulnerable service?
 
 Overall, it may be that the pandemic caused fewer security
-changes, with many people suddenly work from home, than one would have guessed pre-pandemic.
-However, existing security problems and challenges may have become even
+changes, with many people suddendly working from home, than one might have guessed prior 
+to the pandemic. However, existing security problems and challenges may have become even
 more obvious and acute with an increased use of Internet-based services.
 
 
@@ -623,7 +707,7 @@ fairly large shifts occurred. And those shifts were not merely about
 changing one application for another, they actually impacted traffic
 flows and directions, and caused in many cases a significant traffic
 increase. Early reports also seem to indicate that the shifts have
-gone relatively smooth from the point of view overall consumer
+gone relatively smoothly from the point of view overall consumer
 experience.
 
 An important but not so visible factor that led to this was that
@@ -683,7 +767,7 @@ previous face-to-face events (primarily IETF meetings).
 The process for sending invitations to the workshop should be improved
 for next time, however, as a few invitations were initially lost, and
 in a virtual meeting it may be more reasonable to invite not just one
-person but co-authors of a paper, for instance. At least for this
+person but all co-authors of a paper, for instance. At least for this
 workshop, we did not appear to suffer from too many participants, and
 in many cases there may be some days when a particular participant may
 not be able to attend a session.
