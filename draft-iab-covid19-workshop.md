@@ -320,18 +320,18 @@ aspects of network traffic and kind of networks.
 
 Changes in Internet traffic due to the COVID-19 pandemic are affecting different networks in various ways. Yet all networks observe some form of change, be it in a reduction in traffic, an increase in traffic, a change in working days and weekend days patterns, or a change in traffic classes. Traffic volume, directionality ratios, and its source and destination are radically different from before COVID-19. 
 
-At a high level, while traffic from home networks increased signficiantly, the traffic in mobile networks 
+At a high level, while traffic from home networks increased significantly, the traffic in mobile networks 
 decreased as a result of reduced population mobility. 
 The observed behavior in mobile networks is antagonistic, yet complementary, to the one observed in residential ISPs.
 In residential networks there was a strong increase in video conferencing and remote 
 learning application traffic due to the shift for working and learning at home.
-With that swift, the typical diurnal usage patterns in network traffic also changed, with peak times occuring earlier in the day 
+With that swift, the typical diurnal usage patterns in network traffic also changed, with peak times occurring earlier in the day 
 and peak times lasting longer over the day - reflecting the start of the work or school day from home. 
 
-While diurnal congestion at interconnect point sas well in certain last mile network was reported, mainly in March,
-but no persitent congestion was observed. Further a downward trends in download throughput to certain cloud regions
-was measured which can probably explained with the increase use of clould services, giving another 
-indication that the scalng of shared resources in the Internet in working resonably well to even
+While diurnal congestion at interconnect point as well in certain last mile network was reported, mainly in March,
+but no persistent congestion was observed. Further a downward trends in download throughput to certain cloud regions
+was measured which can probably explained with the increase use of cloud services, giving another 
+indication that the scaling of shared resources in the Internet in working reasonably well to even
 handle larger changes in traffic than experienced during the first nearly global lockdown of the COVID-19 pandemic. 
 
 ### Overall Traffic Growth 
@@ -366,9 +366,9 @@ observed; instead mobile traffic is now growing again.
 
 The composition of data traffic has changed since the beginning of the pandemic: the use of
 videoconferencing services and virtual private networks (VPNs) for access to company resources
-from the home environment has risen sharply. In ISP and IXP network it was overserved {{Feldmann2020}}
+from the home environment has risen sharply. In ISP and IXP network it was observed {{Feldmann2020}}
 that traffic associated to web conferencing, video, and gaming increased largely in March 2020
-as a result of the increasing user deman for solutions like Zoom or Microsoft Teams could be observed.
+as a result of the increasing user demand for solutions like Zoom or Microsoft Teams could be observed.
 For example, the relative traffic share of many "essential" applications like VPN and conferencing tools
 increased by more than 200%. 
 Also, as people spend more hours at home, they tend to watch videos or play games, thus increasing entertainment traffic demands.
@@ -394,7 +394,7 @@ Mobile network data usage appeared to decline following the imposition of locali
 
 {{Lutu2020}} measured the cellular network of O2 UK to evaluate how the changes in people’s mobility impacted traffic patterns.
 By analyzing cellular network signalling information regarding users’ device mobility activity, they observed a decrease of 50% in mobility (according to different mobility metrics) in the UK during the lockdown period. 
-As they founnd no correlation between this reduction in mobility and the number of confirmed COVID-19 cases, only the enforced government order was effective in significantly reducing mobility and this reduction was more significant in densely populated urban areas than in rural areas.
+As they found no correlation between this reduction in mobility and the number of confirmed COVID-19 cases, only the enforced government order was effective in significantly reducing mobility and this reduction was more significant in densely populated urban areas than in rural areas.
 For London, specifically, it could be observed from the mobile network data that approximately 10% of the residents temporarily relocated during the lockdown.
 
 These mobility changes have immediate implications in traffic patterns of the cellular network. The
@@ -402,7 +402,7 @@ downlink data traffic volume aggregated for all bearers (including conversationa
  
 The total uplink data traffic volume, on the other hand, experienced little changes (between -7% and +1,5%) during lockdown. This is mainly due to the increase of 4G voice traffic (i.e., VoLTE) across the UK that peaked at 150% after lockdown compared to the national medial value before the pandemic, thus compensating the decrease in data traffic in the uplink.
  
-Finally, it was also observd that mobility changes have different impact on network usage in geodemographic area clusters. In densely populated urban areas, a significantly higher decrease of mobile network usage (i.e., downlink and uplink traffic volumes, radio load and active users) was observed than in rural areas. By looking into the case of London, this is likely due to geodemographics of the central districts, which include many seasonal residents (e.g., tourists), business and commercial areas.
+Finally, it was also observed that mobility changes have different impact on network usage in geodemographic area clusters. In densely populated urban areas, a significantly higher decrease of mobile network usage (i.e., downlink and uplink traffic volumes, radio load and active users) was observed than in rural areas. By looking into the case of London, this is likely due to geodemographics of the central districts, which include many seasonal residents (e.g., tourists), business and commercial areas.
 
 ### A Deeper Look at Interconnections
 
@@ -522,10 +522,10 @@ Following these observations traffic prioritisation was discussed, starting from
 basically wondering if a minimal priority marking scheme
 would have helped during the pandemic, e.g. by allowing
 marking of less-than-best-effort traffic.
-That discussion quickly deolved into a more general QoS and
+That discussion quickly devolved into a more general QoS and
 observability discussion, and as such also touching on
 the effects of increased encryption. The group 
-was not, unsuprisingly, able to finally resolve the
+was not, unsurprisingly, able to finally resolve the
 different perspectives and interests involved in that,
 but the discussion demonstrated that progress is made 
 (and being less heated).
@@ -588,7 +588,7 @@ for years; nobody attacked it until it was the front line. What's the next
 vulnerable service?
 
 Overall, it may be that the pandemic caused fewer security
-changes, with many people suddendly work from home, than one would have guessed pre-pandemic.
+changes, with many people suddenly work from home, than one would have guessed pre-pandemic.
 However, existing security problems and challenges may have become even
 more obvious and acute with an increased use of Internet-based services.
 
@@ -678,7 +678,7 @@ Wednesday, and Friday, the time in between could be used for mailing
 list discussion and compilation of additional workshop material.
 The positive feedback was likely at least partly due to the fact
 that many of the workshop participants knew one another from
-previous face-to-face events (primaily IETF meetings).
+previous face-to-face events (primarily IETF meetings).
 
 The process for sending invitations to the workshop should be improved
 for next time, however, as a few invitations were initially lost, and
