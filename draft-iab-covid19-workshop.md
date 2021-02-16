@@ -3,7 +3,7 @@ title: Report from the IAB COVID-19 Network Impacts Workshop 2020
 abbrev: IAB COVID-19 Network Impacts Workshop 2020
 docname: draft-iab-covid19-workshop-latest
 date:
-category: bcp
+category: info
 
 ipr: trust200902
 keyword: Internet-Draft
@@ -326,8 +326,10 @@ in traffic, an increase in traffic, a change in working days and weekend days pa
 or a change in traffic classes. Traffic volume, directionality ratios, and its source 
 and destination are radically different than from before COVID-19. 
 
-At a high level, while traffic from home networks increased signficiantly, the traffic in mobile networks 
-decreased as a result of reduced population mobility. Further, there was a strong increase in video conferencing and remote 
+At a high level, while traffic from home networks increased significantly, the traffic in mobile networks 
+decreased as a result of reduced population mobility. 
+The observed behavior in mobile networks is antagonistic, yet complementary, to the one observed in residential ISPs.
+In residential networks there was a strong increase in video conferencing and remote 
 learning application traffic due to the shift for working and learning at home.
 With that shift, the typical diurnal usage patterns in network traffic also changed, with peak times occuring earlier in the day 
 and lasting longer over the day - reflecting the start of the work or school day from home. 
@@ -338,6 +340,7 @@ no persitent congestion was observed. Further, a downward trends in download thr
 was measured, which can probably explained with the increase use of cloud services. This gives another 
 indication that the scalng of shared resources in the Internet is working reasonably well enough
 to handle even larger changes in traffic as experience during the first nearly global lockdown of the COVID-19 pandemic. 
+
 
 ### Overall Traffic Growth 
 
@@ -565,7 +568,8 @@ Measurements from the US showed that download rates correlate with income
 levels. However, download rates in the lowest income zip codes increased
 as the pandemic progressed, closing the divide with higher income areas.
 One possible reason for this in the data is decisions by some ISPs, such
-as Comcast and Cox, that increased speeds for users on certain plans and in
+as Comcast and Cox, that increased speeds for users on lower-cost certain
+plans and in
 certain areas. This suggests that network capacity was available, and that
 the correlation between income and download rates was not necessarily due
 to differences in the deployed infrastructure in different regions,
@@ -602,10 +606,10 @@ Following these observations traffic prioritisation was discussed, starting from
 basically wondering if a minimal priority marking scheme
 would have helped during the pandemic, e.g. by allowing
 marking of less-than-best-effort traffic.
-That discussion quickly deolved into a more general QoS and
+That discussion quickly devolved into a more general QoS and
 observability discussion, and as such also touching on
 the effects of increased encryption. The group 
-was not, unsuprisingly, able to  resolve the
+was not, unsurprisingly, able to resolve the
 different perspectives and interests involved in that,
 but the discussion demonstrated that progress is made 
 (and being less heated).
@@ -758,7 +762,7 @@ Wednesday, and Friday, the time in between could be used for mailing
 list discussion and compilation of additional workshop material.
 The positive feedback was likely at least partly due to the fact
 that many of the workshop participants knew one another from
-previous face-to-face events (primaily IETF meetings).
+previous face-to-face events (primarily IETF meetings).
 
 The process for sending invitations to the workshop should be improved
 for next time, however, as a few invitations were initially lost, and
