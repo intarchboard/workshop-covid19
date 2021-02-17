@@ -268,11 +268,11 @@ list discussion and compilation of additional workshop material.
 # Scope {#scope}
 
 The COVID-19 pandemic has had a tremendous impact on people's lives
-and the societies and economies around the globe. But it also had big
+and the societies and economies around the globe. But it also had a big
 impact on networking. With large numbers of people working from home
 or otherwise depending on the network for their daily lives, network
 traffic volume has surged. Internet service providers and operators have
-reported a 20% traffic growth or more in a matter of weeks. Traffic in
+reported a 20% traffic growth or more in a matter of weeks. Traffic at
 Internet Exchange Points (IXPs) is similarly on the rise. Most forms
 of network traffic have seen an increase, with conversational
 multimedia traffic growing in some cases more than 200%. And user time
@@ -351,14 +351,14 @@ network was able to handle the situation well, despite a significant and sudden 
 growth rate in March and April. That is, after the lockdown was implemented in March, a traffic increase
 of 15-20% at the ISP as well as the three IXPs was observed. That represents the traffic growth
 expected in a typical year which now took place in the matter of a few weeks only---a substantial
-increase. At DE-CIX Frankfurt, the world's largest Internet Exchange in terms of data throughput,
+increase. At DE-CIX Frankfurt, the world's largest Internet Exchange Point in terms of data throughput,
 the year 2020 has seen the largest increase in peak traffic within a single year since the IXP was
 founded in 1995. Additionally, mobile traffic has slightly receded. In access networks, the growth rate
 of upstream traffic also exceeded the growth in downstream traffic, reflecting increased adoption
 and use of video conferencing and other remote work and school applications.
 
 Most traffic increases happened during non-traditional peak hours: Before the first COVID-19 lockdowns, the main time
-of use was in the evening hours during the week, whereas since March it has been spread equally
+of use was in the evening hours during the week, whereas since March it has been spread more equally
 across the day. That is, the increase in usage has mainly occurred outside the previous peak usage
 times (e.g. during the day while working from home). This means that, for the first time, network
 utilization on weekdays resembled that on weekends. The effects of the increased traffic volume could
@@ -441,18 +441,18 @@ These mobility changes had immediate implications in traffic patterns of the cel
 network. The downlink data traffic volume aggregated for all bearers (including 
 conversational voice) decreased for all UK by up to 25% during the lockdown period. This 
 correlates with the reduction in mobility that was observed country-wide, which likely resulted 
-in people relying more on the broadband residential Internet access to run download 
+in people relying more on broadband residential Internet access to run download 
 intensive applications such as video streaming. The observed decrease in the radio cell 
 load, with a reduction of approximately 15% across the UK after the stay-at-home order, 
 further corroborates the drop in cellular connectivity usage.
  
 The total uplink data traffic volume, on the other hand, experienced little changes 
 (between -7% and +1,5%) during lockdown. This was mainly due to the increase of 4G voice 
-traffic (i.e., VoLTE) across the UK that peaked at 150% after lockdown compared to the 
+traffic (i.e., VoLTE) across the UK that peaked at 150% after the lockdown compared to the 
 national medial value before the pandemic, thus compensating for the decrease in data traffic 
 in the uplink.
  
-Finally, it was also observed that mobility changes have different impact on network usage 
+Finally, it was also observed that mobility changes have a different impact on network usage 
 in geodemographic area clusters. In densely populated urban areas, a significantly higher 
 decrease of mobile network usage (i.e., downlink and uplink traffic volumes, radio load and 
 active users) was observed than in rural areas. In the case of London, this 
@@ -476,7 +476,7 @@ to add capacity or otherwise mitigate the congestion.
 ### Cloud Platforms
 
 Cloud infrastructure played a key role in supporting bandwidth-intensive video conferencing 
-and remote learning tools to practice social distancing in the COVID-19 pandemic. Network 
+and remote learning tools to practice social distancing during the COVID-19 pandemic. Network 
 congestion between cloud platforms and access networks could impact the quality of 
 experience of these cloud-based applications. CAIDA leveraged web-based speed test servers 
 to perform download and upload throughput measurements from virtual machines in public 
@@ -520,7 +520,7 @@ downstream traffic grew 20%, upstream traffic grew as much as 30% to
 traffic grew 100% in some markets {{Vodafone2020}}.
 
 Ericsson's Consumer Lab surveyed users for their usage and experiences
-during the crisis). Some of the key findings in {{ConsumerlabReport2020}} were:
+during the crisis. Some of the key findings in {{ConsumerlabReport2020}} were:
 
 * 9 in 10 users increased Internet activities, and time spent
   connected increased. In addition, 1 in 5 started new online
@@ -557,7 +557,7 @@ issues arising or other conclusions that could be reached.
 
 Measurements from Fastly confirmed that Internet traffic volume, in
 multiple countries, rose rapidly at the same time as COVID cases increased
-and lock-down policies came into effect. Download speeds also decreased,
+and lockdown policies came into effect. Download speeds also decreased,
 but in a much less dramatic fashion than overall bandwidth usage increased.
 School closures led to a dramatic increase in traffic volume in many regions,
 and other public policy announcements triggered large traffic shifts. This
@@ -581,7 +581,7 @@ flexibility than others in this regard.
 
 The web conferencing systems (e.g., Microsoft Teams, Zoom, Webex) saw
 incredible growth, with overnight traffic increases of 15-20% in response
-to public policy changes, such as lock downs. This required significant
+to public policy changes, such as lockdowns. This required significant
 and rapid changes in infrastructure provisioning.
 
 Major video providers (YouTube, etc.) reduced bandwidth by 25% in some
@@ -598,7 +598,7 @@ applications, potentially due to buffer bloat and queuing delays.
 
 It was noted that operators have experience of rapid growth of Internet
 traffic. New applications with exponential growth are not that unusual in
-the network, and the traffic spike due to the lock down was not that
+the network, and the traffic spike due to the lockdown was not that
 unprecedented for many. Many operators have tools and mechanisms to deal
 with this. Ensuring that knowledge if shared is a challenge.
 
@@ -667,7 +667,7 @@ It was also noted that when everyone moves to performing their job online,
 lack of understanding of security becomes a bigger issue. Who is ultimately
 responsible for security? Do we expect every user of the Internet to take
 password training? Or is there a fundamental problem here with a technical
-solution. Technologies such as Zoom are not new: many people have used then
+solution. Technologies such as Zoom are not new: many people have used them
 for years; nobody attacked it until it was the front line. What's the next
 vulnerable service?
 
@@ -680,7 +680,7 @@ more obvious and acute with an increased use of Internet-based services.
 ### Discussion
 
 There is a concern that we’re missing observability for the network as a
-whole. Each application provider and operator has its our own little lens.
+whole. Each application provider and operator has their own little lens.
 No-one has the big-picture view of the network. 
 
 How much of a safety margin do we need? Some of the resiliency comes from
@@ -692,7 +692,7 @@ may be less robust.
 
 Finally, it was observed that we get what we measure. There may be an
 argument for operators to shift their measurement focus perhaps away from
-pure capacity, to rather measure QoE or resilience. The Internet is
+pure capacity, to rather measure QoE or resilience. The Internet is a
 critical infrastructure, and people are realising that now. We should use
 this as a wake-up-call to improve resilience, both in protocol design and
 operational practise, not necessarily to optimise for absolute performance
@@ -707,7 +707,7 @@ fairly large shifts occurred. And those shifts were not merely about
 changing one application for another, they actually impacted traffic
 flows and directions, and caused in many cases a significant traffic
 increase. Early reports also seem to indicate that the shifts have
-gone relatively smoothly from the point of view overall consumer
+gone relatively smoothly from the point of view of overall consumer
 experience.
 
 An important but not so visible factor that led to this was that
@@ -731,7 +731,7 @@ hardware changes.
 On the other hand, this is not to say that no improvements are needed:
 
 * Better understanding of the health of the Internet: Going forward,
-  the critical nature that Internet plays in our lives means that the
+  the critical nature that the Internet plays in our lives means that the
   health of the Internet needs to receive significant
   attention. Understanding how well networks work is not just a
   technical matter, it is also of crucial importance to the people and
@@ -744,7 +744,7 @@ On the other hand, this is not to say that no improvements are needed:
   broadband is available to all, and that Internet services equally
   serve different groups.
 
-* We need to continue work on all the other improvements that are seen
+* We need to continue to work on all the other improvements that are seen
   as necessary anyway, such as further improvements in security, ability
   for networks and applications to collaborate better, etc.
 
