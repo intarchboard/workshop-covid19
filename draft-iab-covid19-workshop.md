@@ -572,8 +572,8 @@ as Comcast and Cox, that increased speeds for users on lower-cost certain
 plans and in
 certain areas. This suggests that network capacity was available, and that
 the correlation between income and download rates was not necessarily due
-to differences in the deployed infrastructure in different regions,
-although it was noted that certainly access link technologies provide more
+to differences in the deployed infrastructure in different regions;
+although it was noted that certain access link technologies provide more
 flexibility than others in this regard.
 
 
