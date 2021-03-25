@@ -1,0 +1,712 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2021-03-07T00:18:46.692159+00:00",
+  "repo": "intarchboard/workshop-covid19",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 12,
+      "id": "MDU6SXNzdWU4MDI1MjA4MTM=",
+      "title": "Report Status",
+      "url": "https://github.com/intarchboard/workshop-covid19/issues/12",
+      "state": "CLOSED",
+      "author": "bacampbe",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The report is marked as a BCP. Is that the intent?",
+      "createdAt": "2021-02-05T22:38:36Z",
+      "updatedAt": "2021-02-08T17:41:36Z",
+      "closedAt": "2021-02-08T17:41:36Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "ups.. my fault.",
+          "createdAt": "2021-02-08T17:40:43Z",
+          "updatedAt": "2021-02-08T17:40:43Z"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "MDU6SXNzdWU4MDI1MjExNTA=",
+      "title": "Measurement-based Observations on Network Traffic Dynamics",
+      "url": "https://github.com/intarchboard/workshop-covid19/issues/13",
+      "state": "CLOSED",
+      "author": "bacampbe",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Measurement-based Observations on Network Traffic Dynamics\r\n-  2nd to last paragraph: \u201cThis behavior is antagonistic, yet complementary, to the one observed in residential ISPs.\u201d \u2014 I don\u2019t understand the intent of that sentence.\r\n\r\n- Last paragraph: \u201cThis gives another indication that the scalng of shared resources in the Internet is working resonably well enough to handle even larger changes in traffic as experience during the first nearly global lockdown of the COVID-19 pandemic. \u201c - Does this mean \u201clarger changes\u2026than experienced\u201d? ",
+      "createdAt": "2021-02-05T22:39:28Z",
+      "updatedAt": "2021-02-08T17:47:17Z",
+      "closedAt": "2021-02-08T17:47:17Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "First point: my fault I copied&pasted it to the wrong position.\r\nSecond point: will fix.",
+          "createdAt": "2021-02-08T17:46:22Z",
+          "updatedAt": "2021-02-08T17:46:22Z"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "MDU6SXNzdWU4MDI1MjE0OTM=",
+      "title": "Example Campus Networks:",
+      "url": "https://github.com/intarchboard/workshop-covid19/issues/14",
+      "state": "CLOSED",
+      "author": "bacampbe",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The last sentence in the first paragraph seems redundant to the more detailed 2nd sentence.",
+      "createdAt": "2021-02-05T22:40:17Z",
+      "updatedAt": "2021-02-16T10:31:25Z",
+      "closedAt": "2021-02-16T10:31:25Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Which sentence is redundant to which...?",
+          "createdAt": "2021-02-08T17:49:33Z",
+          "updatedAt": "2021-02-08T17:49:33Z"
+        },
+        {
+          "author": "bacampbe",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "\"The Politecnico di Torino University (Italy) deployed its in-house solution for remote teaching, which caused the outgoing traffic to grow by 2.5 times, driven by more than 600 daily online classes.\"\r\n... and ...\r\n\"Further, outgoing traffic increased as well due to remote working solutions such as collaboration platforms,\r\nVPNs and remote desktop.\"\r\n\r\nI originally red the first to mean the same as the second (with more detail.), thinking of only classes as a kind of collaboration platform. But maybe those are different, and the second sentence does mention VPN, etc. Perhaps something like the following would work?\r\n\r\n\"Outgoing traffic also increased due to other remote working solutions, such as collaboration platforms, VPNs, and remote desktops.\"\r\n",
+          "createdAt": "2021-02-08T17:55:43Z",
+          "updatedAt": "2021-02-08T17:55:43Z"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "MDU6SXNzdWU4MDI1MjE3ODc=",
+      "title": "Last-Mile Congestion:",
+      "url": "https://github.com/intarchboard/workshop-covid19/issues/15",
+      "state": "CLOSED",
+      "author": "bacampbe",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Can we find a more technical term than \u201clarge-eyeball networks\u201d?\r\n",
+      "createdAt": "2021-02-05T22:40:59Z",
+      "updatedAt": "2021-02-16T10:32:21Z",
+      "closedAt": "2021-02-16T10:32:20Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "do you have a proposal?",
+          "createdAt": "2021-02-08T17:47:37Z",
+          "updatedAt": "2021-02-08T17:47:37Z"
+        },
+        {
+          "author": "bacampbe",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "maybe \"networks with a very large number of users\"?",
+          "createdAt": "2021-02-08T17:49:24Z",
+          "updatedAt": "2021-02-08T17:49:24Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "fixed by #19 ",
+          "createdAt": "2021-02-16T10:32:20Z",
+          "updatedAt": "2021-02-16T10:32:20Z"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "MDU6SXNzdWU4MDI1MjIwNjA=",
+      "title": "User Behavior",
+      "url": "https://github.com/intarchboard/workshop-covid19/issues/16",
+      "state": "CLOSED",
+      "author": "bacampbe",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "\u201cSmartphone application usage changed, with fastest growth in COVID-19, remote working, e-learning, wellness, education, remote health consultation, and social shared experienceapplications.\u201d \r\n\r\nAre there words missing after COVID-19? (the growth of COVID-19, in itself, seems an odd entry for this list.)",
+      "createdAt": "2021-02-05T22:41:40Z",
+      "updatedAt": "2021-02-16T10:32:10Z",
+      "closedAt": "2021-02-16T10:32:10Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "COVID-19 is actually a category; this is apps related to COVID-19 like tracking apps.\r\n\r\nI guess we could just says \"apps related to COVID-19\"?",
+          "createdAt": "2021-02-08T17:51:38Z",
+          "updatedAt": "2021-02-08T17:51:38Z"
+        },
+        {
+          "author": "bacampbe",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "That works better. Or maybe \"... related to COVID-19 tracking and information,...\"?",
+          "createdAt": "2021-02-08T17:58:05Z",
+          "updatedAt": "2021-02-08T17:58:05Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "fixed by #19 ",
+          "createdAt": "2021-02-16T10:32:10Z",
+          "updatedAt": "2021-02-16T10:32:10Z"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": "MDU6SXNzdWU4MDI1MjIzMzM=",
+      "title": "Digital Divide",
+      "url": "https://github.com/intarchboard/workshop-covid19/issues/17",
+      "state": "CLOSED",
+      "author": "bacampbe",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "\"One possible reason for this in the data is decisions by some ISPs, such as Comcast and Cox, that increased speeds for users on certain plans and in certain areas.\u201d \r\n\r\nIs it worth noting that they increased speed for certain _lower-cost_ plans?\r\n",
+      "createdAt": "2021-02-05T22:42:18Z",
+      "updatedAt": "2021-02-08T18:22:14Z",
+      "closedAt": "2021-02-08T18:22:14Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "I think that makes sense. @csperkins @jlivingood okay?",
+          "createdAt": "2021-02-08T17:52:38Z",
+          "updatedAt": "2021-02-08T17:52:38Z"
+        },
+        {
+          "author": "jlivingood",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Agree - makes sense\r\ns/on certain plans/on certain lower-cost plans",
+          "createdAt": "2021-02-08T18:14:45Z",
+          "updatedAt": "2021-02-08T18:14:45Z"
+        },
+        {
+          "author": "csperkins",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Yes, that's what was discussed. ",
+          "createdAt": "2021-02-08T18:17:05Z",
+          "updatedAt": "2021-02-08T18:17:05Z"
+        }
+      ]
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTU0MTQ0MDkx",
+      "title": "PoliTo content",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/1",
+      "state": "MERGED",
+      "author": "marty90",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-13T12:16:16Z",
+      "updatedAt": "2021-01-13T12:41:27Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "f2d6000b333be15a73b11f1e68d86327f56aac9d",
+      "headRepository": "marty90/covid19-workshop",
+      "headRefName": "patch-1",
+      "headRefOid": "d9344e0f04ce9091e36ddfa8c4162da539c38d37",
+      "closedAt": "2021-01-13T12:41:27Z",
+      "mergedAt": "2021-01-13T12:41:26Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "b91cbad9c7de3909e3bdea9fe58b8e4ca282e0a8"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTU2ODYzMDgx",
+      "title": "Add .circleci/config.yml",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/2",
+      "state": "CLOSED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-18T14:54:10Z",
+      "updatedAt": "2021-01-19T14:39:39Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "d9275f528fa742201b53bf9b1aeca36acc116753",
+      "headRepository": "intarchboard/workshop-covid19",
+      "headRefName": "circleci-project-setup",
+      "headRefOid": "ca7d45d16e125230036968850f0b0c38f8d36f69",
+      "closedAt": "2021-01-19T14:39:39Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTU3NTk2OTk4",
+      "title": "Update draft-iab-covid19-workshop.md",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/3",
+      "state": "MERGED",
+      "author": "jlivingood",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Suggested changes -- grammatical & spelling corrections as well as other changes",
+      "createdAt": "2021-01-19T17:38:26Z",
+      "updatedAt": "2021-01-22T14:59:30Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "9f6f6f58a11238017a12500d9e44a6d752ebaa66",
+      "headRepository": "jlivingood/covid19-workshop",
+      "headRefName": "patch-1",
+      "headRefOid": "aeaed40993d23dbe4ebc5b2aa469fb9b2f888063",
+      "closedAt": "2021-01-22T14:59:30Z",
+      "mergedAt": "2021-01-22T14:59:29Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "6f4f3767bb674b50bbd26bfefff4d7e9aac0e4c3"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTcyMTgzODg2",
+          "commit": {
+            "abbreviatedOid": "cb1d1f1"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-01-20T12:45:46Z",
+          "updatedAt": "2021-01-20T12:45:46Z",
+          "comments": [
+            {
+              "originalPosition": 16,
+              "body": "```suggestion\r\nappeared rather abruptly and were significant, in particular during the introduction of the\r\n```",
+              "createdAt": "2021-01-20T12:45:46Z",
+              "updatedAt": "2021-01-22T14:58:16Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTYwMDI3NTc4",
+      "title": "Proposed edits by Jason Livingood for last mile congestion section",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/4",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-22T15:12:04Z",
+      "updatedAt": "2021-01-22T15:12:04Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "6f4f3767bb674b50bbd26bfefff4d7e9aac0e4c3",
+      "headRepository": "intarchboard/workshop-covid19",
+      "headRefName": "mirjak-patch-1",
+      "headRefOid": "75d12784305f8993b2940f6d687c824e5ec1db9e",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 5,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTYwMDI4Nzkz",
+      "title": "Proposed text by Jason Livingood for section 3.3",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/5",
+      "state": "CLOSED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-22T15:14:02Z",
+      "updatedAt": "2021-02-22T18:09:12Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "6f4f3767bb674b50bbd26bfefff4d7e9aac0e4c3",
+      "headRepository": "intarchboard/workshop-covid19",
+      "headRefName": "mirjak-patch-2",
+      "headRefOid": "6f4615eb1bc35d5f3b290c9f2825a031753a0f57",
+      "closedAt": "2021-02-22T18:09:11Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "@sftcd There is some proposed text here from Jason Livingood. Feel free to merge or otherwise use in your update!",
+          "createdAt": "2021-01-22T15:15:32Z",
+          "updatedAt": "2021-01-22T15:15:32Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "outdated.",
+          "createdAt": "2021-02-22T18:09:11Z",
+          "updatedAt": "2021-02-22T18:09:11Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 6,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTYxMjAyNjA5",
+      "title": "Draft text discussing traffic changes due to COVID-19",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/6",
+      "state": "MERGED",
+      "author": "ohohlfeld",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-25T16:30:38Z",
+      "updatedAt": "2021-01-29T20:16:17Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "41a99eb08280c57e20d72864c05a7869bc34e88a",
+      "headRepository": "ohohlfeld/covid19-workshop",
+      "headRefName": "master",
+      "headRefOid": "19e4d18b4a7bb0025d43115ad21273338564ed9d",
+      "closedAt": "2021-01-29T20:16:17Z",
+      "mergedAt": "2021-01-29T20:16:17Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "a35d1096d1639fb418610f9c216797d979c77355"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NTc1NTg2MDQw",
+          "commit": {
+            "abbreviatedOid": "a404908"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "Just two quick questions before I merge...",
+          "createdAt": "2021-01-25T16:41:05Z",
+          "updatedAt": "2021-01-25T16:43:03Z",
+          "comments": [
+            {
+              "originalPosition": 44,
+              "body": "Was it on purpose to now have this as a subsection?",
+              "createdAt": "2021-01-25T16:41:05Z",
+              "updatedAt": "2021-01-29T20:16:07Z"
+            },
+            {
+              "originalPosition": 73,
+              "body": "Shouldn't such a conclusion paragraph come after the mobile networks subsection?",
+              "createdAt": "2021-01-25T16:42:24Z",
+              "updatedAt": "2021-01-29T20:16:07Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY0MjY4MTQ4",
+      "title": "Text from Andra Lutu",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/7",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "Need to exchange \"we\" with a reference to their paper + add Andra to acknowledgement before merging",
+      "createdAt": "2021-01-29T21:33:28Z",
+      "updatedAt": "2021-01-31T16:47:57Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "39719dc37b1a4f7b9f7dd133180772e4fe3c0650",
+      "headRepository": "intarchboard/workshop-covid19",
+      "headRefName": "mirjak-patch-3",
+      "headRefOid": "69ab507c508ee432ebbcd42d40e6419011340c63",
+      "closedAt": "2021-01-31T16:47:57Z",
+      "mergedAt": "2021-01-31T16:47:57Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "23335505f54302317cc56c91283cccd74b609e5e"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 8,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY0MjkxNTgw",
+      "title": "minor revision",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/8",
+      "state": "CLOSED",
+      "author": "ohohlfeld",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-29T22:32:42Z",
+      "updatedAt": "2021-01-29T22:33:31Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "39719dc37b1a4f7b9f7dd133180772e4fe3c0650",
+      "headRepository": "ohohlfeld/covid19-workshop",
+      "headRefName": "master",
+      "headRefOid": "3e6741adc09489aadf98d59fd35f9dd505911df6",
+      "closedAt": "2021-01-29T22:33:31Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY0MzAxNTYw",
+      "title": "minor revision",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/9",
+      "state": "MERGED",
+      "author": "ohohlfeld",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-29T23:04:07Z",
+      "updatedAt": "2021-01-31T16:34:58Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "39719dc37b1a4f7b9f7dd133180772e4fe3c0650",
+      "headRepository": "ohohlfeld/covid19-workshop",
+      "headRefName": "master",
+      "headRefOid": "beef97995e08173e2ecd44615750d39007e0db85",
+      "closedAt": "2021-01-31T16:34:58Z",
+      "mergedAt": "2021-01-31T16:34:58Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "fbc36ae9161dbc04dbbc7f285d4c04c38d5a26ca"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 10,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY0NjkyMzEw",
+      "title": "Proposal to merge sections",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/10",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-01-31T17:12:37Z",
+      "updatedAt": "2021-02-01T17:17:37Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "91e4f5b9802e0f482648fa4df7174dfa68d8377f",
+      "headRepository": "intarchboard/workshop-covid19",
+      "headRefName": "mirjak-patch-4",
+      "headRefOid": "a08b0a52acc1cf72a07995343031ce818400936b",
+      "closedAt": "2021-02-01T17:17:37Z",
+      "mergedAt": "2021-02-01T17:17:37Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "8b48cbe1917903efef080e2c6b3f5a86fb584006"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 11,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY4NjQ5ODk5",
+      "title": "Editorial Stuff",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/11",
+      "state": "MERGED",
+      "author": "bacampbe",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "These are some edits for grammar and a few for style. I also took the liberty of wrapping some unwrapped lines to make it easier for me to review.",
+      "createdAt": "2021-02-05T22:37:23Z",
+      "updatedAt": "2021-02-16T10:24:55Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "1cc6d353438c8682c6b37e0d6c827644da67998a",
+      "headRepository": "bacampbe/covid19-workshop",
+      "headRefName": "master",
+      "headRefOid": "e10d60383aa4d48be6aff87c720ebbcf0e7ae8a0",
+      "closedAt": "2021-02-16T10:24:55Z",
+      "mergedAt": "2021-02-16T10:24:55Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "9dd92e7fa92d2ead1fede3c83385b91d0e22f313"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 18,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc0MDcxOTY5",
+      "title": "Run aspell over the whole document",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/18",
+      "state": "MERGED",
+      "author": "ogasser",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes typos, mispellings, etc.",
+      "createdAt": "2021-02-16T10:01:50Z",
+      "updatedAt": "2021-02-16T10:16:10Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "e6c722bac3d5568936fdfe35e6b283cccd6db73c",
+      "headRepository": "ogasser/covid19-workshop",
+      "headRefName": "master",
+      "headRefOid": "240bbaa5a997ca5fe59a9c25e2a47528e5718c77",
+      "closedAt": "2021-02-16T10:16:10Z",
+      "mergedAt": "2021-02-16T10:16:10Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "1cc6d353438c8682c6b37e0d6c827644da67998a"
+      },
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Thanks!",
+          "createdAt": "2021-02-16T10:16:04Z",
+          "updatedAt": "2021-02-16T10:16:04Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 19,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc0MDg5ODkz",
+      "title": "Proposals/issues by Ben",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/19",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "fixes #14 #15 #16",
+      "createdAt": "2021-02-16T10:30:22Z",
+      "updatedAt": "2021-02-16T10:31:30Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "9dd92e7fa92d2ead1fede3c83385b91d0e22f313",
+      "headRepository": "intarchboard/workshop-covid19",
+      "headRefName": "mirjak-patch-5",
+      "headRefOid": "2ee6805e4afeb8792ce0d07c0c9223d50f39b529",
+      "closedAt": "2021-02-16T10:31:25Z",
+      "mergedAt": "2021-02-16T10:31:24Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "9e2d2dc2f36c3cbc15d41188f7ae69660affb627"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 20,
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc0ODQzMjQy",
+      "title": "Some more fixes",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/20",
+      "state": "MERGED",
+      "author": "ogasser",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Minor issues fixed after full pass read of the document.",
+      "createdAt": "2021-02-17T11:24:31Z",
+      "updatedAt": "2021-02-17T12:54:30Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "9e2d2dc2f36c3cbc15d41188f7ae69660affb627",
+      "headRepository": "ogasser/covid19-workshop",
+      "headRefName": "master",
+      "headRefOid": "a78b4cc548703fa55a68dd1c7b579879fadede31",
+      "closedAt": "2021-02-17T12:54:30Z",
+      "mergedAt": "2021-02-17T12:54:29Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "6c84ca1c87e9a64a850d7ca6925f59897d62e0b7"
+      },
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "Thanks!",
+          "createdAt": "2021-02-17T12:54:25Z",
+          "updatedAt": "2021-02-17T12:54:25Z"
+        }
+      ],
+      "reviews": []
+    }
+  ]
+}
