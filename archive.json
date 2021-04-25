@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-03-07T00:18:46.692159+00:00",
+  "timestamp": "2021-04-25T00:40:23.239668+00:00",
   "repo": "intarchboard/workshop-covid19",
   "labels": [
     {
@@ -242,6 +242,22 @@
           "updatedAt": "2021-02-08T18:17:05Z"
         }
       ]
+    },
+    {
+      "number": 22,
+      "id": "MDU6SXNzdWU4NjUxMDM3Nzk=",
+      "title": "Conclusions section lacking observability conclusion",
+      "url": "https://github.com/intarchboard/workshop-covid19/issues/22",
+      "state": "OPEN",
+      "author": "kirstyp",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "In my review of this report, I realised that there is no mention of observability in the conclusions, which seems like an oversight to be fixed, given there is a section on it in the main report.",
+      "createdAt": "2021-04-22T15:47:11Z",
+      "updatedAt": "2021-04-22T15:47:11Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -706,6 +722,32 @@
           "updatedAt": "2021-02-17T12:54:25Z"
         }
       ],
+      "reviews": []
+    },
+    {
+      "number": 21,
+      "id": "MDExOlB1bGxSZXF1ZXN0NjIxMjE3MDI4",
+      "title": "Update draft-iab-covid19-workshop.md",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/21",
+      "state": "OPEN",
+      "author": "kirstyp",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Fleshed out and added to the existing security text and findings, some typo fixes, and added URLs to references section where workshop papers are on the IAB site.",
+      "createdAt": "2021-04-22T15:42:53Z",
+      "updatedAt": "2021-04-22T15:42:53Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "ef1ff849dbe70fb3b1867bcce4fbf963155e3f6d",
+      "headRepository": "kirstyp/workshop-covid19",
+      "headRefName": "patch-1",
+      "headRefOid": "177184374bd1acfbdc4951bd861c4df055c714e7",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
       "reviews": []
     }
   ]
