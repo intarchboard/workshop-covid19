@@ -50,13 +50,13 @@ informative:
     - ins: E. Yeh
     - ins: B. Zhang
     - ins: L. Zhang
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/12/IAB-COVID-19-WS_102820.pdf
   Arkko2020:
    title: "Observations on Network User Behaviour During COVID-19"
    date: October 2020
    author:
     - ins: J. Arkko
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-arkko.pdf
   Bronzino2020:
    title: "IAB COVID-19 Workshop: Interconnection Changes in the United States"
    date: October 2020
@@ -67,26 +67,26 @@ informative:
     - ins: S. Liu
     - ins: J. Livingood
     - ins: P. Schmitt
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-feamster.pdf
   Campling2020:
    title: "Will the Internet Still Be Resilient During the Next Black Swan Event?"
    date: October 2020
    author:
     - ins: A. Campling
     - ins: D. Lazanski
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-campling.pdf
   Cho2020:
    title: "On the COVID-19 Impact to broadband traffic in Japan"
    date: October 2020
    author:
     - ins: K. Cho
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-cho.pdf
   Clark2020:
    title: "Measurement of congestion on ISP interconnection links"
    date: October 2020
    author:
     - ins: D. Clark
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-clark.pdf
   Favale2020:
    title: "Campus traffic and e-Learning during COVID-19 pandemic"
    date: October 2020
@@ -96,7 +96,7 @@ informative:
     - ins: M. Trevisan
     - ins: I. Drago
     - ins: M. Mellia
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-favale.pdf
   Feldmann2020:
    title: "A view of Internet Traffic Shifts at ISP and IXPs during the COVID-19 Pandemic"
    date: October 2020
@@ -113,7 +113,7 @@ informative:
     - ins: N Vallina-Rodriguez
     - ins: O. Hohlfeld
     - ins: G. Smaragdakis
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-feldmann.pdf
   Fontugne2020:
    title: "The Impact of COVID-19 on Last-mile Latency"
    date: October 2020
@@ -121,27 +121,27 @@ informative:
     - ins: R. Fontugne
     - ins: A. Shah
     - ins: K. Cho
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-fontugne.pdf
   Gillmor2020:
    title: "Vaccines, Privacy, Software Updates, and Trust"
    date: October 2020
    author:
     - ins: D. Gillmor
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-gillmor.pdf
   Gu2020:
    title: "Covid 19 Impact on China ISP's Network Traffic Pattern and Solution Discussion"
    date: October 2020
    author:
     - ins: Y. Gu
     - ins: Z. Li
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-gu.pdf
   Jennings2020:
    title: "WebEx Scaling During Covid"
    date: October 2020
    author:
     - ins: C. Jennings
     - ins: P. Kozanian
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-jennings.pdf
   Lutu2020:
    title: "A Characterization of the COVID-19 Pandemic Impact on a Mobile Network Operator Traffic"
    date: October 2020
@@ -151,20 +151,20 @@ informative:
     - ins: M. Bagnulo
     - ins: E. Frias-Martinez
     - ins: J. Khangosstar
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-lutu.pdf
   Mok2020:
    title: "Measuring the impact of COVID-19 on cloud network performance"
    date: October 2020
    author:
     - ins: R. Mok
     - ins: kc claffy
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-mok.pdf
   Kirsty2020:
    title: "IAB COVID-19 Network Impacts"
    date: October 2020
    author:
     - ins: Kirsty P
-   seriesinfo: Position paper in the 2020 IAB COVID-19 Network Impacts workshop.
+   seriesinfo: https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-kirstyp.pdf
   Comcast2020:
    title: "COVID-19 Network Update"
    date: May 2020
@@ -240,11 +240,11 @@ to share their experiences. The meeting was held online given the
 on-going travel and contact restrictions at that time.
 
 COVID-19 has caused changes in user behavior, which in turn drove 
-change to Internet traffic. These changes appeared rather abruptly 
+change to Internet traffic. These changes in user behavior appeared rather abruptly 
 and were significant, in particular during the introduction of the
-initial quarantine and work-from-home arrangements. The changes relate
-to traffic volumes, location of traffic, as well as the types of
-traffic and applications used.
+initial quarantine and work-from-home arrangements. The changes to Internet traffic relate
+to traffic volumes, location of traffic, as well as shifts in the type of traffic
+and applications used.
 
 Announcement for the workshop was sent out in July 2020, requesting
 interested parties to submit position papers for the workshop program
@@ -260,7 +260,7 @@ papers and other expressions of interest. On the workshop conference calls were 
 participants, listed in {{participants}}.
 
 The workshop was held over one week hosting three sessions covering
-i) measurements and observations, ii) operational issue, and iii) future consideration
+i) measurements and observations, ii) operational and security issues, and iii) future consideration
 and conclusions. As these three sessions were scheduled Monday, Wednesday, and Friday
 a positive side effect was that the time in between could be used for mailing
 list discussion and compilation of additional workshop material.
@@ -279,17 +279,18 @@ multimedia traffic growing in some cases more than 200%. And user time
 spent on conferencing services has risen by an order of magnitude on
 some conferencing platforms.
 
+
 In general, the Internet has coped relatively well with this traffic
 growth, albeit not without some issues. For instance, some outages,
-video quality reduction, and other issues were reported. Nevertheless,
-it is interesting to see how the technology, operators and service
+video quality reduction, a new wave of attacks and scams, and other issues were reported. Nevertheless,
+it is interesting to see how the technology, implemented by operators and service
 providers have been able to respond to large and sudden changes in traffic
 patterns.
 
 Understanding what actually happened with Internet traffic is of
 course interesting by its own right. How that impacted user
 experience or the intended function of the services is equally
-interesting. Measurements and reports of the traffic situation from 2020
+interesting. Measurements of and reports on Internet traffic in 2020
 are therefore valuable. But it would also be interesting to understand
 what types of network management and capacity expansion actions were
 taken in general. Anecdotal evidence points to Internet and service
@@ -301,13 +302,14 @@ The impacts of this crisis are also a potential opportunity to
 understand the impact of traffic shifts and growth more generally, or
 to prepare for future situations — crises or otherwise – that impact
 networking. Or even allow us to adjust the technology to be even
-better suited to respond to changes.
+better suited to respond to changes in Internet traffic and user behavior.
 
 The scope of this workshop included:
 
-* measurements about traffic changes, user experience, service performance, and other relevant aspects
+* measurements about traffic changes, user experience and problems, service performance, and other relevant aspects
 * discussion about the behind the scenes network management and expansion activities
 * experiences in the fields of general Internet connectivity, conferencing, media/entertainment, and Internet infrastructure
+* the impact of COVID-related scams on the home working infrastructure, as threat actors made use of the attack surface resulting from the shift to home-working in a global crisis
 * lessons learned for preparedness and operations
 * lessons learned for Internet technology and architecture
 
@@ -476,7 +478,7 @@ to add capacity or otherwise mitigate the congestion.
 ### Cloud Platforms
 
 Cloud infrastructure played a key role in supporting bandwidth-intensive video conferencing 
-and remote learning tools to practice social distancing during the COVID-19 pandemic. Network 
+and remote learning tools to practise social distancing during the COVID-19 pandemic. Network 
 congestion between cloud platforms and access networks could impact the quality of 
 experience of these cloud-based applications. CAIDA leveraged web-based speed test servers 
 to perform download and upload throughput measurements from virtual machines in public 
@@ -547,7 +549,7 @@ going to have a long-lasting effect.  Surveys in various organizations
 point to a likely long-term increase in the number of people
 interested in remote work {{WorkplaceAnalytics2020}} {{McKinsey2020}}.
 
-## Operational Practises and Architectural Considerations {#operational}
+## Operational Practices and Architectural Considerations {#operational}
 
 The second and third day of the workshop were held based on more open
 discussions focussed on operational issues and the architectural
@@ -648,33 +650,40 @@ communication are important.
 
 ### Security
 
-It was noted that there is a shift to home working generally, and in the
-way people use the network, with IT departments rolling out new equipment
-quickly and using technologies like VPNs for the first time.
+The increased threats and network security impacts arising from COVID-19
+fall into two areas: (1) the agility of malicious actors to spin up new
+campaigns using COVID-19 as a lure, and (2) the increased threat surface
+from a rapid shift towards home working.
 
-There are reports of a strong rise in phishing, fraud, and scams related to
-COVID {{Kirsty2020}}. It's unclear if there was an increase in fraud overall but there was
-certainly a shift in activity. New types of attacks, for example on vaccine
-research labs, health services, and home working were reported.
+During 2020, there was a shift to home working generally, and in the
+way in which people use the network, with IT departments rolling out new equipment
+quickly and using technologies like VPNs for the first time, while others put existing solutions under much greater load. As VPN technology became more widespread and more used, it arguably became a more valuable target; one Advanced (APT29) was successful in using recently published exploits in a range of VPN software to gain initial footholds{{Kirsty2020}}.
+
+Of all scams detected by the UK NCSC (United Kingdom National Cyber Security Centre) that purported to originate from UK Government, more related to COVID-19 than any other subject. There are other reports of a strong rise in phishing, fraud, and scams related to
+COVID {{Kirsty2020}}. Although, from the data seen to date, the overall levels of cyber crime have not increased, there was
+certainly a shift in activity – as both the NCSC and CISA (DHS Cybersecurity and Infrastructure Security Agency) saw a growing use of COVID-19 related themes by malicious cyber actors as a lure. Attackers used COVID-19 related scams and phishing emails to target: individuals, small and medium businesses, large organisations, and organisations involved in both national and international COVID-19 responses (healthcare bodies, pharmaceutical companies, academia and medical research organisations). New targets, for example organisations involved in COVID-19 vaccine development
+were attacked using VPN exploits, highlighting the potential consequences of vulnerable infrastructure.
 
 It's unclear how to effectively detect and counter these attacks at scale.
-Approaches such as crowd-sourced flagging of suspicious emails help, and
-others noted that observing DNS to detect malicious use is popular. The use
-of DNS over HTTPS offers privacy benefits but is also observed to bypasses
-some protective measures.
+Approaches such as using Indicators of Compromise and crowd-sourced flagging of suspicious emails were found to be effective in the response to COVID-19-related scams{{Kirsty2020}}, and
+observing DNS to detect malicious use is widespread and effective. The use
+of DNS over HTTPS offers privacy benefits but current deployment models can bypass
+these existing protective DNS measures.
 
 It was also noted that when everyone moves to performing their job online,
-lack of understanding of security becomes a bigger issue. Who is ultimately
-responsible for security? Do we expect every user of the Internet to take
-password training? Or is there a fundamental problem here with a technical
-solution. Technologies such as Zoom are not new: many people have used them
-for years; nobody attacked it until it was the front line. What's the next
+lack of understanding of security becomes a bigger issue.
+Is it reasonable to expect every user of the Internet to take
+password training? Or is there a fundamental problem with a technical
+solution? Modern advice advocates a layered approach to security defences, with user education forming just one of those layers.
+
+Communication platforms such as Zoom are not new: many people have used them
+for years, but as COVID-19 saw an increasing number of organisations and individuals turning to these technologies, they became an attractive target, due to increased usage. In turn, there was an increase in malicious cyber actor activity, either hijacking online meetings that were not secured with passwords or leveraging unpatched software as an attack vector. How can new or existing measures protect users from the attacks levied against the next
 vulnerable service?
 
-Overall, it may be that the pandemic caused fewer security
-changes, with many people suddendly working from home, than one might have guessed prior 
-to the pandemic. However, existing security problems and challenges may have become even
-more obvious and acute with an increased use of Internet-based services.
+Overall, it may be that there were fewer security
+challenges than expected arising from many people suddenly working from home.
+However, the agility of attackers, the importance of robust and scalable defence mechanisms, and some existing security problems and challenges may have become even
+more obvious and acute with an increased use of Internet-based services, particularly in a pandemic situation and times of uncertainty, where users can be more vulnerable to social engineering techniques and attacks.
 
 
 ### Discussion
@@ -695,7 +704,7 @@ argument for operators to shift their measurement focus perhaps away from
 pure capacity, to rather measure QoE or resilience. The Internet is a
 critical infrastructure, and people are realising that now. We should use
 this as a wake-up-call to improve resilience, both in protocol design and
-operational practise, not necessarily to optimise for absolute performance
+operational practice, not necessarily to optimise for absolute performance
 or quality of experience.
 
 
@@ -716,16 +725,26 @@ experience. A lot of collaboration happened in the background,
 problems were corrected, many providers significantly increased their
 capacity, and so on.
 
+On the security front, the COVID-19 crisis showcased the agility with 
+which malicious actors can move in response to a shift in user 
+Internet usage, and the vast potential of the disruption and damage 
+that they can inflict. Equally, it showed the agility of defenders, 
+when they have access to the tools and information they need to protect
+users and networks, and showcased the power of Indicators of Compromise
+when defenders around the world are working together against the same 
+problem.
+
 In general, the Internet also seems well suited for
 adapting to new situations, at least within some bounds.  The
-Internet is designed for any application and situation, rather than
+Internet is designed for flexibility and extensibility, rather than
 optimized for today's particular traffic. This makes it possible to
 use it for many applications, in many deployment situations, and make
 changes as needed. The generality is present in many parts of the
 overall system, from basic Internet technology to browsers, from name
-servers to content delivery networks and cloud platforms. When needs
-change, what is needed is often merely different services, perhaps
-some re-allocation of resources, but not fundamental technology or
+servers to content delivery networks and cloud platforms. When usage
+changes, what is needed is often merely different services, perhaps
+some re-allocation of resources, as well as consequent application and
+continuation of existing security defences, but not fundamental technology or
 hardware changes.
 
 On the other hand, this is not to say that no improvements are needed:
@@ -738,6 +757,17 @@ On the other hand, this is not to say that no improvements are needed:
   economy of the societies using it. Projects and research that
   monitor Internet and services performance in a broad scale and
   across different networks are therefore important.
+  
+* Maintaining defensive mechanisms to be used in times of crisis: 
+  Malicious cyber actors are continually adjusting their tactics to take
+  advantage of new situations, and the COVID-19 pandemic is no exception.
+  Malicious actors used the high appetite for COVID-19 related information
+  as an opportunity to deliver malware and ransomware, and to steal user 
+  credentials. Against the landscape of a shift to working from home and 
+  an increase in users vulnerable to attack, and as IT departments were 
+  often overwhelmed by rolling out new infrastructure and devices, IoC 
+  sharing was a vital part of the response to COVID-19 related scams and 
+  attacks. 
 
 * The pandemic has shown how the effects of the digital divide can be
   amplified during a crisis. More attention is needed to ensure that
@@ -874,5 +904,4 @@ Fontugne provided text based on his blog post at https://eng-blog.iij.ad.jp/arch
 Ricky Mok for text on cloud platform; Martino Trevisan for text on campus networks; David
 Clark on congestion measurements at interconnects; Oliver Hohlfeld for the text on traffic
 growth, changes in traffic shifts, campus networks, and interconnections; Andra Lutu on
-mobile networks; And thanks to Jason Livingood for his review and additions.
-
+mobile networks; Kirsty Paine for text on security impacts; and thanks to Jason Livingood for his review and additions.
