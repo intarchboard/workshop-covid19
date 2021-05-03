@@ -243,7 +243,7 @@ COVID-19 has caused changes in user behavior, which in turn drove
 change to Internet traffic. These changes in user behavior appeared rather abruptly 
 and were significant, in particular during the introduction of the
 initial quarantine and work-from-home arrangements. The changes to Internet traffic relate
-to volumes, location, types, as well as security and attack methodologies,
+to traffic volumes, location of traffic, as well as shifts in the type of traffic
 and applications used.
 
 Announcement for the workshop was sent out in July 2020, requesting
@@ -273,27 +273,26 @@ impact on networking. With large numbers of people working from home
 or otherwise depending on the network for their daily lives, network
 traffic volume has surged. Internet service providers and operators have
 reported a 20% traffic growth or more in a matter of weeks. Traffic at
-Internet Exchange Points (IXPs) is similarly on the rise, as were attacks targeting remote working infrastructure and platforms. Most forms
+Internet Exchange Points (IXPs) is similarly on the rise. Most forms
 of network traffic have seen an increase, with conversational
-multimedia traffic growing in some cases more than 200% and an explosion in COVID-19 related scams and phishing. And user time
+multimedia traffic growing in some cases more than 200%. And user time
 spent on conferencing services has risen by an order of magnitude on
 some conferencing platforms.
 
-Some themes of the workshop focused on an increase in Internet usage more generally, with reference to measurement and performance - where others focused on user experience and problems arise directly from the pandemic, such as home working and user behavioral changes.
 
 In general, the Internet has coped relatively well with this traffic
 growth, albeit not without some issues. For instance, some outages,
 video quality reduction, a new wave of attacks and scams, and other issues were reported. Nevertheless,
-it is interesting to see how the technology, operators, service
-providers and incident responders have been able to respond to large and sudden changes in traffic
+it is interesting to see how the technology, implemented by operators and service
+providers have been able to respond to large and sudden changes in traffic
 patterns.
 
 Understanding what actually happened with Internet traffic is of
 course interesting by its own right. How that impacted user
-experience, the security ecosystem, or the intended function of the services is equally
+experience or the intended function of the services is equally
 interesting. Measurements of and reports on Internet traffic in 2020
 are therefore valuable. But it would also be interesting to understand
-what types of network management, security responses and capacity expansion actions were
+what types of network management and capacity expansion actions were
 taken in general. Anecdotal evidence points to Internet and service
 providers tracking how their services are used, and in many cases
 adjusting services to accommodate the new traffic patterns, from
@@ -310,7 +309,7 @@ The scope of this workshop included:
 * measurements about traffic changes, user experience and problems, service performance, and other relevant aspects
 * discussion about the behind the scenes network management and expansion activities
 * experiences in the fields of general Internet connectivity, conferencing, media/entertainment, and Internet infrastructure
-* the impact on networks of COVID-related scams and increased home working infrastructure, as threat actors made use of the attack surface resulting from the shift to home-working and a global pandemic
+* the impact of COVID-related scams on the home working infrastructure, as threat actors made use of the attack surface resulting from the shift to home-working in a global crisis
 * lessons learned for preparedness and operations
 * lessons learned for Internet technology and architecture
 
@@ -744,7 +743,8 @@ changes as needed. The generality is present in many parts of the
 overall system, from basic Internet technology to browsers, from name
 servers to content delivery networks and cloud platforms. When usage
 changes, what is needed is often merely different services, perhaps
-some re-allocation of resources, or continuation of existing security defences, not fundamental technology or
+some re-allocation of resources, as well as consequent application and
+continuation of existing security defences, but not fundamental technology or
 hardware changes.
 
 On the other hand, this is not to say that no improvements are needed:
@@ -904,5 +904,4 @@ Fontugne provided text based on his blog post at https://eng-blog.iij.ad.jp/arch
 Ricky Mok for text on cloud platform; Martino Trevisan for text on campus networks; David
 Clark on congestion measurements at interconnects; Oliver Hohlfeld for the text on traffic
 growth, changes in traffic shifts, campus networks, and interconnections; Andra Lutu on
-mobile networks; and thanks to Jason Livingood for his review and additions.
-
+mobile networks; Kirsty Paine for text on security impacts; and thanks to Jason Livingood for his review and additions.
