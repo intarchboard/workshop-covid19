@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-04-25T00:40:23.239668+00:00",
+  "timestamp": "2021-05-03T14:49:51.430413+00:00",
   "repo": "intarchboard/workshop-covid19",
   "labels": [
     {
@@ -369,25 +369,33 @@
       "id": "MDExOlB1bGxSZXF1ZXN0NTYwMDI3NTc4",
       "title": "Proposed edits by Jason Livingood for last mile congestion section",
       "url": "https://github.com/intarchboard/workshop-covid19/pull/4",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2021-01-22T15:12:04Z",
-      "updatedAt": "2021-01-22T15:12:04Z",
+      "updatedAt": "2021-05-03T13:56:12Z",
       "baseRepository": "intarchboard/workshop-covid19",
       "baseRefName": "master",
       "baseRefOid": "6f4f3767bb674b50bbd26bfefff4d7e9aac0e4c3",
       "headRepository": "intarchboard/workshop-covid19",
       "headRefName": "mirjak-patch-1",
       "headRefOid": "75d12784305f8993b2940f6d687c824e5ec1db9e",
-      "closedAt": null,
+      "closedAt": "2021-05-03T13:56:12Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "I think these edits are outdated.",
+          "createdAt": "2021-05-03T13:56:12Z",
+          "updatedAt": "2021-05-03T13:56:12Z"
+        }
+      ],
       "reviews": []
     },
     {
@@ -729,26 +737,191 @@
       "id": "MDExOlB1bGxSZXF1ZXN0NjIxMjE3MDI4",
       "title": "Update draft-iab-covid19-workshop.md",
       "url": "https://github.com/intarchboard/workshop-covid19/pull/21",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "kirstyp",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Fleshed out and added to the existing security text and findings, some typo fixes, and added URLs to references section where workshop papers are on the IAB site.",
       "createdAt": "2021-04-22T15:42:53Z",
-      "updatedAt": "2021-04-22T15:42:53Z",
+      "updatedAt": "2021-05-03T14:49:23Z",
       "baseRepository": "intarchboard/workshop-covid19",
       "baseRefName": "master",
       "baseRefOid": "ef1ff849dbe70fb3b1867bcce4fbf963155e3f6d",
       "headRepository": "kirstyp/workshop-covid19",
       "headRefName": "patch-1",
-      "headRefOid": "177184374bd1acfbdc4951bd861c4df055c714e7",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "ac47286eec135cc297c8721c7e5507b10aad80f5",
+      "closedAt": "2021-05-03T14:49:23Z",
+      "mergedAt": "2021-05-03T14:49:23Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "be7cef2cb6b6bfd3a7369666692598fe76035f4e"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjUwMzgwNzY3",
+          "commit": {
+            "abbreviatedOid": "1771843"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "Hi Kirsty, I left a bunch of comments mainly on the intro part. I will revert some of your changes there and merge (and close the PR) now as the later edits to the sec section and conclusion are great. Please check my comments and eventually submit another PR for the intro. My strong recommendation is to rather add a separate paragraph to the introduction rather than try to \"sneak\" it in because that seems to disturb the reading flow and argumentation line (from my point of view).",
+          "createdAt": "2021-05-03T14:03:51Z",
+          "updatedAt": "2021-05-03T14:29:49Z",
+          "comments": [
+            {
+              "originalPosition": 132,
+              "body": "While I understand the desire to mention security, I think it really does fit here. I think the first directly consequences of sending everybody home was a change in traffic patterns. Chances in attack behaviour and new security practices where a consequence of that (slightly later). Or what you actually means by security mythologies here?",
+              "createdAt": "2021-05-03T14:03:52Z",
+              "updatedAt": "2021-05-03T14:29:49Z"
+            },
+            {
+              "originalPosition": 151,
+              "body": "I don't think just adding this half-sentence here helps. The point here is about increase in traffic volume (without characterising the traffic at this point). It would probably be much better to add a separate paragraph about attack traffic rather then trying to \"sneak\" it in at places where it doesn't belong.",
+              "createdAt": "2021-05-03T14:07:42Z",
+              "updatedAt": "2021-05-03T14:29:49Z"
+            },
+            {
+              "originalPosition": 154,
+              "body": "Same here. Let's rather at a separate paragraph (please provide a separate PR if possible). video traffic is really only meant to be one example where we have a high number.",
+              "createdAt": "2021-05-03T14:08:44Z",
+              "updatedAt": "2021-05-03T14:29:49Z"
+            },
+            {
+              "originalPosition": 158,
+              "body": "Not sure what the actual content of this statement is supposed to be. But it seems a bit misplaced here in the reading flow for mw.",
+              "createdAt": "2021-05-03T14:11:33Z",
+              "updatedAt": "2021-05-03T14:29:49Z"
+            },
+            {
+              "originalPosition": 167,
+              "body": "This was really just focusing on the Internet technology (which is applied by network operators) and not to be an exhausted list of all entities involved. Again I think a separate paragraph would be much better than trying to squeeze things in.",
+              "createdAt": "2021-05-03T14:12:40Z",
+              "updatedAt": "2021-05-03T14:29:49Z"
+            },
+            {
+              "originalPosition": 174,
+              "body": "Here it also don't seem right to call out the security ecosystem separately (and only the security ecosystem). ",
+              "createdAt": "2021-05-03T14:14:42Z",
+              "updatedAt": "2021-05-03T14:29:49Z"
+            },
+            {
+              "originalPosition": 195,
+              "body": "Good to add another bullet point here but not sure I understand your wording: when you say \"impact on networks\", what networks do you mean? And what do you mean by \"increased home working infrastructure\"? ",
+              "createdAt": "2021-05-03T14:18:09Z",
+              "updatedAt": "2021-05-03T14:29:49Z"
+            },
+            {
+              "originalPosition": 274,
+              "body": "Thanks these edits and additions are all great and ready to merge!",
+              "createdAt": "2021-05-03T14:21:29Z",
+              "updatedAt": "2021-05-03T14:29:49Z"
+            },
+            {
+              "originalPosition": 313,
+              "body": "```suggestion\r\nsome re-allocation of resources, as well as consequent application and\r\ncontinuation of existing security defences, but not fundamental technology or\r\n```",
+              "createdAt": "2021-05-03T14:24:32Z",
+              "updatedAt": "2021-05-03T14:29:49Z"
+            },
+            {
+              "originalPosition": 331,
+              "body": "This is also great to add! Thanks!",
+              "createdAt": "2021-05-03T14:26:40Z",
+              "updatedAt": "2021-05-03T14:29:49Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjUwNDA1Njcw",
+          "commit": {
+            "abbreviatedOid": "1771843"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "These are the proposed edits that revert some of the changes in order to merge this bigger PR now. An new and separate PR should be created for changes to the intro; preferably add a new paragraph on security.",
+          "createdAt": "2021-05-03T14:30:53Z",
+          "updatedAt": "2021-05-03T14:39:08Z",
+          "comments": [
+            {
+              "originalPosition": 132,
+              "body": "```suggestion\r\nto traffic volumes, location of traffic, as well as shifts in the type of traffic\r\n```",
+              "createdAt": "2021-05-03T14:30:54Z",
+              "updatedAt": "2021-05-03T14:39:08Z"
+            },
+            {
+              "originalPosition": 151,
+              "body": "```suggestion\r\nInternet Exchange Points (IXPs) is similarly on the rise. Most forms\r\n```",
+              "createdAt": "2021-05-03T14:31:20Z",
+              "updatedAt": "2021-05-03T14:39:08Z"
+            },
+            {
+              "originalPosition": 154,
+              "body": "```suggestion\r\nmultimedia traffic growing in some cases more than 200%. And user time\r\n```",
+              "createdAt": "2021-05-03T14:31:40Z",
+              "updatedAt": "2021-05-03T14:39:08Z"
+            },
+            {
+              "originalPosition": 158,
+              "body": "```suggestion\r\n```",
+              "createdAt": "2021-05-03T14:31:53Z",
+              "updatedAt": "2021-05-03T14:39:08Z"
+            },
+            {
+              "originalPosition": 167,
+              "body": "```suggestion\r\nproviders have been able to respond to large and sudden changes in traffic\r\n```",
+              "createdAt": "2021-05-03T14:32:32Z",
+              "updatedAt": "2021-05-03T14:39:08Z"
+            },
+            {
+              "originalPosition": 166,
+              "body": "```suggestion\r\nit is interesting to see how the technology, implemented by operators and service\r\n```",
+              "createdAt": "2021-05-03T14:33:03Z",
+              "updatedAt": "2021-05-03T14:39:08Z"
+            },
+            {
+              "originalPosition": 174,
+              "body": "```suggestion\r\nexperience or the intended function of the services is equally\r\n```",
+              "createdAt": "2021-05-03T14:33:28Z",
+              "updatedAt": "2021-05-03T14:39:08Z"
+            },
+            {
+              "originalPosition": 178,
+              "body": "```suggestion\r\nwhat types of network management and capacity expansion actions were\r\n```",
+              "createdAt": "2021-05-03T14:34:03Z",
+              "updatedAt": "2021-05-03T14:39:08Z"
+            },
+            {
+              "originalPosition": 195,
+              "body": "```suggestion\r\n* the impact of COVID-related scams on the home working infrastructure, as threat actors made use of the attack surface resulting from the shift to home-working in a global crisis\r\n```",
+              "createdAt": "2021-05-03T14:35:51Z",
+              "updatedAt": "2021-05-03T14:39:08Z"
+            }
+          ]
+        },
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjUwNDIwMjU1",
+          "commit": {
+            "abbreviatedOid": "1771843"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-05-03T14:46:28Z",
+          "updatedAt": "2021-05-03T14:46:29Z",
+          "comments": [
+            {
+              "originalPosition": 340,
+              "body": "```suggestion\r\nmobile networks; Kirsty Paine for text on security impacts; and thanks to Jason Livingood for his review and additions.\r\n```",
+              "createdAt": "2021-05-03T14:46:29Z",
+              "updatedAt": "2021-05-03T14:46:29Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
