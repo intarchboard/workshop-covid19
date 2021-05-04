@@ -5,12 +5,12 @@
 Network Working Group                                           J. Arkko
 Internet-Draft                                                  Ericsson
 Intended status: Informational                                S. Farrell
-Expires: 4 November 2021                          Trinity College Dublin
+Expires: 5 November 2021                          Trinity College Dublin
                                                             M. Kühlewind
                                                                 Ericsson
                                                               C. Perkins
                                                    University of Glasgow
-                                                              3 May 2021
+                                                              4 May 2021
 
 
        Report from the IAB COVID-19 Network Impacts Workshop 2020
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 November 2021.
+   This Internet-Draft will expire on 5 November 2021.
 
 Copyright Notice
 
@@ -109,9 +109,12 @@ Table of Contents
    change to Internet traffic.  These changes in user behavior appeared
    rather abruptly and were significant, in particular during the
    introduction of the initial quarantine and work-from-home
-   arrangements.  The changes to Internet traffic relate to traffic
-   volumes, location of traffic, as well as shifts in the type of
-   traffic and applications used.
+   arrangements.  This caused changes to Internet traffic in terms of
+   volumes, location, as well as shifts in the type of applications
+   used.  This shift in traffic as well as user behavior created also a
+   shift in security partices as well as attack patterns that made use
+   of the attack surface resulting from the shift to home-working in a
+   global crisis.
 
    Announcement for the workshop was sent out in July 2020, requesting
    interested parties to submit position papers for the workshop program
@@ -184,10 +187,6 @@ Table of Contents
 
    *  experiences in the fields of general Internet connectivity,
       conferencing, media/entertainment, and Internet infrastructure
-
-   *  the impact of COVID-related scams on the home working
-      infrastructure, as threat actors made use of the attack surface
-      resulting from the shift to home-working in a global crisis
 
    *  lessons learned for preparedness and operations
 
