@@ -242,9 +242,12 @@ on-going travel and contact restrictions at that time.
 COVID-19 has caused changes in user behavior, which in turn drove 
 change to Internet traffic. These changes in user behavior appeared rather abruptly 
 and were significant, in particular during the introduction of the
-initial quarantine and work-from-home arrangements. The changes to Internet traffic relate
-to traffic volumes, location of traffic, as well as shifts in the type of traffic
-and applications used.
+initial quarantine and work-from-home arrangements. This caused changes to 
+Internet traffic in terms of volumes, location, as well as shifts in the type of
+applications used. This shift in traffic as well as user behavior
+created also a shift in security partices as well as attack patterns 
+that made use of the attack surface resulting from the shift to
+home-working in a global crisis.
 
 Announcement for the workshop was sent out in July 2020, requesting
 interested parties to submit position papers for the workshop program
@@ -279,7 +282,6 @@ multimedia traffic growing in some cases more than 200%. And user time
 spent on conferencing services has risen by an order of magnitude on
 some conferencing platforms.
 
-
 In general, the Internet has coped relatively well with this traffic
 growth, albeit not without some issues. For instance, some outages,
 video quality reduction, a new wave of attacks and scams, and other issues were reported. Nevertheless,
@@ -309,7 +311,6 @@ The scope of this workshop included:
 * measurements about traffic changes, user experience and problems, service performance, and other relevant aspects
 * discussion about the behind the scenes network management and expansion activities
 * experiences in the fields of general Internet connectivity, conferencing, media/entertainment, and Internet infrastructure
-* the impact of COVID-related scams on the home working infrastructure, as threat actors made use of the attack surface resulting from the shift to home-working in a global crisis
 * lessons learned for preparedness and operations
 * lessons learned for Internet technology and architecture
 
