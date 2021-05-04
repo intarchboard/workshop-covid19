@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-05-03T14:49:51.430413+00:00",
+  "timestamp": "2021-05-04T14:33:30.567192+00:00",
   "repo": "intarchboard/workshop-covid19",
   "labels": [
     {
@@ -922,6 +922,32 @@
           ]
         }
       ]
+    },
+    {
+      "number": 23,
+      "id": "MDExOlB1bGxSZXF1ZXN0NjI5ODUwNzEz",
+      "title": "Sentence about security in intro",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/23",
+      "state": "OPEN",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-05-04T14:32:49Z",
+      "updatedAt": "2021-05-04T14:32:49Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "be7cef2cb6b6bfd3a7369666692598fe76035f4e",
+      "headRepository": "intarchboard/workshop-covid19",
+      "headRefName": "mirjak-patch-5",
+      "headRefOid": "b333c0a86948a378f738c65dec5a6e14d05d6ef7",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
