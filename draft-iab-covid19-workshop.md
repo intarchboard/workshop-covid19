@@ -283,10 +283,10 @@ spent on conferencing services has risen by an order of magnitude on
 some conferencing platforms.
 
 In general, the Internet has coped relatively well with this traffic
-growth, albeit not without some issues. For instance, some outages,
-video quality reduction, a new wave of attacks and scams, and other issues were reported. Nevertheless,
-it is interesting to see how the technology, implemented by operators and service
-providers have been able to respond to large and sudden changes in traffic
+growth. The situation is not perfect: there has also been some outages,
+video quality reduction, and other issues. Nevertheless,
+it is interesting to see how the technology, operators and service
+providers have been able to respond to large changes in traffic
 patterns.
 
 Understanding what actually happened with Internet traffic is of
@@ -304,9 +304,9 @@ The impacts of this crisis are also a potential opportunity to
 understand the impact of traffic shifts and growth more generally, or
 to prepare for future situations — crises or otherwise – that impact
 networking. Or even allow us to adjust the technology to be even
-better suited to respond to changes in Internet traffic and user behavior.
+better suited to respond to changes.
 
-The scope of this workshop included:
+The scope of this workshop, based on the call for contributions, included:
 
 * measurements about traffic changes, user experience and problems, service performance, and other relevant aspects
 * discussion about the behind the scenes network management and expansion activities
