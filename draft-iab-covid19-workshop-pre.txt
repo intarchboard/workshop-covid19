@@ -733,14 +733,15 @@ Table of Contents
    On the other hand, this is not to say that no improvements are
    needed:
 
-   *  Better understanding of the health of the Internet: Going forward,
-      the critical nature that the Internet plays in our lives means
-      that the health of the Internet needs to receive significant
-      attention.  Understanding how well networks work is not just a
-      technical matter, it is also of crucial importance to the people
-      and economy of the societies using it.  Projects and research that
-      monitor Internet and services performance in a broad scale and
-      across different networks are therefore important.
+   *  Improve observability to better understand the health of the
+      Internet: Going forward, the critical nature that the Internet
+      plays in our lives means that the health of the Internet needs to
+      receive significant attention.  Understanding how well networks
+      work is not just a technical matter, it is also of crucial
+      importance to the people and economy of the societies using it.
+      Projects and research that monitor Internet and services
+      performance in a broad scale and across different networks are
+      therefore important.
 
    *  Maintaining defensive mechanisms to be used in times of crisis:
       Malicious cyber actors are continually adjusting their tactics to

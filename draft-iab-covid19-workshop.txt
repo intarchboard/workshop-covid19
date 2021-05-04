@@ -876,20 +876,20 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
    On the other hand, this is not to say that no improvements are
    needed:
 
-   *  Better understanding of the health of the Internet: Going forward,
-      the critical nature that the Internet plays in our lives means
-      that the health of the Internet needs to receive significant
-      attention.  Understanding how well networks work is not just a
-      technical matter, it is also of crucial importance to the people
-      and economy of the societies using it.  Projects and research that
-      monitor Internet and services performance in a broad scale and
-      across different networks are therefore important.
+   *  Improve observability to better understand the health of the
+      Internet: Going forward, the critical nature that the Internet
+      plays in our lives means that the health of the Internet needs to
+      receive significant attention.  Understanding how well networks
+      work is not just a technical matter, it is also of crucial
+      importance to the people and economy of the societies using it.
+      Projects and research that monitor Internet and services
+      performance in a broad scale and across different networks are
+      therefore important.
 
    *  Maintaining defensive mechanisms to be used in times of crisis:
       Malicious cyber actors are continually adjusting their tactics to
       take advantage of new situations, and the COVID-19 pandemic is no
       exception.  Malicious actors used the high appetite for COVID-19
-      related information as an opportunity to deliver malware and
 
 
 
@@ -898,6 +898,7 @@ Arkko, et al.            Expires 5 November 2021               [Page 16]
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
+      related information as an opportunity to deliver malware and
       ransomware, and to steal user credentials.  Against the landscape
       of a shift to working from home and an increase in users
       vulnerable to attack, and as IT departments were often overwhelmed
@@ -945,7 +946,6 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
    *  Afxanasyev, A., Wang, L., Yeh, E., Zhang, B., and Zhang, L.:
       Identifying the Disease from the Symptoms: Lessons for Networking
       in the COVID-19 Era [Afxanasyev2020]
-
 
 
 
