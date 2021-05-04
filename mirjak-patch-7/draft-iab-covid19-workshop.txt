@@ -876,7 +876,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
    On the other hand, this is not to say that no improvements are
    needed:
 
-   *  Improve observability to better understand of the health of the
+   *  Improve observability to better understand the health of the
       Internet: Going forward, the critical nature that the Internet
       plays in our lives means that the health of the Internet needs to
       receive significant attention.  Understanding how well networks
