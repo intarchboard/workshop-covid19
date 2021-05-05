@@ -750,7 +750,7 @@ hardware changes.
 
 On the other hand, this is not to say that no improvements are needed:
 
-* Improve observability to better understand the health of the Internet: Going forward,
+* Better understanding of the health of the Internet: Going forward,
   the critical nature that the Internet plays in our lives means that the
   health of the Internet needs to receive significant
   attention. Understanding how well networks work is not just a
