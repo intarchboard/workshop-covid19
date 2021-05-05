@@ -21,25 +21,25 @@ management experts, and Internet technologists to share their
 experiences. The meeting was held online given the on-going travel and
 contact restrictions at that time. 
     " name="description">
-<meta content="xml2rfc 3.5.0" name="generator">
+<meta content="xml2rfc 3.7.0" name="generator">
 <meta content="Internet-Draft" name="keyword">
 <meta content="draft-iab-covid19-workshop-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.5.0
-    Python 3.7.3
+  xml2rfc 3.7.0
+    Python 3.8.8
     appdirs 1.4.4
-    ConfigArgParse 1.3
+    ConfigArgParse 1.2.3
     google-i18n-address 2.4.0
     html5lib 1.1
     intervaltree 3.1.0
-    Jinja2 2.11.3
+    Jinja2 2.11.2
     kitchen 1.2.6
-    lxml 4.6.2
+    lxml 4.6.3
     pycountry 20.7.3
     pyflakes 2.2.0
     PyYAML 5.4.1
     requests 2.25.1
-    setuptools 53.0.0
+    setuptools 51.3.3
     six 1.15.0
 -->
 <link href="draft-iab-covid19-workshop.xml" rel="alternate" type="application/rfc+xml">
@@ -53,7 +53,23 @@ html {
   --link-color: #2a6496;
   --highlight-color: #f9f9f9;
   --line-color: #eee;
+  --pilcrow-weak: #ddd;
+  --pilcrow-strong: #bbb;
   --small-font-size: 14.5px;
+  scrollbar-color: #bbb #eee;
+}
+@media (prefers-color-scheme: dark) {
+html {
+  --background-color: #121212;
+  --text-color: #f0f0f0;
+  --title-color: #fff;
+  --link-color: #4da4f0;
+  --highlight-color: #282828;
+  --line-color: #444;
+  --pilcrow-weak: #444;
+  --pilcrow-strong: #666;
+  scrollbar-color: #777 #333;
+}
 }
 body {
   max-width: 600px;
@@ -78,18 +94,24 @@ body {
   color: var(--title-color);
 }
 #title {
-  padding: 1em 0 0.2em;
   font-size: 32px;
   line-height: 40px;
   clear: both;
 }
+#title, #rfcnum {
+  margin: 1.5em 0 0.2em;
+}
+#rfcnum + #title {
+  margin: 0.2em 0;
+}
+
 h1, h2, h3 {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 27px;
 }
 h4, h5, h6 {
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 /* general structure */
@@ -245,6 +267,7 @@ img {
 }
 figure {
   margin: 0.5em 0;
+  padding: 0;
 }
 figure blockquote {
   margin: 0.8em 0.4em 0.4em;
@@ -269,10 +292,6 @@ figcaption, caption {
     display: inline-block;
     vertical-align: text-bottom;
     padding-bottom: 8px;
-  }
-  table {
-    display: inline-block;
-    overflow-x: auto;
   }
 }
 
@@ -344,17 +363,23 @@ table p {
 /* pilcrow */
 a.pilcrow {
   margin-left: 3px;
-  visibility: hidden;
+  opacity: 0.2;
   user-select: none;
 }
-a.pilcrow[href] { color: #ddd; }
+a.pilcrow[href] { color: var(--pilcrow-weak); }
 a.pilcrow[href]:hover { text-decoration: none; }
-@media screen {
+@media not print {
   :hover > a.pilcrow {
-    visibility: visible;
+    opacity: 1;
   }
-  a.pilcrow:hover {
+  a.pilcrow[href]:hover {
+    color: var(--pilcrow-strong);
     background-color: transparent;
+  }
+}
+@media print {
+  a.pilcrow {
+    display: none;
   }
 }
 
@@ -947,85 +972,85 @@ contact restrictions at that time.<a href="#section-abstract-2" class="pilcrow">
         </h2>
 <nav class="toc"><ul class="toc ulEmpty compact">
 <li class="toc ulEmpty compact" id="section-toc.1-1.1">
-            <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="xref">1</a>.  <a href="#name-introduction" class="xref">Introduction</a><a href="#section-toc.1-1.1.1" class="pilcrow">¶</a></p>
+            <p id="section-toc.1-1.1.1" class="keepWithNext"><a href="#section-1" class="xref">1</a>.  <a href="#name-introduction" class="xref">Introduction</a></p>
 </li>
           <li class="toc ulEmpty compact" id="section-toc.1-1.2">
-            <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="xref">2</a>.  <a href="#name-scope" class="xref">Scope</a><a href="#section-toc.1-1.2.1" class="pilcrow">¶</a></p>
+            <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="xref">2</a>.  <a href="#name-scope" class="xref">Scope</a></p>
 </li>
           <li class="toc ulEmpty compact" id="section-toc.1-1.3">
-            <p id="section-toc.1-1.3.1"><a href="#section-3" class="xref">3</a>.  <a href="#name-workshop-topics-and-discuss" class="xref">Workshop Topics and Discussion</a><a href="#section-toc.1-1.3.1" class="pilcrow">¶</a></p>
+            <p id="section-toc.1-1.3.1"><a href="#section-3" class="xref">3</a>.  <a href="#name-workshop-topics-and-discuss" class="xref">Workshop Topics and Discussion</a></p>
 <ul class="toc ulEmpty compact">
 <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.1">
-                <p id="section-toc.1-1.3.2.1.1"><a href="#section-3.1" class="xref">3.1</a>.  <a href="#name-measurement-based-observati" class="xref">Measurement-based Observations on Network Traffic Dynamics</a><a href="#section-toc.1-1.3.2.1.1" class="pilcrow">¶</a></p>
+                <p id="section-toc.1-1.3.2.1.1"><a href="#section-3.1" class="xref">3.1</a>.  <a href="#name-measurement-based-observati" class="xref">Measurement-based Observations on Network Traffic Dynamics</a></p>
 <ul class="toc ulEmpty compact">
 <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.1.2.1">
-                    <p id="section-toc.1-1.3.2.1.2.1.1" class="keepWithNext"><a href="#section-3.1.1" class="xref">3.1.1</a>.  <a href="#name-overall-traffic-growth" class="xref">Overall Traffic Growth</a><a href="#section-toc.1-1.3.2.1.2.1.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.1.2.1.1" class="keepWithNext"><a href="#section-3.1.1" class="xref">3.1.1</a>.  <a href="#name-overall-traffic-growth" class="xref">Overall Traffic Growth</a></p>
 </li>
                   <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.1.2.2">
-                    <p id="section-toc.1-1.3.2.1.2.2.1"><a href="#section-3.1.2" class="xref">3.1.2</a>.  <a href="#name-changes-in-application-use" class="xref">Changes in Application Use</a><a href="#section-toc.1-1.3.2.1.2.2.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.1.2.2.1"><a href="#section-3.1.2" class="xref">3.1.2</a>.  <a href="#name-changes-in-application-use" class="xref">Changes in Application Use</a></p>
 </li>
                   <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.1.2.3">
-                    <p id="section-toc.1-1.3.2.1.2.3.1"><a href="#section-3.1.3" class="xref">3.1.3</a>.  <a href="#name-mobile-networks-and-mobilit" class="xref">Mobile Networks and Mobility</a><a href="#section-toc.1-1.3.2.1.2.3.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.1.2.3.1"><a href="#section-3.1.3" class="xref">3.1.3</a>.  <a href="#name-mobile-networks-and-mobilit" class="xref">Mobile Networks and Mobility</a></p>
 </li>
                   <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.1.2.4">
-                    <p id="section-toc.1-1.3.2.1.2.4.1"><a href="#section-3.1.4" class="xref">3.1.4</a>.  <a href="#name-a-deeper-look-at-interconne" class="xref">A Deeper Look at Interconnections</a><a href="#section-toc.1-1.3.2.1.2.4.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.1.2.4.1"><a href="#section-3.1.4" class="xref">3.1.4</a>.  <a href="#name-a-deeper-look-at-interconne" class="xref">A Deeper Look at Interconnections</a></p>
 </li>
                   <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.1.2.5">
-                    <p id="section-toc.1-1.3.2.1.2.5.1"><a href="#section-3.1.5" class="xref">3.1.5</a>.  <a href="#name-cloud-platforms" class="xref">Cloud Platforms</a><a href="#section-toc.1-1.3.2.1.2.5.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.1.2.5.1"><a href="#section-3.1.5" class="xref">3.1.5</a>.  <a href="#name-cloud-platforms" class="xref">Cloud Platforms</a></p>
 </li>
                   <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.1.2.6">
-                    <p id="section-toc.1-1.3.2.1.2.6.1"><a href="#section-3.1.6" class="xref">3.1.6</a>.  <a href="#name-last-mile-congestion" class="xref">Last-Mile Congestion</a><a href="#section-toc.1-1.3.2.1.2.6.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.1.2.6.1"><a href="#section-3.1.6" class="xref">3.1.6</a>.  <a href="#name-last-mile-congestion" class="xref">Last-Mile Congestion</a></p>
 </li>
                   <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.1.2.7">
-                    <p id="section-toc.1-1.3.2.1.2.7.1"><a href="#section-3.1.7" class="xref">3.1.7</a>.  <a href="#name-user-behaviour" class="xref">User Behaviour</a><a href="#section-toc.1-1.3.2.1.2.7.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.1.2.7.1"><a href="#section-3.1.7" class="xref">3.1.7</a>.  <a href="#name-user-behaviour" class="xref">User Behaviour</a></p>
 </li>
                 </ul>
 </li>
               <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.2">
-                <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="xref">3.2</a>.  <a href="#name-operational-practices-and-a" class="xref">Operational Practices and Architectural Considerations</a><a href="#section-toc.1-1.3.2.2.1" class="pilcrow">¶</a></p>
+                <p id="section-toc.1-1.3.2.2.1"><a href="#section-3.2" class="xref">3.2</a>.  <a href="#name-operational-practices-and-a" class="xref">Operational Practices and Architectural Considerations</a></p>
 <ul class="toc ulEmpty compact">
 <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.2.2.1">
-                    <p id="section-toc.1-1.3.2.2.2.1.1"><a href="#section-3.2.1" class="xref">3.2.1</a>.  <a href="#name-digital-divide" class="xref">Digital Divide</a><a href="#section-toc.1-1.3.2.2.2.1.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.2.2.1.1"><a href="#section-3.2.1" class="xref">3.2.1</a>.  <a href="#name-digital-divide" class="xref">Digital Divide</a></p>
 </li>
                   <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.2.2.2">
-                    <p id="section-toc.1-1.3.2.2.2.2.1"><a href="#section-3.2.2" class="xref">3.2.2</a>.  <a href="#name-applications" class="xref">Applications</a><a href="#section-toc.1-1.3.2.2.2.2.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.2.2.2.1"><a href="#section-3.2.2" class="xref">3.2.2</a>.  <a href="#name-applications" class="xref">Applications</a></p>
 </li>
                   <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.2.2.3">
-                    <p id="section-toc.1-1.3.2.2.2.3.1"><a href="#section-3.2.3" class="xref">3.2.3</a>.  <a href="#name-observability" class="xref">Observability</a><a href="#section-toc.1-1.3.2.2.2.3.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.2.2.3.1"><a href="#section-3.2.3" class="xref">3.2.3</a>.  <a href="#name-observability" class="xref">Observability</a></p>
 </li>
                   <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.2.2.4">
-                    <p id="section-toc.1-1.3.2.2.2.4.1"><a href="#section-3.2.4" class="xref">3.2.4</a>.  <a href="#name-security" class="xref">Security</a><a href="#section-toc.1-1.3.2.2.2.4.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.2.2.4.1"><a href="#section-3.2.4" class="xref">3.2.4</a>.  <a href="#name-security" class="xref">Security</a></p>
 </li>
                   <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.2.2.5">
-                    <p id="section-toc.1-1.3.2.2.2.5.1"><a href="#section-3.2.5" class="xref">3.2.5</a>.  <a href="#name-discussion" class="xref">Discussion</a><a href="#section-toc.1-1.3.2.2.2.5.1" class="pilcrow">¶</a></p>
+                    <p id="section-toc.1-1.3.2.2.2.5.1"><a href="#section-3.2.5" class="xref">3.2.5</a>.  <a href="#name-discussion" class="xref">Discussion</a></p>
 </li>
                 </ul>
 </li>
               <li class="toc ulEmpty compact" id="section-toc.1-1.3.2.3">
-                <p id="section-toc.1-1.3.2.3.1"><a href="#section-3.3" class="xref">3.3</a>.  <a href="#name-conclusions" class="xref">Conclusions</a><a href="#section-toc.1-1.3.2.3.1" class="pilcrow">¶</a></p>
+                <p id="section-toc.1-1.3.2.3.1"><a href="#section-3.3" class="xref">3.3</a>.  <a href="#name-conclusions" class="xref">Conclusions</a></p>
 </li>
             </ul>
 </li>
           <li class="toc ulEmpty compact" id="section-toc.1-1.4">
-            <p id="section-toc.1-1.4.1"><a href="#section-4" class="xref">4</a>.  <a href="#name-feedback-on-meeting-format" class="xref">Feedback on Meeting Format</a><a href="#section-toc.1-1.4.1" class="pilcrow">¶</a></p>
+            <p id="section-toc.1-1.4.1"><a href="#section-4" class="xref">4</a>.  <a href="#name-feedback-on-meeting-format" class="xref">Feedback on Meeting Format</a></p>
 </li>
           <li class="toc ulEmpty compact" id="section-toc.1-1.5">
-            <p id="section-toc.1-1.5.1"><a href="#section-5" class="xref">5</a>.  <a href="#name-position-papers" class="xref">Position Papers</a><a href="#section-toc.1-1.5.1" class="pilcrow">¶</a></p>
+            <p id="section-toc.1-1.5.1"><a href="#section-5" class="xref">5</a>.  <a href="#name-position-papers" class="xref">Position Papers</a></p>
 </li>
           <li class="toc ulEmpty compact" id="section-toc.1-1.6">
-            <p id="section-toc.1-1.6.1"><a href="#section-6" class="xref">6</a>.  <a href="#name-workshop-participants" class="xref">Workshop participants</a><a href="#section-toc.1-1.6.1" class="pilcrow">¶</a></p>
+            <p id="section-toc.1-1.6.1"><a href="#section-6" class="xref">6</a>.  <a href="#name-workshop-participants" class="xref">Workshop participants</a></p>
 </li>
           <li class="toc ulEmpty compact" id="section-toc.1-1.7">
-            <p id="section-toc.1-1.7.1"><a href="#section-7" class="xref">7</a>.  <a href="#name-program-committee" class="xref">Program Committee</a><a href="#section-toc.1-1.7.1" class="pilcrow">¶</a></p>
+            <p id="section-toc.1-1.7.1"><a href="#section-7" class="xref">7</a>.  <a href="#name-program-committee" class="xref">Program Committee</a></p>
 </li>
           <li class="toc ulEmpty compact" id="section-toc.1-1.8">
-            <p id="section-toc.1-1.8.1"><a href="#section-8" class="xref">8</a>.  <a href="#name-acknowledgments" class="xref">Acknowledgments</a><a href="#section-toc.1-1.8.1" class="pilcrow">¶</a></p>
+            <p id="section-toc.1-1.8.1"><a href="#section-8" class="xref">8</a>.  <a href="#name-acknowledgments" class="xref">Acknowledgments</a></p>
 </li>
           <li class="toc ulEmpty compact" id="section-toc.1-1.9">
-            <p id="section-toc.1-1.9.1"><a href="#section-9" class="xref">9</a>.  <a href="#name-informative-references" class="xref">Informative References</a><a href="#section-toc.1-1.9.1" class="pilcrow">¶</a></p>
+            <p id="section-toc.1-1.9.1"><a href="#section-9" class="xref">9</a>.  <a href="#name-informative-references" class="xref">Informative References</a></p>
 </li>
           <li class="toc ulEmpty compact" id="section-toc.1-1.10">
-            <p id="section-toc.1-1.10.1"><a href="#section-appendix.a" class="xref"></a><a href="#name-authors-addresses" class="xref">Authors' Addresses</a><a href="#section-toc.1-1.10.1" class="pilcrow">¶</a></p>
+            <p id="section-toc.1-1.10.1"><a href="#section-appendix.a" class="xref"></a><a href="#name-authors-addresses" class="xref">Authors' Addresses</a></p>
 </li>
         </ul>
 </nav>
@@ -1164,7 +1189,7 @@ and a mobile operator, it was observed at the beginning of the workshop <span>[<
 network was able to handle the situation well, despite a significant and sudden increase in traffic
 growth rate in March and April. That is, after the lockdown was implemented in March, a traffic increase
 of 15-20% at the ISP as well as the three IXPs was observed. That represents the traffic growth
-expected in a typical year which now took place in the matter of a few weeks only--a substantial
+expected in a typical year which now took place in the matter of a few weeks only---a substantial
 increase. At DE-CIX Frankfurt, the world's largest Internet Exchange Point in terms of data throughput,
 the year 2020 has seen the largest increase in peak traffic within a single year since the IXP was
 founded in 1995. Additionally, mobile traffic has slightly receded. In access networks, the growth rate
@@ -1196,7 +1221,7 @@ For example, the relative traffic share of many "essential" applications like VP
 increased by more than 200%.<a href="#section-3.1.2-1" class="pilcrow">¶</a></p>
 <p id="section-3.1.2-2">Also, as people spent more hours at home, they tended to watch videos or play games, thus increasing entertainment traffic demands.
 At the same time, the traffic share for other traffic classes decreased
-substantially, e.g., traffic related to education, social media, and--for some periods--CDNs.
+substantially, e.g., traffic related to education, social media, and---for some periods---CDNs.
 In April and June, web conferencing traffic was still high compared to the pre-pandemic scenario,
 while a slight decrease in CDN and social media traffic was observed. During these months many people
 were still working from home, but restrictions had been lifted or relaxed, which likely led to an increase
@@ -1586,7 +1611,7 @@ continuation of existing security defences, but not fundamental technology or
 hardware changes.<a href="#section-3.3-4" class="pilcrow">¶</a></p>
 <p id="section-3.3-5">On the other hand, this is not to say that no improvements are needed:<a href="#section-3.3-5" class="pilcrow">¶</a></p>
 <ul class="normal">
-<li class="normal" id="section-3.3-6.1">Improve observability to better understand the health of the Internet: Going forward,
+<li class="normal" id="section-3.3-6.1">We need a better understanding of the health of the Internet. Going forward,
 the critical nature that the Internet plays in our lives means that the
 health of the Internet needs to receive significant
 attention. Understanding how well networks work is not just a
@@ -1595,7 +1620,7 @@ economy of the societies using it. Projects and research that
 monitor Internet and services performance in a broad scale and
 across different networks are therefore important.<a href="#section-3.3-6.1" class="pilcrow">¶</a>
 </li>
-          <li class="normal" id="section-3.3-6.2">Maintaining defensive mechanisms to be used in times of crisis: 
+          <li class="normal" id="section-3.3-6.2">We need to maintain defensive mechanisms to be used in times of crisis.
 Malicious cyber actors are continually adjusting their tactics to take
 advantage of new situations, and the COVID-19 pandemic is no exception.
 Malicious actors used the high appetite for COVID-19 related information
@@ -1606,17 +1631,18 @@ often overwhelmed by rolling out new infrastructure and devices, IoC
 sharing was a vital part of the response to COVID-19 related scams and 
 attacks.<a href="#section-3.3-6.2" class="pilcrow">¶</a>
 </li>
-          <li class="normal" id="section-3.3-6.3">The pandemic has shown how the effects of the digital divide can be
-amplified during a crisis. More attention is needed to ensure that
-broadband is available to all, and that Internet services equally
-serve different groups.<a href="#section-3.3-6.3" class="pilcrow">¶</a>
+          <li class="normal" id="section-3.3-6.3">We need to ensure that broadband is available to all, and that Internet
+services equally serve different groups. The pandemic has shown how the
+effects of the digital divide can be amplified during a crisis, and has
+further highlighted the importance of equitable Internet access.<a href="#section-3.3-6.3" class="pilcrow">¶</a>
 </li>
           <li class="normal" id="section-3.3-6.4">We need to continue to work on all the other improvements that are seen
 as necessary anyway, such as further improvements in security, ability
 for networks and applications to collaborate better, etc.<a href="#section-3.3-6.4" class="pilcrow">¶</a>
 </li>
-          <li class="normal" id="section-3.3-6.5">Informal collaboration between different parties needs to continue
-and be strengthened.<a href="#section-3.3-6.5" class="pilcrow">¶</a>
+          <li class="normal" id="section-3.3-6.5">We need to ensure that informal collaboration between different parties 
+involved in the operation of the network continues and is strengthened,
+to ensure continued operational resilience.<a href="#section-3.3-6.5" class="pilcrow">¶</a>
 </li>
         </ul>
 </section>
@@ -1821,7 +1847,7 @@ mobile networks; Kirsty Paine for text on security impacts; and thanks to Jason 
 <dl class="references">
 <dt id="Afxanasyev2020">[Afxanasyev2020]</dt>
       <dd>
-<span class="refAuthor">Afxanasyev, A.</span><span class="refAuthor">, Wang, L.</span><span class="refAuthor">, Yeh, E.</span><span class="refAuthor">, Zhang, B.</span><span class="refAuthor">, and L. Zhang</span>, <span class="refTitle">"Identifying the Disease from the Symptoms: Lessons for Networking in the COVID-19 Era"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/12/IAB-COVID-19-WS_102820.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Afxanasyev, A.</span>, <span class="refAuthor">Wang, L.</span>, <span class="refAuthor">Yeh, E.</span>, <span class="refAuthor">Zhang, B.</span>, and <span class="refAuthor">L. Zhang</span>, <span class="refTitle">"Identifying the Disease from the Symptoms: Lessons for Networking in the COVID-19 Era"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/12/IAB-COVID-19-WS_102820.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="Arkko2020">[Arkko2020]</dt>
       <dd>
@@ -1829,11 +1855,11 @@ mobile networks; Kirsty Paine for text on security impacts; and thanks to Jason 
 <dd class="break"></dd>
 <dt id="Bronzino2020">[Bronzino2020]</dt>
       <dd>
-<span class="refAuthor">Bronzino, F.</span><span class="refAuthor">, Culley, E.</span><span class="refAuthor">, Feamster, N.</span><span class="refAuthor">, Liu, S.</span><span class="refAuthor">, Livingood, J.</span><span class="refAuthor">, and P. Schmitt</span>, <span class="refTitle">"IAB COVID-19 Workshop: Interconnection Changes in the United States"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-feamster.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Bronzino, F.</span>, <span class="refAuthor">Culley, E.</span>, <span class="refAuthor">Feamster, N.</span>, <span class="refAuthor">Liu, S.</span>, <span class="refAuthor">Livingood, J.</span>, and <span class="refAuthor">P. Schmitt</span>, <span class="refTitle">"IAB COVID-19 Workshop: Interconnection Changes in the United States"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-feamster.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="Campling2020">[Campling2020]</dt>
       <dd>
-<span class="refAuthor">Campling, A.</span><span class="refAuthor"> and D. Lazanski</span>, <span class="refTitle">"Will the Internet Still Be Resilient During the Next Black Swan Event?"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-campling.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Campling, A.</span> and <span class="refAuthor">D. Lazanski</span>, <span class="refTitle">"Will the Internet Still Be Resilient During the Next Black Swan Event?"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-campling.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="Cho2020">[Cho2020]</dt>
       <dd>
@@ -1853,19 +1879,19 @@ mobile networks; Kirsty Paine for text on security impacts; and thanks to Jason 
 <dd class="break"></dd>
 <dt id="Favale2020">[Favale2020]</dt>
       <dd>
-<span class="refAuthor">Favale, T.</span><span class="refAuthor">, Soro, F.</span><span class="refAuthor">, Trevisan, M.</span><span class="refAuthor">, Drago, I.</span><span class="refAuthor">, and M. Mellia</span>, <span class="refTitle">"Campus traffic and e-Learning during COVID-19 pandemic"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-favale.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Favale, T.</span>, <span class="refAuthor">Soro, F.</span>, <span class="refAuthor">Trevisan, M.</span>, <span class="refAuthor">Drago, I.</span>, and <span class="refAuthor">M. Mellia</span>, <span class="refTitle">"Campus traffic and e-Learning during COVID-19 pandemic"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-favale.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="Feldmann2020">[Feldmann2020]</dt>
       <dd>
-<span class="refAuthor">Feldmann, A.</span><span class="refAuthor">, Gasser, O.</span><span class="refAuthor">, Lichtblau, F.</span><span class="refAuthor">, Pujol, E.</span><span class="refAuthor">, Poese, I.</span><span class="refAuthor">, Dietzel, C.</span><span class="refAuthor">, Wagner, D.</span><span class="refAuthor">, Wichtlhuber, M.</span><span class="refAuthor">, Tapiador, J.</span><span class="refAuthor">, N Vallina-Rodriguez, .</span><span class="refAuthor">, Hohlfeld, O.</span><span class="refAuthor">, and G. Smaragdakis</span>, <span class="refTitle">"A view of Internet Traffic Shifts at ISP and IXPs during the COVID-19 Pandemic"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-feldmann.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Feldmann, A.</span>, <span class="refAuthor">Gasser, O.</span>, <span class="refAuthor">Lichtblau, F.</span>, <span class="refAuthor">Pujol, E.</span>, <span class="refAuthor">Poese, I.</span>, <span class="refAuthor">Dietzel, C.</span>, <span class="refAuthor">Wagner, D.</span>, <span class="refAuthor">Wichtlhuber, M.</span>, <span class="refAuthor">Tapiador, J.</span>, <span class="refAuthor">N Vallina-Rodriguez, .</span>, <span class="refAuthor">Hohlfeld, O.</span>, and <span class="refAuthor">G. Smaragdakis</span>, <span class="refTitle">"A view of Internet Traffic Shifts at ISP and IXPs during the COVID-19 Pandemic"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-feldmann.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="Fontugne2020">[Fontugne2020]</dt>
       <dd>
-<span class="refAuthor">Fontugne, R.</span><span class="refAuthor">, Shah, A.</span><span class="refAuthor">, and K. Cho</span>, <span class="refTitle">"The Impact of COVID-19 on Last-mile Latency"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-fontugne.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Fontugne, R.</span>, <span class="refAuthor">Shah, A.</span>, and <span class="refAuthor">K. Cho</span>, <span class="refTitle">"The Impact of COVID-19 on Last-mile Latency"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-fontugne.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="Fontugne2020-1">[Fontugne2020-1]</dt>
       <dd>
-<span class="refAuthor">Fontugne, R.</span><span class="refAuthor">, Shah, A.</span><span class="refAuthor">, and K. Cho</span>, <span class="refTitle">"Persistent Last-mile Congestion: Not so Uncommon"</span>, <span class="seriesInfo">Proceedings of the ACM Internet Measurement Conference (IMC '20) </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Fontugne, R.</span>, <span class="refAuthor">Shah, A.</span>, and <span class="refAuthor">K. Cho</span>, <span class="refTitle">"Persistent Last-mile Congestion: Not so Uncommon"</span>, <span class="seriesInfo">Proceedings of the ACM Internet Measurement Conference (IMC '20) </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="Gillmor2020">[Gillmor2020]</dt>
       <dd>
@@ -1873,11 +1899,11 @@ mobile networks; Kirsty Paine for text on security impacts; and thanks to Jason 
 <dd class="break"></dd>
 <dt id="Gu2020">[Gu2020]</dt>
       <dd>
-<span class="refAuthor">Gu, Y.</span><span class="refAuthor"> and Z. Li</span>, <span class="refTitle">"Covid 19 Impact on China ISP's Network Traffic Pattern and Solution Discussion"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-gu.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Gu, Y.</span> and <span class="refAuthor">Z. Li</span>, <span class="refTitle">"Covid 19 Impact on China ISP's Network Traffic Pattern and Solution Discussion"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-gu.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="Jennings2020">[Jennings2020]</dt>
       <dd>
-<span class="refAuthor">Jennings, C.</span><span class="refAuthor"> and P. Kozanian</span>, <span class="refTitle">"WebEx Scaling During Covid"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-jennings.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Jennings, C.</span> and <span class="refAuthor">P. Kozanian</span>, <span class="refTitle">"WebEx Scaling During Covid"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-jennings.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="Kirsty2020">[Kirsty2020]</dt>
       <dd>
@@ -1885,15 +1911,15 @@ mobile networks; Kirsty Paine for text on security impacts; and thanks to Jason 
 <dd class="break"></dd>
 <dt id="Lutu2020">[Lutu2020]</dt>
       <dd>
-<span class="refAuthor">Lutu, A.</span><span class="refAuthor">, Perino, D.</span><span class="refAuthor">, Bagnulo, M.</span><span class="refAuthor">, Frias-Martinez, E.</span><span class="refAuthor">, and J. Khangosstar</span>, <span class="refTitle">"A Characterization of the COVID-19 Pandemic Impact on a Mobile Network Operator Traffic"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-lutu.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Lutu, A.</span>, <span class="refAuthor">Perino, D.</span>, <span class="refAuthor">Bagnulo, M.</span>, <span class="refAuthor">Frias-Martinez, E.</span>, and <span class="refAuthor">J. Khangosstar</span>, <span class="refTitle">"A Characterization of the COVID-19 Pandemic Impact on a Mobile Network Operator Traffic"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-lutu.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="McKinsey2020">[McKinsey2020]</dt>
       <dd>
-<span class="refAuthor">Boland, B.</span><span class="refAuthor">, De Smet, A.</span><span class="refAuthor">, Palter, R.</span><span class="refAuthor">, and A. Sanghvi</span>, <span class="refTitle">"Reimagining the office and work life after COVID-19"</span>, <span class="seriesInfo">https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Organization/Our%20Insights/Reimagining%20the%20office%20and%20work%20life%20after%20COVID%2019/Reimagining-the-office-and-work-life-after-COVID-19-final.pdf </span>, <time datetime="2020-06" class="refDate">June 2020</time>. </dd>
+<span class="refAuthor">Boland, B.</span>, <span class="refAuthor">De Smet, A.</span>, <span class="refAuthor">Palter, R.</span>, and <span class="refAuthor">A. Sanghvi</span>, <span class="refTitle">"Reimagining the office and work life after COVID-19"</span>, <span class="seriesInfo">https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Organization/Our%20Insights/Reimagining%20the%20office%20and%20work%20life%20after%20COVID%2019/Reimagining-the-office-and-work-life-after-COVID-19-final.pdf </span>, <time datetime="2020-06" class="refDate">June 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="Mok2020">[Mok2020]</dt>
       <dd>
-<span class="refAuthor">Mok, R.</span><span class="refAuthor"> and . kc claffy</span>, <span class="refTitle">"Measuring the impact of COVID-19 on cloud network performance"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-mok.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
+<span class="refAuthor">Mok, R.</span> and <span class="refAuthor">. kc claffy</span>, <span class="refTitle">"Measuring the impact of COVID-19 on cloud network performance"</span>, <span class="seriesInfo">https://www.iab.org/wp-content/IAB-uploads/2020/10/covid19-mok.pdf </span>, <time datetime="2020-10" class="refDate">October 2020</time>. </dd>
 <dd class="break"></dd>
 <dt id="NCTA2020">[NCTA2020]</dt>
       <dd>
