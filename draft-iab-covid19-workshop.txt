@@ -5,12 +5,12 @@
 Network Working Group                                           J. Arkko
 Internet-Draft                                                  Ericsson
 Intended status: Informational                                S. Farrell
-Expires: 5 November 2021                          Trinity College Dublin
+Expires: 6 November 2021                          Trinity College Dublin
                                                             M. Kühlewind
                                                                 Ericsson
                                                               C. Perkins
                                                    University of Glasgow
-                                                              4 May 2021
+                                                              5 May 2021
 
 
        Report from the IAB COVID-19 Network Impacts Workshop 2020
@@ -53,7 +53,7 @@ Status of This Memo
 
 
 
-Arkko, et al.            Expires 5 November 2021                [Page 1]
+Arkko, et al.            Expires 6 November 2021                [Page 1]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -63,7 +63,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 November 2021.
+   This Internet-Draft will expire on 6 November 2021.
 
 Copyright Notice
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Arkko, et al.            Expires 5 November 2021                [Page 2]
+Arkko, et al.            Expires 6 November 2021                [Page 2]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -165,7 +165,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021                [Page 3]
+Arkko, et al.            Expires 6 November 2021                [Page 3]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -221,7 +221,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021                [Page 4]
+Arkko, et al.            Expires 6 November 2021                [Page 4]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -277,7 +277,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021                [Page 5]
+Arkko, et al.            Expires 6 November 2021                [Page 5]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -293,7 +293,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
    April.  That is, after the lockdown was implemented in March, a
    traffic increase of 15-20% at the ISP as well as the three IXPs was
    observed.  That represents the traffic growth expected in a typical
-   year which now took place in the matter of a few weeks only---a
+   year which now took place in the matter of a few weeks only--a
    substantial increase.  At DE-CIX Frankfurt, the world's largest
    Internet Exchange Point in terms of data throughput, the year 2020
    has seen the largest increase in peak traffic within a single year
@@ -333,7 +333,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021                [Page 6]
+Arkko, et al.            Expires 6 November 2021                [Page 6]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -345,8 +345,8 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
    Also, as people spent more hours at home, they tended to watch videos
    or play games, thus increasing entertainment traffic demands.  At the
    same time, the traffic share for other traffic classes decreased
-   substantially, e.g., traffic related to education, social media, and
-   ---for some periods---CDNs.  In April and June, web conferencing
+   substantially, e.g., traffic related to education, social media,
+   and--for some periods--CDNs.  In April and June, web conferencing
    traffic was still high compared to the pre-pandemic scenario, while a
    slight decrease in CDN and social media traffic was observed.  During
    these months many people were still working from home, but
@@ -389,7 +389,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021                [Page 7]
+Arkko, et al.            Expires 6 November 2021                [Page 7]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -445,7 +445,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021                [Page 8]
+Arkko, et al.            Expires 6 November 2021                [Page 8]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -501,7 +501,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021                [Page 9]
+Arkko, et al.            Expires 6 November 2021                [Page 9]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -557,7 +557,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 10]
+Arkko, et al.            Expires 6 November 2021               [Page 10]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -613,7 +613,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 11]
+Arkko, et al.            Expires 6 November 2021               [Page 11]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -669,7 +669,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 12]
+Arkko, et al.            Expires 6 November 2021               [Page 12]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -725,7 +725,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 13]
+Arkko, et al.            Expires 6 November 2021               [Page 13]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -781,7 +781,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 14]
+Arkko, et al.            Expires 6 November 2021               [Page 14]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -837,7 +837,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 15]
+Arkko, et al.            Expires 6 November 2021               [Page 15]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -893,7 +893,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 16]
+Arkko, et al.            Expires 6 November 2021               [Page 16]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -949,7 +949,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 17]
+Arkko, et al.            Expires 6 November 2021               [Page 17]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -1005,7 +1005,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 18]
+Arkko, et al.            Expires 6 November 2021               [Page 18]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -1061,7 +1061,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 19]
+Arkko, et al.            Expires 6 November 2021               [Page 19]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -1117,7 +1117,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 20]
+Arkko, et al.            Expires 6 November 2021               [Page 20]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -1173,7 +1173,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 21]
+Arkko, et al.            Expires 6 November 2021               [Page 21]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -1229,7 +1229,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 22]
+Arkko, et al.            Expires 6 November 2021               [Page 22]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -1285,7 +1285,7 @@ Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 23]
+Arkko, et al.            Expires 6 November 2021               [Page 23]
 
 Internet-Draft  IAB COVID-19 Network Impacts Workshop 20        May 2021
 
@@ -1341,4 +1341,4 @@ Authors' Addresses
 
 
 
-Arkko, et al.            Expires 5 November 2021               [Page 24]
+Arkko, et al.            Expires 6 November 2021               [Page 24]
