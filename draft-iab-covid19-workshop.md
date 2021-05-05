@@ -750,7 +750,7 @@ hardware changes.
 
 On the other hand, this is not to say that no improvements are needed:
 
-* Better understanding of the health of the Internet: Going forward,
+* We need a better understanding of the health of the Internet. Going forward,
   the critical nature that the Internet plays in our lives means that the
   health of the Internet needs to receive significant
   attention. Understanding how well networks work is not just a
@@ -759,7 +759,7 @@ On the other hand, this is not to say that no improvements are needed:
   monitor Internet and services performance in a broad scale and
   across different networks are therefore important.
   
-* Maintaining defensive mechanisms to be used in times of crisis: 
+* We need to maintain defensive mechanisms to be used in times of crisis.
   Malicious cyber actors are continually adjusting their tactics to take
   advantage of new situations, and the COVID-19 pandemic is no exception.
   Malicious actors used the high appetite for COVID-19 related information
@@ -770,17 +770,18 @@ On the other hand, this is not to say that no improvements are needed:
   sharing was a vital part of the response to COVID-19 related scams and 
   attacks. 
 
-* The pandemic has shown how the effects of the digital divide can be
-  amplified during a crisis. More attention is needed to ensure that
-  broadband is available to all, and that Internet services equally
-  serve different groups.
+* We need to ensure that broadband is available to all, and that Internet
+  services equally serve different groups. The pandemic has shown how the
+  effects of the digital divide can be amplified during a crisis, and has
+  further highlighted the importance of equitable Internet access.
 
 * We need to continue to work on all the other improvements that are seen
   as necessary anyway, such as further improvements in security, ability
   for networks and applications to collaborate better, etc.
 
-* Informal collaboration between different parties needs to continue
-  and be strengthened.
+* We need to ensure that informal collaboration between different parties 
+  involved in the operation of the network continues and is strengthened,
+  to ensure continued operational resilience.
 
 # Feedback on Meeting Format
 
