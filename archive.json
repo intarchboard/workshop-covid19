@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-05-04T14:33:30.567192+00:00",
+  "timestamp": "2021-05-05T18:52:18.265882+00:00",
   "repo": "intarchboard/workshop-covid19",
   "labels": [
     {
@@ -248,16 +248,38 @@
       "id": "MDU6SXNzdWU4NjUxMDM3Nzk=",
       "title": "Conclusions section lacking observability conclusion",
       "url": "https://github.com/intarchboard/workshop-covid19/issues/22",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "kirstyp",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "In my review of this report, I realised that there is no mention of observability in the conclusions, which seems like an oversight to be fixed, given there is a section on it in the main report.",
       "createdAt": "2021-04-22T15:47:11Z",
-      "updatedAt": "2021-04-22T15:47:11Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2021-05-05T10:19:42Z",
+      "closedAt": "2021-05-05T10:19:42Z",
+      "comments": [
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "I think the first bullet point in the conclusion is meant to address observability (it just doesn't use the term):\r\n\r\n```\r\nBetter understanding of the health of the Internet: Going forward, the critical nature that the Internet plays in our lives means that the health of the Internet needs to receive significant attention. Understanding how well networks work is not just a technical matter, it is also of crucial importance to the people and economy of the societies using it. Projects and research that monitor Internet and services performance in a broad scale and across different networks are therefore important.\r\n```\r\n\r\nDo need to say more? Should we just add the term observability somewhere?",
+          "createdAt": "2021-05-04T14:42:09Z",
+          "updatedAt": "2021-05-04T14:42:09Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "I created PR #25 with a minor fix to say \"observability\" there...",
+          "createdAt": "2021-05-04T14:44:05Z",
+          "updatedAt": "2021-05-04T14:44:05Z"
+        },
+        {
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "body": "PR #25 was merged.",
+          "createdAt": "2021-05-05T10:19:42Z",
+          "updatedAt": "2021-05-05T10:19:42Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -301,7 +323,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2021-01-18T14:54:10Z",
-      "updatedAt": "2021-01-19T14:39:39Z",
+      "updatedAt": "2021-05-05T10:15:21Z",
       "baseRepository": "intarchboard/workshop-covid19",
       "baseRefName": "master",
       "baseRefOid": "d9275f528fa742201b53bf9b1aeca36acc116753",
@@ -376,7 +398,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2021-01-22T15:12:04Z",
-      "updatedAt": "2021-05-03T13:56:12Z",
+      "updatedAt": "2021-05-05T10:15:20Z",
       "baseRepository": "intarchboard/workshop-covid19",
       "baseRefName": "master",
       "baseRefOid": "6f4f3767bb674b50bbd26bfefff4d7e9aac0e4c3",
@@ -410,7 +432,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2021-01-22T15:14:02Z",
-      "updatedAt": "2021-02-22T18:09:12Z",
+      "updatedAt": "2021-05-05T10:15:18Z",
       "baseRepository": "intarchboard/workshop-covid19",
       "baseRefName": "master",
       "baseRefOid": "6f4f3767bb674b50bbd26bfefff4d7e9aac0e4c3",
@@ -506,7 +528,7 @@
       "labels": [],
       "body": "Need to exchange \"we\" with a reference to their paper + add Andra to acknowledgement before merging",
       "createdAt": "2021-01-29T21:33:28Z",
-      "updatedAt": "2021-01-31T16:47:57Z",
+      "updatedAt": "2021-05-05T10:15:15Z",
       "baseRepository": "intarchboard/workshop-covid19",
       "baseRefName": "master",
       "baseRefOid": "39719dc37b1a4f7b9f7dd133180772e4fe3c0650",
@@ -588,7 +610,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2021-01-31T17:12:37Z",
-      "updatedAt": "2021-02-01T17:17:37Z",
+      "updatedAt": "2021-05-05T10:14:59Z",
       "baseRepository": "intarchboard/workshop-covid19",
       "baseRefName": "master",
       "baseRefOid": "91e4f5b9802e0f482648fa4df7174dfa68d8377f",
@@ -928,26 +950,129 @@
       "id": "MDExOlB1bGxSZXF1ZXN0NjI5ODUwNzEz",
       "title": "Sentence about security in intro",
       "url": "https://github.com/intarchboard/workshop-covid19/pull/23",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "mirjak",
       "authorAssociation": "MEMBER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2021-05-04T14:32:49Z",
-      "updatedAt": "2021-05-04T14:32:49Z",
+      "updatedAt": "2021-05-05T10:14:57Z",
       "baseRepository": "intarchboard/workshop-covid19",
       "baseRefName": "master",
       "baseRefOid": "be7cef2cb6b6bfd3a7369666692598fe76035f4e",
       "headRepository": "intarchboard/workshop-covid19",
       "headRefName": "mirjak-patch-5",
       "headRefOid": "b333c0a86948a378f738c65dec5a6e14d05d6ef7",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
+      "closedAt": "2021-05-04T15:06:02Z",
+      "mergedAt": "2021-05-04T15:06:01Z",
+      "mergedBy": "jariarkko",
+      "mergeCommit": {
+        "oid": "0b2f6608c802e2e59711a7454ccb31e591bd0590"
+      },
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Looks ok, though the security part is now a tad lengthy compared to the others. But ok maybe not worth tweaking beyond this.",
+          "createdAt": "2021-05-04T15:05:10Z",
+          "updatedAt": "2021-05-04T15:05:10Z"
+        }
+      ],
       "reviews": []
+    },
+    {
+      "number": 24,
+      "id": "MDExOlB1bGxSZXF1ZXN0NjI5ODU1Njc2",
+      "title": "Reverting section 2 (scope) to the original text as used by CfP",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/24",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-05-04T14:38:58Z",
+      "updatedAt": "2021-05-05T10:14:57Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "be7cef2cb6b6bfd3a7369666692598fe76035f4e",
+      "headRepository": "intarchboard/workshop-covid19",
+      "headRefName": "mirjak-patch-6",
+      "headRefOid": "6a4951c8e9ae8d0f47ae92aee5129b60da14398b",
+      "closedAt": "2021-05-04T15:22:14Z",
+      "mergedAt": "2021-05-04T15:22:14Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "a90407418ddcae8317d62f86d4422ff8d558da0b"
+      },
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Looks ok",
+          "createdAt": "2021-05-04T15:04:01Z",
+          "updatedAt": "2021-05-04T15:04:01Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 25,
+      "id": "MDExOlB1bGxSZXF1ZXN0NjI5ODU5MDU4",
+      "title": "add term observability in conclusion",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/25",
+      "state": "MERGED",
+      "author": "mirjak",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-05-04T14:43:23Z",
+      "updatedAt": "2021-05-05T10:14:55Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "be7cef2cb6b6bfd3a7369666692598fe76035f4e",
+      "headRepository": "intarchboard/workshop-covid19",
+      "headRefName": "mirjak-patch-7",
+      "headRefOid": "e201675ae7e7db17d0250ffef7390077504c0005",
+      "closedAt": "2021-05-04T15:32:37Z",
+      "mergedAt": "2021-05-04T15:32:37Z",
+      "mergedBy": "jariarkko",
+      "mergeCommit": {
+        "oid": "36efcbe80d4e8b7f7f47fe6fbbb6accc364eae28"
+      },
+      "comments": [
+        {
+          "author": "jariarkko",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Looks good, but maybe ...understand of the health...=> ...understand the health ...",
+          "createdAt": "2021-05-04T15:00:55Z",
+          "updatedAt": "2021-05-04T15:00:55Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjUxMzY3NDEz",
+          "commit": {
+            "abbreviatedOid": "195649e"
+          },
+          "author": "mirjak",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2021-05-04T15:21:47Z",
+          "updatedAt": "2021-05-04T15:21:47Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\n* Improve observability to better understand the health of the Internet: Going forward,\r\n```",
+              "createdAt": "2021-05-04T15:21:47Z",
+              "updatedAt": "2021-05-04T15:21:59Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
