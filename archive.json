@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-05-05T18:52:18.265882+00:00",
+  "timestamp": "2021-05-09T00:23:55.232916+00:00",
   "repo": "intarchboard/workshop-covid19",
   "labels": [
     {
@@ -1073,6 +1073,34 @@
           ]
         }
       ]
+    },
+    {
+      "number": 26,
+      "id": "MDExOlB1bGxSZXF1ZXN0NjMwODMyMzU4",
+      "title": "Update conclusions",
+      "url": "https://github.com/intarchboard/workshop-covid19/pull/26",
+      "state": "MERGED",
+      "author": "csperkins",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "This reverts the change to the conclusions that Stephen Farrell requested, then rewrites the conclusions in a more uniform style with active voice.",
+      "createdAt": "2021-05-05T19:03:24Z",
+      "updatedAt": "2021-05-05T19:14:16Z",
+      "baseRepository": "intarchboard/workshop-covid19",
+      "baseRefName": "master",
+      "baseRefOid": "36efcbe80d4e8b7f7f47fe6fbbb6accc364eae28",
+      "headRepository": "intarchboard/workshop-covid19",
+      "headRefName": "csperkins-conclusions",
+      "headRefOid": "0e06079a3cdeee2dca9eddd5a42bcff84885ac08",
+      "closedAt": "2021-05-05T19:14:08Z",
+      "mergedAt": "2021-05-05T19:14:08Z",
+      "mergedBy": "mirjak",
+      "mergeCommit": {
+        "oid": "e98e4adbd09c520266241178ccd40a9327fc5e9a"
+      },
+      "comments": [],
+      "reviews": []
     }
   ]
 }
